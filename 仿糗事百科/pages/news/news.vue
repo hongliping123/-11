@@ -1,6 +1,6 @@
 <template>
 	<view>
-		动态sds
+		动态页
 	</view>
 </template>
 
@@ -9,10 +9,7 @@
 		data() {
 			return {
 				
-			}
-		},
-		methods: {
-			
+			};
 		}
 	}
 </script>

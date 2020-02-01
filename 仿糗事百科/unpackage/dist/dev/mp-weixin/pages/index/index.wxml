@@ -1,1 +1,2 @@
-<view>首页</view>
+<import src="./index.vue.wxml" />
+    <template is="08b6479d" data="{{ ...$root['0'], $root }}"/>
