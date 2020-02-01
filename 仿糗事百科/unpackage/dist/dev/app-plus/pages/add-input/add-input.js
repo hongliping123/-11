@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"kejian{ margin: auto; }\n",],undefined,{path:"./pages/add-input/add-input.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/add-input/add-input.wxml') } }));

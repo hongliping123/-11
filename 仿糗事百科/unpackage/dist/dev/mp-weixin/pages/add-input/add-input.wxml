@@ -1,0 +1,1 @@
+<view><uni-nav-bar vue-id="1" left-icon="arrowleft" statusBar="{{true}}" rightText="发布" data-event-opts="{{[['^clickLeft',[['back']]]]}}" bind:clickLeft="__e" bind:__l="__l" vue-slots="{{['default']}}"><view class="u-f-ajc">所有人可见<view class="icon iconfont icon-xialazhankai"></view></view></uni-nav-bar></view>

@@ -263,12 +263,24 @@
 			    }
 			});
 		},
+		// 监听原生标题导航按钮事件
+		onNavigationBarButtonTap(e){
+			switch (e.index){
+				// 打开发布页面
+				case 1:
+					uni.navigateTo({
+						url:'../add-input/add-input'
+					})
+					break;
+			}
+		},
 		// 监听搜索框点击事件
 		onNavigationBarSearchInputClicked(){
 			uni.navigateTo({
 				url:"../search/search"
 			})
 		},
+		
 		methods: {
 			tobtap(index){
 				this.tabIndex = index
