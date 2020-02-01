@@ -20,9 +20,7 @@
 						<load-more :loadtext="items.loadtext"></load-more>
 					</template>
 					<template v-else>
-						<view class="nothing u-f-ajc">
-							<image src="../../static/common/nothing.png" mode="widthFix"></image>
-						</view>
+						<no-thing></no-thing>
 					</template>
 				</scroll-view>
 			</swiper-item>
@@ -39,11 +37,13 @@
 	import indexList from "../../components/index/index-list.vue";
 	import swiperTabHead from "../../components/index/swiper-tab-head.vue"
 	import loadMore from "../../components/common/load-more.vue"
+	import noThing from "../../components/common/no-thing.vue"
 	export default {
 		components:{
 			indexList,
 			swiperTabHead,
-			loadMore
+			loadMore,
+			noThing
 		},
 		data() {
 			return {
@@ -301,15 +301,5 @@
 </script>
 
 <style>
-	.nothing{
-		background-color: #FFFFFF;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-	}
-	.nothing image{
-		width: 60%;
-	}
+	
 </style>
