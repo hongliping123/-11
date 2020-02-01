@@ -11,6 +11,7 @@
 		<swiper class="swiper-box" :style="{height: swiperheight+'px'}" :current="tabIndex" @change="tabChange">
 			<swiper-item v-for="(items,index) in newslist" :key="index">
 				<scroll-view scroll-y="true" class="list" @scrolltolower="loadmore(index)">
+					<!-- 有内容样式 -->
 					<template v-if="items.list.length>0">
 						<!-- 图文列表 -->
 						<block v-for="(item,index1) in items.list" :key="index1">
@@ -19,6 +20,7 @@
 						<!-- 上拉加载 -->
 						<load-more :loadtext="items.loadtext"></load-more>
 					</template>
+					<!-- 无内容默认 -->
 					<template v-else>
 						<no-thing></no-thing>
 					</template>
@@ -260,6 +262,12 @@
 					this.swiperheight = height;
 			    }
 			});
+		},
+		// 监听搜索框点击事件
+		onNavigationBarSearchInputClicked(){
+			uni.navigateTo({
+				url:"../search/search"
+			})
 		},
 		methods: {
 			tobtap(index){
