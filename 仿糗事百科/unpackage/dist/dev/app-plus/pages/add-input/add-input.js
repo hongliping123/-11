@@ -1,2 +1,2 @@
-setCssToHead([".",[1],"uni-textarea{ border: ",[0,1]," solid #EEEEEE; }\n.",[1],"cell-pd { padding: ",[0,22]," ",[0,30],"; }\n.",[1],"list-pd { margin-top: ",[0,50],"; }\n.",[1],"uni-uploader__file{ position: relative; }\n.",[1],"icon-shanchu{ position: absolute; right: 0; top: 0; background-color: #333333; color: #FFFFFF; padding: ",[0,2]," ",[0,10],"; border-radius: ",[0,10],"; }\n",],undefined,{path:"./pages/add-input/add-input.wxss"})();
+setCssToHead([".",[1],"uni-textarea{ border: ",[0,1]," solid #EEEEEE; }\n",],undefined,{path:"./pages/add-input/add-input.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/add-input/add-input.wxml') } }));
