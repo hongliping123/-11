@@ -1491,14 +1491,25 @@ Z([[4],[[5],[[4],[[5],[[5],[1,'^changeTab']],[[4],[[5],[[4],[[5],[1,'chngetap']]
 Z([[7],[3,'tabBars']])
 Z([[7],[3,'tabIndex']])
 Z([3,'1'])
+Z([3,'uni-tab-bar'])
+Z(z[1])
+Z([3,'swiper-box'])
+Z(z[4])
+Z([[4],[[5],[[4],[[5],[[5],[1,'change']],[[4],[[5],[[4],[[5],[[5],[1,'tabChange']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[2,'+'],[[2,'+'],[1,'height:'],[[2,'+'],[[7],[3,'swiperheight']],[1,'px']]],[1,';']])
+Z([3,'list'])
+Z([3,'true'])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'list']])
-Z(z[6])
+Z(z[14])
 Z(z[0])
 Z([[7],[3,'index']])
 Z([[7],[3,'item']])
 Z([[2,'+'],[1,'2-'],[[7],[3,'index']]])
+Z(z[12])
+Z(z[13])
+Z([3,'话题'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 function gz$gwx_17(){
@@ -2147,15 +2158,30 @@ var z=gz$gwx_16()
 var hOG=_n('view')
 var oPG=_mz(z,'news-nav-bar',['bind:__l',0,'bind:changeTab',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
 _(hOG,oPG)
-var cQG=_v()
-_(hOG,cQG)
-var oRG=function(aTG,lSG,tUG,gg){
-var bWG=_mz(z,'common-list',['bind:__l',10,'index',1,'item',2,'vueId',3],[],aTG,lSG,gg)
-_(tUG,bWG)
-return tUG
+var cQG=_n('view')
+_rz(z,cQG,'class',6,e,s,gg)
+var oRG=_mz(z,'swiper',['bindchange',7,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var lSG=_n('swiper-item')
+var aTG=_mz(z,'scroll-view',['class',12,'scrollY',1],[],e,s,gg)
+var tUG=_v()
+_(aTG,tUG)
+var eVG=function(oXG,bWG,xYG,gg){
+var f1G=_mz(z,'common-list',['bind:__l',18,'index',1,'item',2,'vueId',3],[],oXG,bWG,gg)
+_(xYG,f1G)
+return xYG
 }
-cQG.wxXCkey=4
-_2z(z,8,oRG,e,s,gg,cQG,'item','index','index')
+tUG.wxXCkey=4
+_2z(z,16,eVG,e,s,gg,tUG,'item','index','index')
+_(lSG,aTG)
+_(oRG,lSG)
+var c2G=_n('swiper-item')
+var h3G=_mz(z,'scroll-view',['class',22,'scrollY',1],[],e,s,gg)
+var o4G=_oz(z,24,e,s,gg)
+_(h3G,o4G)
+_(c2G,h3G)
+_(oRG,c2G)
+_(cQG,oRG)
+_(hOG,cQG)
 _(r,hOG)
 return r
 }
@@ -2163,20 +2189,20 @@ e_[x[15]]={f:m15,j:[],i:[],ti:[],ic:[]}
 d_[x[16]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-var xYG=_n('view')
-var oZG=_oz(z,0,e,s,gg)
-_(xYG,oZG)
-_(r,xYG)
+var o6G=_n('view')
+var l7G=_oz(z,0,e,s,gg)
+_(o6G,l7G)
+_(r,o6G)
 return r
 }
 e_[x[16]]={f:m16,j:[],i:[],ti:[],ic:[]}
 d_[x[17]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var c2G=_n('view')
-var h3G=_oz(z,0,e,s,gg)
-_(c2G,h3G)
-_(r,c2G)
+var t9G=_n('view')
+var e0G=_oz(z,0,e,s,gg)
+_(t9G,e0G)
+_(r,t9G)
 return r
 }
 e_[x[17]]={f:m17,j:[],i:[],ti:[],ic:[]}

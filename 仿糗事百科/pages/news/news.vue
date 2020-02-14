@@ -2,12 +2,25 @@
 	<view>
 		<!-- 自定义导航栏 -->
 		<news-nav-bar :tabBars="tabBars" :tabIndex="tabIndex" @change-tab="chngetap"></news-nav-bar>
-		<!-- 列表 -->
-		<block v-for="(item,index) in list" :key="index">
-			<common-list :item="item" :index="index"></common-list>
-		</block>
-		
-		
+		<view class="uni-tab-bar">
+			<swiper class="swiper-box" :style="{height: swiperheight+'px'}" :current="tabIndex" @change="tabChange">
+				<swiper-item>
+					<!-- 关注 -->
+					<scroll-view scroll-y="true" class="list" >
+						<!-- 列表 -->
+						<block v-for="(item,index) in list" :key="index">
+							<common-list :item="item" :index="index"></common-list>
+						</block>
+					</scroll-view>
+				</swiper-item>
+				<swiper-item>
+					<!-- 话题 -->
+					<scroll-view scroll-y="true" class="list" >
+						话题
+					</scroll-view>
+				</swiper-item>
+			</swiper>
+		</view>
 	</view>
 </template>
 
@@ -22,6 +35,7 @@
 		},
 		data() {
 			return {
+				swiperheight:500,
 				tabIndex:0,
 				tabBars:[
 					{name:"关注",id:"guanzhu"},
@@ -101,10 +115,23 @@
 				]
 			};
 		},
+		onLoad() {
+			uni.getSystemInfo({
+			    success:(res) => {
+					// 适配屏幕高度
+			        let height = res.windowHeight - uni.upx2px(100)
+					this.swiperheight = height;
+			    }
+			});
+		},
 		methods:{
 			// tab切换
 			chngetap(index){
 				this.tabIndex = index
+			},
+			// 滑动事件
+			tabChange(e){
+				this.tabIndex = e.detail.current;
 			},
 			
 		},
