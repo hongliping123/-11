@@ -1553,6 +1553,14 @@ Z([[6],[[7],[3,'item']],[3,'src']])
 Z(z[0])
 Z([[6],[[7],[3,'topic']],[3,'nav']])
 Z([3,'4'])
+Z([3,'topic-new'])
+Z([3,'最近更新'])
+Z([3,'topic-list u-f'])
+Z(z[42])
+Z([3,'../../static/demo/topicpic/8.jpeg'])
+Z([3,'#话题名称#'])
+Z([3,'话题描述'])
+Z([3,'动态 10 今日 5'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
 function gz$gwx_18(){
@@ -2281,6 +2289,32 @@ _2z(z,40,oPH,e,s,gg,bOH,'item','index','index')
 _(lKH,eNH)
 var cWH=_mz(z,'topic-nav',['bind:__l',44,'nav',1,'vueId',2],[],e,s,gg)
 _(lKH,cWH)
+var oXH=_n('view')
+_rz(z,oXH,'class',47,e,s,gg)
+var lYH=_n('view')
+var aZH=_oz(z,48,e,s,gg)
+_(lYH,aZH)
+_(oXH,lYH)
+var t1H=_n('view')
+_rz(z,t1H,'class',49,e,s,gg)
+var e2H=_mz(z,'image',['lazyLoad',-1,'mode',50,'src',1],[],e,s,gg)
+_(t1H,e2H)
+var b3H=_n('view')
+var o4H=_n('view')
+var x5H=_oz(z,52,e,s,gg)
+_(o4H,x5H)
+_(b3H,o4H)
+var o6H=_n('view')
+var f7H=_oz(z,53,e,s,gg)
+_(o6H,f7H)
+_(b3H,o6H)
+var c8H=_n('view')
+var h9H=_oz(z,54,e,s,gg)
+_(c8H,h9H)
+_(b3H,c8H)
+_(t1H,b3H)
+_(oXH,t1H)
+_(lKH,oXH)
 _(oJH,lKH)
 _(t9G,oJH)
 _(a8G,t9G)
@@ -2292,20 +2326,20 @@ e_[x[16]]={f:m16,j:[],i:[],ti:[],ic:[]}
 d_[x[17]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var lYH=_n('view')
-var aZH=_oz(z,0,e,s,gg)
-_(lYH,aZH)
-_(r,lYH)
+var cAI=_n('view')
+var oBI=_oz(z,0,e,s,gg)
+_(cAI,oBI)
+_(r,cAI)
 return r
 }
 e_[x[17]]={f:m17,j:[],i:[],ti:[],ic:[]}
 d_[x[18]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
-var e2H=_n('view')
-var b3H=_oz(z,0,e,s,gg)
-_(e2H,b3H)
-_(r,e2H)
+var aDI=_n('view')
+var tEI=_oz(z,0,e,s,gg)
+_(aDI,tEI)
+_(r,aDI)
 return r
 }
 e_[x[18]]={f:m18,j:[],i:[],ti:[],ic:[]}
@@ -2481,7 +2515,7 @@ __wxAppCode__['pages/home/home.wxml']=$gwx('./pages/home/home.wxml');
 __wxAppCode__['pages/index/index.wxss']=undefined;    
 __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 
-__wxAppCode__['pages/news/news.wxss']=setCssToHead([".",[1],"search-input{ padding: ",[0,20],"; }\n.",[1],"search-input\x3ewx-input{ background-color: #F4F4F4; border-radius: ",[0,10],"; }\n.",[1],"topic-search{ font-size: ",[0,27],"; }\n.",[1],"topic-swiper{ padding: 0 ",[0,20]," ",[0,20]," ",[0,20],"; }\n.",[1],"topic-swiper wx-image{ width: 100%; border-radius: ",[0,10],"; }\n",],undefined,{path:"./pages/news/news.wxss"});    
+__wxAppCode__['pages/news/news.wxss']=setCssToHead([".",[1],"search-input{ padding: ",[0,20],"; }\n.",[1],"search-input\x3ewx-input{ background-color: #F4F4F4; border-radius: ",[0,10],"; }\n.",[1],"topic-search{ font-size: ",[0,27],"; }\n.",[1],"topic-swiper{ padding: 0 ",[0,20]," ",[0,20]," ",[0,20],"; }\n.",[1],"topic-swiper wx-image{ width: 100%; border-radius: ",[0,10],"; }\n.",[1],"topic-new{ padding: ",[0,20],"; }\n.",[1],"topic-new\x3ewx-view:first-child{ padding-bottom: ",[0,10],"; font-size: ",[0,32],"; }\n.",[1],"topic-list{ padding: ",[0,10]," 0; border-bottom: ",[0,1]," solid #EEEEEE; }\n.",[1],"topic-list wx-image{ width: ",[0,150],"; height: ",[0,150],"; border-radius: ",[0,10],"; margin-right: ",[0,20],"; }\n.",[1],"topic-list\x3ewx-view\x3ewx-view{ color: #A4A4A4; }\n.",[1],"topic-list\x3ewx-view\x3ewx-view:first-child{ font-size: ",[0,32],"; color: #333333; }\n",],undefined,{path:"./pages/news/news.wxss"});    
 __wxAppCode__['pages/news/news.wxml']=$gwx('./pages/news/news.wxml');
 
 __wxAppCode__['pages/paper/paper.wxss']=undefined;    

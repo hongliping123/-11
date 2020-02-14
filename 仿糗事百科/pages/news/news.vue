@@ -42,6 +42,22 @@
 						<!-- 热门分类 -->
 						<topic-nav :nav="topic.nav"></topic-nav>
 						<!-- 最近更新 -->
+						<view class="topic-new">
+							<view>最近更新</view>
+							<view class="topic-list u-f">
+								<image 
+								src="../../static/demo/topicpic/8.jpeg" 
+								mode="widthFix" 
+								lazy-load
+								>
+								</image>
+								<view>
+									<view>#话题名称#</view>
+									<view>话题描述</view>
+									<view>动态 10 今日 5</view>
+								</view>
+							</view>
+						</view>
 					</scroll-view>
 				</swiper-item>
 			</swiper>
@@ -237,5 +253,28 @@
 	}
 	
 	
-	
+	.topic-new{
+		padding: 20upx;
+	}
+	.topic-new>view:first-child{
+		padding-bottom: 10upx;
+		font-size: 32upx;
+	}
+	.topic-list{
+		padding: 10upx 0;
+		border-bottom: 1upx solid #EEEEEE;
+	}
+	.topic-list image{
+		width: 150upx;
+		height: 150upx;
+		border-radius: 10upx;
+		margin-right: 20upx;
+	}
+	.topic-list>view>view{
+		color: #A4A4A4;
+	}
+	.topic-list>view>view:first-child{
+		font-size: 32upx;
+		color: #333333;
+	}
 </style>
