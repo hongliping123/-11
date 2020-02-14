@@ -42,22 +42,7 @@
 						<!-- 热门分类 -->
 						<topic-nav :nav="topic.nav"></topic-nav>
 						<!-- 最近更新 -->
-						<view class="topic-new">
-							<view>最近更新</view>
-							<view class="topic-list u-f">
-								<image 
-								src="../../static/demo/topicpic/8.jpeg" 
-								mode="widthFix" 
-								lazy-load
-								>
-								</image>
-								<view>
-									<view>#话题名称#</view>
-									<view>话题描述</view>
-									<view>动态 10 今日 5</view>
-								</view>
-							</view>
-						</view>
+						<topic-list :list="topic.list"></topic-list>
 					</scroll-view>
 				</swiper-item>
 			</swiper>
@@ -70,12 +55,14 @@
 	import commonList from "../../components/common/common-list.vue"
 	import newsNavBar from "../../components/news/news-nav-bar.vue"
 	import topicNav from "../../components/news/topic-nav.vue"
+	import topicList from "../../components/news/topic-list.vue"
 	export default {
 		components:{
 			commonList,
 			newsNavBar,
 			loadMore,
-			topicNav
+			topicNav,
+			topicList
 		},
 		data() {
 			return {
@@ -173,6 +160,50 @@
 						{name:"故事"},
 						{name:"情感"},
 						{name:"喜爱"}
+					],
+					list:[
+						{
+							titlepic:"../../static/demo/topicpic/3.jpeg",
+							title:"#话题名称#",
+							desc:"话题描述",
+							totalnum:50,
+							todaynum:20
+						},
+						{
+							titlepic:"../../static/demo/topicpic/4.jpeg",
+							title:"#话题名称#",
+							desc:"话题描述",
+							totalnum:50,
+							todaynum:20
+						},
+						{
+							titlepic:"../../static/demo/topicpic/5.jpeg",
+							title:"#话题名称#",
+							desc:"话题描述",
+							totalnum:50,
+							todaynum:20
+						},
+						{
+							titlepic:"../../static/demo/topicpic/6.jpeg",
+							title:"#话题名称#",
+							desc:"话题描述",
+							totalnum:50,
+							todaynum:20
+						},
+						{
+							titlepic:"../../static/demo/topicpic/7.jpeg",
+							title:"#话题名称#",
+							desc:"话题描述",
+							totalnum:50,
+							todaynum:20
+						},
+						{
+							titlepic:"../../static/demo/topicpic/8.jpeg",
+							title:"#话题名称#",
+							desc:"话题描述",
+							totalnum:50,
+							todaynum:20
+						}
 					]
 				}
 				
@@ -253,28 +284,5 @@
 	}
 	
 	
-	.topic-new{
-		padding: 20upx;
-	}
-	.topic-new>view:first-child{
-		padding-bottom: 10upx;
-		font-size: 32upx;
-	}
-	.topic-list{
-		padding: 10upx 0;
-		border-bottom: 1upx solid #EEEEEE;
-	}
-	.topic-list image{
-		width: 150upx;
-		height: 150upx;
-		border-radius: 10upx;
-		margin-right: 20upx;
-	}
-	.topic-list>view>view{
-		color: #A4A4A4;
-	}
-	.topic-list>view>view:first-child{
-		font-size: 32upx;
-		color: #333333;
-	}
+	
 </style>

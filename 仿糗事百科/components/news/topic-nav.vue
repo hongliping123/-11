@@ -11,7 +11,6 @@
 			<block v-for="(item,index) in nav" :key="index">
 				<view>{{item.name}}</view>
 			</block>
-			
 		</view>
 	</view>
 </template>
