@@ -1,37 +1,24 @@
 <template>
 	<view>
 		<!-- 自定义导航栏 -->
-		<uni-nav-bar  :statusBar="true" @clickRight="openAdd">
-		<!-- 左边 -->
-		<block slot="left">
-			<view class="nav-left">
-				<view class="icon iconfont icon-qiandao"></view>
-			</view>
+		<news-nav-bar :tabBars="tabBars" :tabIndex="tabIndex" @change-tab="chngetap"></news-nav-bar>
+		<!-- 列表 -->
+		<block v-for="(item,index) in list" :key="index">
+			<common-list :item="item" :index="index"></common-list>
 		</block>
-		<!-- 中间 -->
-		<view class="nav-tab-bar margin_auto u-f-ajc">
-			 <block v-for="(tab,index) in tabBars" :key="tab.id">
-				 <view class="u-f-ajc" :class="{'active':tabIndex == index}" @tap="chngetap(index)">
-				 	{{tab.name}}
-				 	<view v-if="(tabIndex == index)" class="nav-tab-bar-line"></view>
-				 </view>
-			 </block>
-		</view>
-		<!-- 右边 -->
-		<block slot="right">
-			<view class="nav-right">
-				<view class="icon iconfont icon-bianji1"></view>
-			</view>
-		</block>
-		</uni-nav-bar>
+		
+		
 	</view>
 </template>
 
 <script>
-	import uniNavBar from "../../components/uni-nav-bar/uni-nav-bar.vue"
+	
+	import commonList from "../../components/common/common-list.vue"
+	import newsNavBar from "../../components/news/news-nav-bar.vue"
 	export default {
 		components:{
-			uniNavBar,
+			commonList,
+			newsNavBar
 		},
 		data() {
 			return {
@@ -39,6 +26,78 @@
 				tabBars:[
 					{name:"关注",id:"guanzhu"},
 					{name:"话题",id:"topic"}
+				],
+				list:[
+					// 文字
+					{
+						userpic:"../../static/demo/userpic/10.jpg",
+						username:"三鱼先生",
+						sex:0, // 0男 1女
+						age:25,
+						isguanzhu:false,
+						title:"我是标题",
+						titleepic:"",
+						video:false,
+						shaer:false,
+						path:"深圳 罗湖",
+						shaernum:20,
+						commonnum:30,
+						goodnum:50
+					},	// 图文
+					{
+						userpic:"../../static/demo/userpic/10.jpg",
+						username:"三鱼先生",
+						sex:1, // 0男 1女
+						age:25,
+						isguanzhu:false,
+						title:"我是标题",
+						titleepic:"../../static/demo/datapic/14.jpg",
+						video:false,
+						shaer:false,
+						path:"深圳 罗湖",
+						shaernum:20,
+						commonnum:30,
+						goodnum:50
+					},
+					// 视频
+					{
+						userpic:"../../static/demo/userpic/10.jpg",
+						username:"三鱼先生",
+						sex:0, // 0男 1女
+						age:25,
+						isguanzhu:false,
+						title:"我是标题",
+						titleepic:"../../static/demo/datapic/14.jpg",
+						video:{
+							looknum:"20w",
+							long:"2:17"
+						},
+						shaer:false,
+						path:"深圳 罗湖",
+						shaernum:20,
+						commonnum:30,
+						goodnum:50
+					},
+					// 分享
+					{
+						userpic:"../../static/demo/userpic/10.jpg",
+						username:"三鱼先生",
+						sex:0, // 0男 1女
+						age:25,
+						isguanzhu:false,
+						title:"我是标题",
+						titleepic:"",
+						video:false,
+						shaer:{
+							title:"一只英俊的小马",
+							titleepic:"../../static/demo/datapic/44.jpg"
+						},
+						path:"深圳 罗湖",
+						shaernum:20,
+						commonnum:30,
+						goodnum:50
+					}
+				
 				]
 			};
 		},
@@ -47,53 +106,11 @@
 			chngetap(index){
 				this.tabIndex = index
 			},
-			// 打开发布页
-			openAdd(){
-				uni.navigateTo({
-					url:'../add-input/add-input'
-				})
-			},
+			
 		},
 		
 	}
 </script>
 
 <style>
-.nav-left,.nav-right{
-	/* border: 1upx solid; */
-}
-.nav-left>view,.nav-right>view{
-	font-size: 40upx;
-}
-.nav-left{
-	margin-left: 16upx;
-}
-.nav-left>view{
-	color: #ff9619;
-}
-.nav-right{
-	margin-left: 40upx;
-}
-.nav-tab-bar{
-	width: 100%;
-	position: relative;
-}
-.nav-tab-bar>view{
-	/* border: 1upx solid; */
-	font-size: 32upx;
-	font-weight: bold;
-	color: #969696;
-	padding: 0 15upx;
-}
-.active{
-	color: #333333 !important;
-}
-.active .nav-tab-bar-line{
-	border-bottom: 5upx solid #FEDE33;
-	border-top: 5upx solid #FEDE33;
-	border-radius: 20upx;
-	width: 70upx;
-	position: absolute;
-	bottom: 12upx;
-}
 </style>
