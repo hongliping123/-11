@@ -20,11 +20,27 @@
 					<scroll-view scroll-y="true" class="list" >
 						<!-- 搜索框 -->
 						<view class="search-input">
-							<input class="uni-input" placeholder-class="u-f-ajc icon iconfont icon-sousuo topic-search" placeholder="搜索内容" />
+							<input class="uni-input" 
+							placeholder-class="u-f-ajc icon iconfont icon-sousuo topic-search" 
+							placeholder="搜索内容"
+							/>
 						</view>
-						
 						<!-- 轮播图 -->
+						<swiper 
+						class="topic-swiper" 
+						:indicator-dots="true"
+						:autoplay="true" 
+						:interval="3000" 
+						:duration="1000"
+						>
+							<block v-for="(item,index) in topic.swiper" :key="index">
+								<swiper-item>
+									<image :src="item.src" mode="widthFix" lazy-load></image>
+								</swiper-item>
+							</block>
+						</swiper>
 						<!-- 热门分类 -->
+						<topic-nav :nav="topic.nav"></topic-nav>
 						<!-- 最近更新 -->
 					</scroll-view>
 				</swiper-item>
@@ -37,11 +53,13 @@
 	import loadMore from "../../components/common/load-more.vue"
 	import commonList from "../../components/common/common-list.vue"
 	import newsNavBar from "../../components/news/news-nav-bar.vue"
+	import topicNav from "../../components/news/topic-nav.vue"
 	export default {
 		components:{
 			commonList,
 			newsNavBar,
-			loadMore
+			loadMore,
+			topicNav
 		},
 		data() {
 			return {
@@ -125,6 +143,21 @@
 						}
 					
 					]
+				},
+				topic:{
+					swiper:[
+						{src:"../../static/demo/banner1.jpg"},
+						{src:"../../static/demo/banner2.jpg"},
+						{src:"../../static/demo/banner4.jpg"}
+					],
+					nav:[
+						{name:"最新"},
+						{name:"游戏"},
+						{name:"打卡"},
+						{name:"故事"},
+						{name:"情感"},
+						{name:"喜爱"}
+					]
 				}
 				
 				
@@ -194,5 +227,15 @@
 	.topic-search{
 		font-size: 27upx;
 	}
+	.topic-swiper{
+		/* height: 100%; */
+		padding: 0 20upx 20upx 20upx;
+	}
+	.topic-swiper image{
+		width: 100%;
+		border-radius: 10upx;
+	}
+	
+	
 	
 </style>

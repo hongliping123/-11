@@ -9,5 +9,15 @@
 .topic-search{
 	font-size: 27rpx;
 }
+.topic-swiper{
+	/* height: 100%; */
+	padding: 0 20rpx 20rpx 20rpx;
+}
+.topic-swiper image{
+	width: 100%;
+	border-radius: 10rpx;
+}
+
+
 
 
