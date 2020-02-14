@@ -2,6 +2,7 @@
   "titleNView": false,
   "usingComponents": {
     "common-list": "/components/common/common-list",
-    "news-nav-bar": "/components/news/news-nav-bar"
+    "news-nav-bar": "/components/news/news-nav-bar",
+    "load-more": "/components/common/load-more"
   }
 }

@@ -6,11 +6,13 @@
 			<swiper class="swiper-box" :style="{height: swiperheight+'px'}" :current="tabIndex" @change="tabChange">
 				<swiper-item>
 					<!-- 关注 -->
-					<scroll-view scroll-y="true" class="list" >
+					<scroll-view scroll-y="true" class="list" @scrolltolower="loadmore">
 						<!-- 列表 -->
-						<block v-for="(item,index) in list" :key="index">
+						<block v-for="(item,index) in guanzhu.list" :key="index">
 							<common-list :item="item" :index="index"></common-list>
 						</block>
+						<!-- 上拉加载 -->
+						<load-more :loadtext="guanzhu.loadtext"></load-more>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item>
@@ -25,13 +27,14 @@
 </template>
 
 <script>
-	
+	import loadMore from "../../components/common/load-more.vue"
 	import commonList from "../../components/common/common-list.vue"
 	import newsNavBar from "../../components/news/news-nav-bar.vue"
 	export default {
 		components:{
 			commonList,
-			newsNavBar
+			newsNavBar,
+			loadMore
 		},
 		data() {
 			return {
@@ -41,78 +44,83 @@
 					{name:"关注",id:"guanzhu"},
 					{name:"话题",id:"topic"}
 				],
-				list:[
-					// 文字
-					{
-						userpic:"../../static/demo/userpic/10.jpg",
-						username:"三鱼先生",
-						sex:0, // 0男 1女
-						age:25,
-						isguanzhu:false,
-						title:"我是标题",
-						titleepic:"",
-						video:false,
-						shaer:false,
-						path:"深圳 罗湖",
-						shaernum:20,
-						commonnum:30,
-						goodnum:50
-					},	// 图文
-					{
-						userpic:"../../static/demo/userpic/10.jpg",
-						username:"三鱼先生",
-						sex:1, // 0男 1女
-						age:25,
-						isguanzhu:false,
-						title:"我是标题",
-						titleepic:"../../static/demo/datapic/14.jpg",
-						video:false,
-						shaer:false,
-						path:"深圳 罗湖",
-						shaernum:20,
-						commonnum:30,
-						goodnum:50
-					},
-					// 视频
-					{
-						userpic:"../../static/demo/userpic/10.jpg",
-						username:"三鱼先生",
-						sex:0, // 0男 1女
-						age:25,
-						isguanzhu:false,
-						title:"我是标题",
-						titleepic:"../../static/demo/datapic/14.jpg",
-						video:{
-							looknum:"20w",
-							long:"2:17"
+				guanzhu:{
+					loadtext:"上拉加载更多",
+					list:[
+						// 文字
+						{
+							userpic:"../../static/demo/userpic/10.jpg",
+							username:"三鱼先生",
+							sex:0, // 0男 1女
+							age:25,
+							isguanzhu:false,
+							title:"我是标题",
+							titleepic:"",
+							video:false,
+							shaer:false,
+							path:"深圳 罗湖",
+							shaernum:20,
+							commonnum:30,
+							goodnum:50
+						},	// 图文
+						{
+							userpic:"../../static/demo/userpic/10.jpg",
+							username:"三鱼先生",
+							sex:1, // 0男 1女
+							age:25,
+							isguanzhu:false,
+							title:"我是标题",
+							titleepic:"../../static/demo/datapic/14.jpg",
+							video:false,
+							shaer:false,
+							path:"深圳 罗湖",
+							shaernum:20,
+							commonnum:30,
+							goodnum:50
 						},
-						shaer:false,
-						path:"深圳 罗湖",
-						shaernum:20,
-						commonnum:30,
-						goodnum:50
-					},
-					// 分享
-					{
-						userpic:"../../static/demo/userpic/10.jpg",
-						username:"三鱼先生",
-						sex:0, // 0男 1女
-						age:25,
-						isguanzhu:false,
-						title:"我是标题",
-						titleepic:"",
-						video:false,
-						shaer:{
-							title:"一只英俊的小马",
-							titleepic:"../../static/demo/datapic/44.jpg"
+						// 视频
+						{
+							userpic:"../../static/demo/userpic/10.jpg",
+							username:"三鱼先生",
+							sex:0, // 0男 1女
+							age:25,
+							isguanzhu:false,
+							title:"我是标题",
+							titleepic:"../../static/demo/datapic/14.jpg",
+							video:{
+								looknum:"20w",
+								long:"2:17"
+							},
+							shaer:false,
+							path:"深圳 罗湖",
+							shaernum:20,
+							commonnum:30,
+							goodnum:50
 						},
-						path:"深圳 罗湖",
-						shaernum:20,
-						commonnum:30,
-						goodnum:50
-					}
+						// 分享
+						{
+							userpic:"../../static/demo/userpic/10.jpg",
+							username:"三鱼先生",
+							sex:0, // 0男 1女
+							age:25,
+							isguanzhu:false,
+							title:"我是标题",
+							titleepic:"",
+							video:false,
+							shaer:{
+								title:"一只英俊的小马",
+								titleepic:"../../static/demo/datapic/44.jpg"
+							},
+							path:"深圳 罗湖",
+							shaernum:20,
+							commonnum:30,
+							goodnum:50
+						}
+					
+					]
+				}
 				
-				]
+				
 			};
 		},
 		onLoad() {
@@ -133,7 +141,36 @@
 			tabChange(e){
 				this.tabIndex = e.detail.current;
 			},
-			
+			// 上拉加载
+			loadmore(){
+				if(this.guanzhu.loadtext != "上拉加载更多"){return}
+				this.guanzhu.loadtext = "加载中...";
+				// 获取数据
+				setTimeout(()=>{
+					//获取完成
+					let obj = {
+							userpic:"../../static/demo/userpic/10.jpg",
+							username:"三鱼先生",
+							sex:0, // 0男 1女
+							age:25,
+							isguanzhu:false,
+							title:"我是标题",
+							titleepic:"../../static/demo/datapic/14.jpg",
+							video:{
+								looknum:"20w",
+								long:"2:17"
+							},
+							shaer:false,
+							path:"深圳 罗湖",
+							shaernum:20,
+							commonnum:30,
+							goodnum:50
+					};
+					this.guanzhu.list.push(obj);
+					this.guanzhu.loadtext = "上拉加载更多";
+				},1000)
+				// this.guanzhu.loadtext = "没有更多数据了"
+			}
 		},
 		
 	}
