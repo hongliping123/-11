@@ -42,7 +42,12 @@
 						<!-- 热门分类 -->
 						<topic-nav :nav="topic.nav"></topic-nav>
 						<!-- 最近更新 -->
-						<topic-list :list="topic.list"></topic-list>
+						<view class="topic-new">
+							<view>最近更新</view>
+							<block v-for="(item,index) in topic.list" :key="index">
+								<topic-list :item="item" :index="index"></topic-list>
+							</block>
+						</view>
 					</scroll-view>
 				</swiper-item>
 			</swiper>
@@ -284,5 +289,11 @@
 	}
 	
 	
-	
+	.topic-new{
+		padding: 20upx;
+	}
+	.topic-new>view:first-child{
+		padding-bottom: 5upx;
+		font-size: 32upx;
+	}
 </style>

@@ -1,40 +1,32 @@
 <template>
-	<view class="topic-new">
-		<view>最近更新</view>
-		<block v-for="(item,index) in list" :key="index">
-			<view class="topic-list u-f">
-				<image 
-				:src="item.titlepic" 
-				mode="widthFix" 
-				lazy-load
-				>
-				</image>
-				<view>
-					<view>{{item.title}}</view>
-					<view>{{item.desc}}</view>
-					<view>动态 {{item.totalnum}} 今日 {{item.todaynum}}</view>
-				</view>
+	<view>
+		<view class="topic-list u-f">
+			<image 
+			:src="item.titlepic" 
+			mode="widthFix" 
+			lazy-load
+			>
+			</image>
+			<view>
+				<view>{{item.title}}</view>
+				<view>{{item.desc}}</view>
+				<view>动态 {{item.totalnum}} 今日 {{item.todaynum}}</view>
 			</view>
-		</block>
+		</view>
 	</view>
 </template>
 
 <script>
 	export default {
 		props:{
-			list:Array
+			item:Object,
+			index:Number
 		}
 	}
 </script>
 
 <style scoped>
-	.topic-new{
-		padding: 20upx;
-	}
-	.topic-new>view:first-child{
-		padding-bottom: 5upx;
-		font-size: 32upx;
-	}
+	
 	.topic-list{
 		padding: 20upx 0;
 		border-bottom: 1upx solid #EEEEEE;

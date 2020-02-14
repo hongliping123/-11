@@ -1,11 +1,4 @@
 
-.topic-new.data-v-2362042f{
-	padding: 20rpx;
-}
-.topic-new>view.data-v-2362042f:first-child{
-	padding-bottom: 5rpx;
-	font-size: 32rpx;
-}
 .topic-list.data-v-2362042f{
 	padding: 20rpx 0;
 	border-bottom: 1rpx solid #EEEEEE;
