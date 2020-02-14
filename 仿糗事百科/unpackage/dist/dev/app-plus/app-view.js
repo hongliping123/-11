@@ -1268,16 +1268,18 @@ function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__e'])
 Z([3,'topic-list u-f  animated fadeInLeft fast data-v-2362042f'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'opendetail']],[[4],[[5],[1,'$event']]]]]]]]]]])
 Z([3,'data-v-2362042f'])
 Z([3,'widthFix'])
 Z([[6],[[7],[3,'item']],[3,'titlepic']])
-Z(z[1])
-Z(z[1])
+Z(z[3])
+Z(z[3])
 Z([a,[[6],[[7],[3,'item']],[3,'title']]])
-Z(z[1])
+Z(z[3])
 Z([a,[[6],[[7],[3,'item']],[3,'desc']]])
-Z(z[1])
+Z(z[3])
 Z([a,[[2,'+'],[[2,'+'],[[2,'+'],[1,'动态 '],[[6],[[7],[3,'item']],[3,'totalnum']]],[1,' 今日 ']],[[6],[[7],[3,'item']],[3,'todaynum']]]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
@@ -1602,6 +1604,13 @@ function gz$gwx_21(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
 __WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'话题详情页'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
+}
+function gz$gwx_22(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
+__WXML_GLOBAL__.ops_cached.$gwx_22=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'__e'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'^tobtap']],[[4],[[5],[[4],[[5],[1,'tobtap']]]]]]]]])
@@ -1637,13 +1646,13 @@ Z([[6],[[7],[3,'items']],[3,'loadtext']])
 Z([[2,'+'],[1,'3-'],[[7],[3,'index']]])
 Z(z[0])
 Z([[2,'+'],[1,'4-'],[[7],[3,'index']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
+})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/common/common-list.wxml','./components/common/load-more.wxml','./components/common/no-thing.wxml','./components/common/uploud-imags.wxml','./components/index/index-list.wxml','./components/index/swiper-tab-head.wxml','./components/news/news-nav-bar.wxml','./components/news/topic-list.wxml','./components/news/topic-nav.wxml','./components/uni-icons/uni-icons.wxml','./components/uni-nav-bar/uni-nav-bar.wxml','./components/uni-popup/uni-popup.wxml','./components/uni-status-bar/uni-status-bar.wxml','./components/uni-transition/uni-transition.wxml','./pages/add-input/add-input.wxml','./pages/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/paper/paper.wxml','./pages/search/search.wxml','./pages/topicnav/topicnav.wxml'];d_[x[0]]={}
+var x=['./components/common/common-list.wxml','./components/common/load-more.wxml','./components/common/no-thing.wxml','./components/common/uploud-imags.wxml','./components/index/index-list.wxml','./components/index/swiper-tab-head.wxml','./components/news/news-nav-bar.wxml','./components/news/topic-list.wxml','./components/news/topic-nav.wxml','./components/uni-icons/uni-icons.wxml','./components/uni-nav-bar/uni-nav-bar.wxml','./components/uni-popup/uni-popup.wxml','./components/uni-status-bar/uni-status-bar.wxml','./components/uni-transition/uni-transition.wxml','./pages/add-input/add-input.wxml','./pages/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/paper/paper.wxml','./pages/search/search.wxml','./pages/topic-detail/topic-detail.wxml','./pages/topicnav/topicnav.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
@@ -1984,25 +1993,24 @@ e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
 d_[x[7]]={}
 var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
-var oVD=_n('view')
-_rz(z,oVD,'class',0,e,s,gg)
-var fWD=_mz(z,'image',['lazyLoad',-1,'class',1,'mode',1,'src',2],[],e,s,gg)
+var oVD=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1],[],e,s,gg)
+var fWD=_mz(z,'image',['lazyLoad',-1,'class',3,'mode',1,'src',2],[],e,s,gg)
 _(oVD,fWD)
 var cXD=_n('view')
-_rz(z,cXD,'class',4,e,s,gg)
+_rz(z,cXD,'class',6,e,s,gg)
 var hYD=_n('view')
-_rz(z,hYD,'class',5,e,s,gg)
-var oZD=_oz(z,6,e,s,gg)
+_rz(z,hYD,'class',7,e,s,gg)
+var oZD=_oz(z,8,e,s,gg)
 _(hYD,oZD)
 _(cXD,hYD)
 var c1D=_n('view')
-_rz(z,c1D,'class',7,e,s,gg)
-var o2D=_oz(z,8,e,s,gg)
+_rz(z,c1D,'class',9,e,s,gg)
+var o2D=_oz(z,10,e,s,gg)
 _(c1D,o2D)
 _(cXD,c1D)
 var l3D=_n('view')
-_rz(z,l3D,'class',9,e,s,gg)
-var a4D=_oz(z,10,e,s,gg)
+_rz(z,l3D,'class',11,e,s,gg)
+var a4D=_oz(z,12,e,s,gg)
 _(l3D,a4D)
 _(cXD,l3D)
 _(oVD,cXD)
@@ -2427,53 +2435,63 @@ d_[x[20]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
 var cOI=_n('view')
-var oPI=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
+var oPI=_oz(z,0,e,s,gg)
 _(cOI,oPI)
-var lQI=_n('view')
-_rz(z,lQI,'class',6,e,s,gg)
-var aRI=_mz(z,'swiper',['bindchange',7,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var tSI=_v()
-_(aRI,tSI)
-var eTI=function(oVI,bUI,xWI,gg){
-var fYI=_n('swiper-item')
-var cZI=_mz(z,'scroll-view',['bindscrolltolower',16,'class',1,'data-event-opts',2,'scrollY',3],[],oVI,bUI,gg)
-var h1I=_v()
-_(cZI,h1I)
-if(_oz(z,20,oVI,bUI,gg)){h1I.wxVkey=1
-var o2I=_v()
-_(h1I,o2I)
-var c3I=function(l5I,o4I,a6I,gg){
-var e8I=_n('view')
-_rz(z,e8I,'class',25,l5I,o4I,gg)
-var b9I=_mz(z,'topic-list',['bind:__l',26,'index',1,'item',2,'vueId',3],[],l5I,o4I,gg)
-_(e8I,b9I)
-_(a6I,e8I)
-return a6I
-}
-o2I.wxXCkey=4
-_2z(z,23,c3I,oVI,bUI,gg,o2I,'item','index1','index1')
-var o0I=_mz(z,'load-more',['bind:__l',30,'loadtext',1,'vueId',2],[],oVI,bUI,gg)
-_(h1I,o0I)
-}
-else{h1I.wxVkey=2
-var xAJ=_mz(z,'no-thing',['bind:__l',33,'vueId',1],[],oVI,bUI,gg)
-_(h1I,xAJ)
-}
-h1I.wxXCkey=1
-h1I.wxXCkey=3
-h1I.wxXCkey=3
-_(fYI,cZI)
-_(xWI,fYI)
-return xWI
-}
-tSI.wxXCkey=4
-_2z(z,14,eTI,e,s,gg,tSI,'items','index','index')
-_(lQI,aRI)
-_(cOI,lQI)
 _(r,cOI)
 return r
 }
 e_[x[20]]={f:m20,j:[],i:[],ti:[],ic:[]}
+d_[x[21]]={}
+var m21=function(e,s,r,gg){
+var z=gz$gwx_22()
+var aRI=_n('view')
+var tSI=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
+_(aRI,tSI)
+var eTI=_n('view')
+_rz(z,eTI,'class',6,e,s,gg)
+var bUI=_mz(z,'swiper',['bindchange',7,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var oVI=_v()
+_(bUI,oVI)
+var xWI=function(fYI,oXI,cZI,gg){
+var o2I=_n('swiper-item')
+var c3I=_mz(z,'scroll-view',['bindscrolltolower',16,'class',1,'data-event-opts',2,'scrollY',3],[],fYI,oXI,gg)
+var o4I=_v()
+_(c3I,o4I)
+if(_oz(z,20,fYI,oXI,gg)){o4I.wxVkey=1
+var l5I=_v()
+_(o4I,l5I)
+var a6I=function(e8I,t7I,b9I,gg){
+var xAJ=_n('view')
+_rz(z,xAJ,'class',25,e8I,t7I,gg)
+var oBJ=_mz(z,'topic-list',['bind:__l',26,'index',1,'item',2,'vueId',3],[],e8I,t7I,gg)
+_(xAJ,oBJ)
+_(b9I,xAJ)
+return b9I
+}
+l5I.wxXCkey=4
+_2z(z,23,a6I,fYI,oXI,gg,l5I,'item','index1','index1')
+var fCJ=_mz(z,'load-more',['bind:__l',30,'loadtext',1,'vueId',2],[],fYI,oXI,gg)
+_(o4I,fCJ)
+}
+else{o4I.wxVkey=2
+var cDJ=_mz(z,'no-thing',['bind:__l',33,'vueId',1],[],fYI,oXI,gg)
+_(o4I,cDJ)
+}
+o4I.wxXCkey=1
+o4I.wxXCkey=3
+o4I.wxXCkey=3
+_(o2I,c3I)
+_(cZI,o2I)
+return cZI
+}
+oVI.wxXCkey=4
+_2z(z,14,xWI,e,s,gg,oVI,'items','index','index')
+_(eTI,bUI)
+_(aRI,eTI)
+_(r,aRI)
+return r
+}
+e_[x[21]]={f:m21,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -2657,6 +2675,9 @@ __wxAppCode__['pages/paper/paper.wxml']=$gwx('./pages/paper/paper.wxml');
 
 __wxAppCode__['pages/search/search.wxss']=undefined;    
 __wxAppCode__['pages/search/search.wxml']=$gwx('./pages/search/search.wxml');
+
+__wxAppCode__['pages/topic-detail/topic-detail.wxss']=undefined;    
+__wxAppCode__['pages/topic-detail/topic-detail.wxml']=$gwx('./pages/topic-detail/topic-detail.wxml');
 
 __wxAppCode__['pages/topicnav/topicnav.wxss']=setCssToHead([".",[1],"topic-view{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/topicnav/topicnav.wxss"});    
 __wxAppCode__['pages/topicnav/topicnav.wxml']=$gwx('./pages/topicnav/topicnav.wxml');

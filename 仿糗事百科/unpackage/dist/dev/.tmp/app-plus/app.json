@@ -6,7 +6,8 @@
     "pages/home/home",
     "pages/search/search",
     "pages/add-input/add-input",
-    "pages/topicnav/topicnav"
+    "pages/topicnav/topicnav",
+    "pages/topic-detail/topic-detail"
   ],
   "window": {
     "navigationBarTextStyle": "black",

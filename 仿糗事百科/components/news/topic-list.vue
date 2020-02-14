@@ -1,5 +1,5 @@
 <template>
-		<view class="topic-list u-f  animated fadeInLeft fast">
+		<view class="topic-list u-f  animated fadeInLeft fast" @tap="opendetail">
 			<image 
 			:src="item.titlepic" 
 			mode="widthFix" 
@@ -19,6 +19,13 @@
 		props:{
 			item:Object,
 			index:Number
+		},
+		methods:{
+			opendetail(){
+				uni.navigateTo({
+					url:"../../pages/topic-detail/topic-detail"
+				})
+			}
 		}
 	}
 </script>
