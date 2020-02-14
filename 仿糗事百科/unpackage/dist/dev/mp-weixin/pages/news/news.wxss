@@ -1,0 +1,39 @@
+
+.nav-left,.nav-right{
+	/* border: 1upx solid; */
+}
+.nav-left>view,.nav-right>view{
+	font-size: 40rpx;
+}
+.nav-left{
+	margin-left: 16rpx;
+}
+.nav-left>view{
+	color: #ff9619;
+}
+.nav-right{
+	margin-left: 40rpx;
+}
+.nav-tab-bar{
+	width: 100%;
+	position: relative;
+}
+.nav-tab-bar>view{
+	/* border: 1upx solid; */
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #969696;
+	padding: 0 15rpx;
+}
+.active{
+	color: #333333 !important;
+}
+.active .nav-tab-bar-line{
+	border-bottom: 5rpx solid #FEDE33;
+	border-top: 5rpx solid #FEDE33;
+	border-radius: 20rpx;
+	width: 70rpx;
+	position: absolute;
+	bottom: 12rpx;
+}
+
