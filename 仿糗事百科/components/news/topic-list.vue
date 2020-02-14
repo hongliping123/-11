@@ -1,6 +1,5 @@
 <template>
-	<view>
-		<view class="topic-list u-f">
+		<view class="topic-list u-f  animated fadeInLeft fast">
 			<image 
 			:src="item.titlepic" 
 			mode="widthFix" 
@@ -13,7 +12,6 @@
 				<view>动态 {{item.totalnum}} 今日 {{item.todaynum}}</view>
 			</view>
 		</view>
-	</view>
 </template>
 
 <script>
@@ -43,5 +41,12 @@
 	.topic-list>view>view:first-child{
 		font-size: 32upx;
 		color: #333333;
+	}
+	.topic-new{
+		padding: 20upx;
+	}
+	.topic-new>view:first-child{
+		padding-bottom: 5upx;
+		font-size: 32upx;
 	}
 </style>

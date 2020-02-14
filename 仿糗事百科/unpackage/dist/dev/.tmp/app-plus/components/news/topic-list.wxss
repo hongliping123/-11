@@ -16,4 +16,11 @@
 	font-size: 32rpx;
 	color: #333333;
 }
+.topic-new.data-v-2362042f{
+	padding: 20rpx;
+}
+.topic-new>view.data-v-2362042f:first-child{
+	padding-bottom: 5rpx;
+	font-size: 32rpx;
+}
 

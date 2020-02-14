@@ -20,8 +20,5 @@
 .topic-new{
 	padding: 20rpx;
 }
-.topic-new>view:first-child{
-	padding-bottom: 5rpx;
-	font-size: 32rpx;
-}
+
 

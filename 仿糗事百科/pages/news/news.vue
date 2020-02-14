@@ -72,7 +72,7 @@
 		data() {
 			return {
 				swiperheight:500,
-				tabIndex:1,
+				tabIndex:0,
 				tabBars:[
 					{name:"关注",id:"guanzhu"},
 					{name:"话题",id:"topic"}
@@ -287,13 +287,9 @@
 		width: 100%;
 		border-radius: 10upx;
 	}
-	
-	
+
 	.topic-new{
 		padding: 20upx;
 	}
-	.topic-new>view:first-child{
-		padding-bottom: 5upx;
-		font-size: 32upx;
-	}
+	
 </style>

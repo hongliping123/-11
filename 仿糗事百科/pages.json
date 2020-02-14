@@ -99,6 +99,15 @@
 				}
 			}
         }
+        ,{
+            "path" : "pages/topicnav/topicnav",
+            "style" : {
+				"navigationBarTitleText":"话题分类",
+				"app-plus":{
+					"bounce":"none" //关闭回弹效果
+				}
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
