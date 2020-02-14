@@ -1,5 +1,6 @@
 {
   "titleNView": false,
+  "bounce": "none",
   "usingComponents": {
     "common-list": "/components/common/common-list",
     "news-nav-bar": "/components/news/news-nav-bar",
