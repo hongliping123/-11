@@ -110,7 +110,20 @@
         }
         ,{
             "path" : "pages/topic-detail/topic-detail",
-            "style" : {}
+            "style" : {
+				"enablePullDownRefresh":true,  //开启下拉刷新
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"titleNView":{
+						"type":"transparent" ,// 渐变
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
         }
     ],
 	"globalStyle": {

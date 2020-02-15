@@ -1,10 +1,11 @@
 <template>
 	<view class="uni-tab-bar">
-		<scroll-view  class="uni-swiper-tab" :scroll-x="true" >
+		<scroll-view  class="uni-swiper-tab" :scroll-x="true" :style="scrollStyle">
 		    <block v-for="(tab,index) in tabBars" :key="tab.id">
 				<view class="swiper-tab-list" 
 				:class="{'active':tabIndex==index}"
 				@tap="tabtap(index)"
+				:style="scrollWidth"
 				>
 					{{tab.name}}
 					<view class="swiper-tab-line"></view>
@@ -19,6 +20,14 @@
 		props:{
 			tabBars:Array,
 			tabIndex:Number,
+			scrollStyle:{
+				type:String,
+				default:""
+			},
+			scrollWidth:{
+				type:String,
+				default:""
+			}
 		},
 		methods:{
 			// 点击事件
