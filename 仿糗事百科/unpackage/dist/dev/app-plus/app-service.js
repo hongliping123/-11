@@ -1138,24 +1138,36 @@ function gz$gwx_10(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[2,'>'],[[6],[[7],[3,'item']],[3,'noreadnum']],[1,0]])
+Z([3,'__l'])
+Z([3,'data-v-96a3508a'])
+Z([[6],[[7],[3,'item']],[3,'noreadnum']])
+Z([3,'error'])
+Z([3,'1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
 __WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[7],[3,'text']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 function gz$gwx_12(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[7],[3,'text']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
 }
 function gz$gwx_13(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
 __WXML_GLOBAL__.ops_cached.$gwx_13=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+}
+function gz$gwx_14(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
+__WXML_GLOBAL__.ops_cached.$gwx_14=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'uni-navbar data-v-0eb36100'])
 Z([[4],[[5],[[5],[[5],[[5],[1,'uni-navbar__content data-v-0eb36100']],[[2,'?:'],[[7],[3,'fixed']],[1,'uni-navbar--fixed'],[1,'']]],[[2,'?:'],[[7],[3,'shadow']],[1,'uni-navbar--shadow'],[1,'']]],[[2,'?:'],[[7],[3,'border']],[1,'uni-navbar--border'],[1,'']]]])
@@ -1197,11 +1209,11 @@ Z(z[3])
 Z(z[4])
 Z(z[5])
 Z([3,'4'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
 }
-function gz$gwx_14(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
-__WXML_GLOBAL__.ops_cached.$gwx_14=[];
+function gz$gwx_15(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
+__WXML_GLOBAL__.ops_cached.$gwx_15=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[7],[3,'showPopup']])
 Z([3,'__e'])
@@ -1229,17 +1241,17 @@ Z([[4],[[5],[1,'default']]])
 Z(z[1])
 Z([3,'uni-popup__wrapper-box data-v-7135c306'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'clear']],[[4],[[5],[1,'$event']]]]]]]]]]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
-}
-function gz$gwx_15(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
-__WXML_GLOBAL__.ops_cached.$gwx_15=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
 function gz$gwx_16(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
 __WXML_GLOBAL__.ops_cached.$gwx_16=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
+}
+function gz$gwx_17(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
+__WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[7],[3,'isShow']])
 Z([3,'__e'])
@@ -1247,11 +1259,11 @@ Z([[4],[[5],[[5],[1,'uni-transition data-v-33ae72e6 vue-ref']],[[6],[[7],[3,'ani
 Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'change']],[[4],[[5],[1,'$event']]]]]]]]]]])
 Z([3,'ani'])
 Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'transform:'],[[7],[3,'transform']]],[1,';']],[[7],[3,'stylesObject']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
+})(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
-function gz$gwx_17(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
-__WXML_GLOBAL__.ops_cached.$gwx_17=[];
+function gz$gwx_18(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
+__WXML_GLOBAL__.ops_cached.$gwx_18=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'__e'])
@@ -1271,17 +1283,17 @@ Z([3,'vue-ref'])
 Z([3,'popup'])
 Z([3,'3'])
 Z(z[8])
-})(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
-}
-function gz$gwx_18(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
-__WXML_GLOBAL__.ops_cached.$gwx_18=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
 }
 function gz$gwx_19(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
 __WXML_GLOBAL__.ops_cached.$gwx_19=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
+}
+function gz$gwx_20(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
+__WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'__e'])
@@ -1316,11 +1328,11 @@ Z([[6],[[7],[3,'items']],[3,'loadtext']])
 Z([[2,'+'],[1,'3-'],[[7],[3,'index']]])
 Z(z[0])
 Z([[2,'+'],[1,'4-'],[[7],[3,'index']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
+})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
-function gz$gwx_20(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
-__WXML_GLOBAL__.ops_cached.$gwx_20=[];
+function gz$gwx_21(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
+__WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'__e'])
@@ -1361,27 +1373,31 @@ Z(z[0])
 Z(z[20])
 Z(z[21])
 Z([[2,'+'],[1,'5-'],[[7],[3,'index']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
-}
-function gz$gwx_21(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
-__WXML_GLOBAL__.ops_cached.$gwx_21=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__l'])
-Z([3,'1'])
-Z([3,'error'])
-Z(z[1])
 })(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
 }
 function gz$gwx_22(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
 __WXML_GLOBAL__.ops_cached.$gwx_22=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'list']])
+Z(z[0])
+Z([3,'__l'])
+Z([[7],[3,'index']])
+Z([[7],[3,'item']])
+Z([[2,'+'],[1,'1-'],[[7],[3,'index']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
 function gz$gwx_23(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
 __WXML_GLOBAL__.ops_cached.$gwx_23=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
+}
+function gz$gwx_24(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
+__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([[7],[3,'topicInfo']])
@@ -1410,11 +1426,11 @@ Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'3-'],[[7],[3,'index']]],[1,'-']],[[7],[3,'listi
 Z(z[0])
 Z([[6],[[7],[3,'item']],[3,'loadtext']])
 Z([[2,'+'],[1,'4-'],[[7],[3,'index']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
+})(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
-function gz$gwx_24(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
-__WXML_GLOBAL__.ops_cached.$gwx_24=[];
+function gz$gwx_25(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
+__WXML_GLOBAL__.ops_cached.$gwx_25=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'__e'])
@@ -1449,13 +1465,13 @@ Z([[6],[[7],[3,'items']],[3,'loadtext']])
 Z([[2,'+'],[1,'3-'],[[7],[3,'index']]])
 Z(z[0])
 Z([[2,'+'],[1,'4-'],[[7],[3,'index']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
+})(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/common/common-list.wxml','./components/common/load-more.wxml','./components/common/no-thing.wxml','./components/common/uploud-imags.wxml','./components/index/index-list.wxml','./components/index/swiper-tab-head.wxml','./components/news/news-nav-bar.wxml','./components/news/topic-list.wxml','./components/news/topic-nav.wxml','./components/topic/topic-info.wxml','./components/uni-badge/uni-badge.wxml','./components/uni-icons/uni-icons.wxml','./components/uni-nav-bar/uni-nav-bar.wxml','./components/uni-popup/uni-popup.wxml','./components/uni-status-bar/uni-status-bar.wxml','./components/uni-transition/uni-transition.wxml','./pages/add-input/add-input.wxml','./pages/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/paper/paper.wxml','./pages/search/search.wxml','./pages/topic-detail/topic-detail.wxml','./pages/topicnav/topicnav.wxml'];d_[x[0]]={}
+var x=['./components/common/common-list.wxml','./components/common/load-more.wxml','./components/common/no-thing.wxml','./components/common/uploud-imags.wxml','./components/index/index-list.wxml','./components/index/swiper-tab-head.wxml','./components/news/news-nav-bar.wxml','./components/news/topic-list.wxml','./components/news/topic-nav.wxml','./components/paper/paper-list.wxml','./components/topic/topic-info.wxml','./components/uni-badge/uni-badge.wxml','./components/uni-icons/uni-icons.wxml','./components/uni-nav-bar/uni-nav-bar.wxml','./components/uni-popup/uni-popup.wxml','./components/uni-status-bar/uni-status-bar.wxml','./components/uni-transition/uni-transition.wxml','./pages/add-input/add-input.wxml','./pages/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/paper/paper.wxml','./pages/search/search.wxml','./pages/topic-detail/topic-detail.wxml','./pages/topicnav/topicnav.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
@@ -1553,346 +1569,367 @@ e_[x[8]]={f:m8,j:[],i:[],ti:[],ic:[]}
 d_[x[9]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
+var aZ=_v()
+_(r,aZ)
+if(_oz(z,0,e,s,gg)){aZ.wxVkey=1
+var t1=_mz(z,'uni-badge',['bind:__l',1,'class',1,'text',2,'type',3,'vueId',4],[],e,s,gg)
+_(aZ,t1)
+}
+aZ.wxXCkey=1
+aZ.wxXCkey=3
 return r
 }
 e_[x[9]]={f:m9,j:[],i:[],ti:[],ic:[]}
 d_[x[10]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var t1=_v()
-_(r,t1)
-if(_oz(z,0,e,s,gg)){t1.wxVkey=1
-}
-t1.wxXCkey=1
 return r
 }
 e_[x[10]]={f:m10,j:[],i:[],ti:[],ic:[]}
 d_[x[11]]={}
 var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
+var o4=_v()
+_(r,o4)
+if(_oz(z,0,e,s,gg)){o4.wxVkey=1
+}
+o4.wxXCkey=1
 return r
 }
 e_[x[11]]={f:m11,j:[],i:[],ti:[],ic:[]}
 d_[x[12]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var o4=_n('view')
-_rz(z,o4,'class',0,e,s,gg)
-var o6=_mz(z,'view',['class',1,'style',1],[],e,s,gg)
-var f7=_v()
-_(o6,f7)
-if(_oz(z,3,e,s,gg)){f7.wxVkey=1
-var c8=_mz(z,'uni-status-bar',['bind:__l',4,'class',1,'vueId',2],[],e,s,gg)
-_(f7,c8)
-}
-var h9=_mz(z,'view',['class',7,'style',1],[],e,s,gg)
-var o0=_mz(z,'view',['bindtap',9,'class',1,'data-event-opts',2],[],e,s,gg)
-var cAB=_v()
-_(o0,cAB)
-if(_oz(z,12,e,s,gg)){cAB.wxVkey=1
-var lCB=_mz(z,'uni-icons',['bind:__l',13,'class',1,'color',2,'size',3,'type',4,'vueId',5],[],e,s,gg)
-_(cAB,lCB)
-}
-var oBB=_v()
-_(o0,oBB)
-if(_oz(z,19,e,s,gg)){oBB.wxVkey=1
-}
-var aDB=_n('slot')
-_rz(z,aDB,'name',20,e,s,gg)
-_(o0,aDB)
-cAB.wxXCkey=1
-cAB.wxXCkey=3
-oBB.wxXCkey=1
-_(h9,o0)
-var tEB=_n('view')
-_rz(z,tEB,'class',21,e,s,gg)
-var eFB=_v()
-_(tEB,eFB)
-if(_oz(z,22,e,s,gg)){eFB.wxVkey=1
-}
-var bGB=_n('slot')
-_(tEB,bGB)
-eFB.wxXCkey=1
-_(h9,tEB)
-var oHB=_mz(z,'view',['bindtap',23,'class',1,'data-event-opts',2],[],e,s,gg)
-var xIB=_v()
-_(oHB,xIB)
-if(_oz(z,26,e,s,gg)){xIB.wxVkey=1
-var fKB=_mz(z,'uni-icons',['bind:__l',27,'class',1,'color',2,'size',3,'type',4,'vueId',5],[],e,s,gg)
-_(xIB,fKB)
-}
-var oJB=_v()
-_(oHB,oJB)
-if(_oz(z,33,e,s,gg)){oJB.wxVkey=1
-}
-var cLB=_n('slot')
-_rz(z,cLB,'name',34,e,s,gg)
-_(oHB,cLB)
-xIB.wxXCkey=1
-xIB.wxXCkey=3
-oJB.wxXCkey=1
-_(h9,oHB)
-_(o6,h9)
-f7.wxXCkey=1
-f7.wxXCkey=3
-_(o4,o6)
-var x5=_v()
-_(o4,x5)
-if(_oz(z,35,e,s,gg)){x5.wxVkey=1
-var hMB=_v()
-_(x5,hMB)
-if(_oz(z,36,e,s,gg)){hMB.wxVkey=1
-var oNB=_mz(z,'uni-status-bar',['bind:__l',37,'class',1,'vueId',2],[],e,s,gg)
-_(hMB,oNB)
-}
-hMB.wxXCkey=1
-hMB.wxXCkey=3
-}
-x5.wxXCkey=1
-x5.wxXCkey=3
-_(r,o4)
 return r
 }
 e_[x[12]]={f:m12,j:[],i:[],ti:[],ic:[]}
 d_[x[13]]={}
 var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
+var f7=_n('view')
+_rz(z,f7,'class',0,e,s,gg)
+var h9=_mz(z,'view',['class',1,'style',1],[],e,s,gg)
+var o0=_v()
+_(h9,o0)
+if(_oz(z,3,e,s,gg)){o0.wxVkey=1
+var cAB=_mz(z,'uni-status-bar',['bind:__l',4,'class',1,'vueId',2],[],e,s,gg)
+_(o0,cAB)
+}
+var oBB=_mz(z,'view',['class',7,'style',1],[],e,s,gg)
+var lCB=_mz(z,'view',['bindtap',9,'class',1,'data-event-opts',2],[],e,s,gg)
+var aDB=_v()
+_(lCB,aDB)
+if(_oz(z,12,e,s,gg)){aDB.wxVkey=1
+var eFB=_mz(z,'uni-icons',['bind:__l',13,'class',1,'color',2,'size',3,'type',4,'vueId',5],[],e,s,gg)
+_(aDB,eFB)
+}
+var tEB=_v()
+_(lCB,tEB)
+if(_oz(z,19,e,s,gg)){tEB.wxVkey=1
+}
+var bGB=_n('slot')
+_rz(z,bGB,'name',20,e,s,gg)
+_(lCB,bGB)
+aDB.wxXCkey=1
+aDB.wxXCkey=3
+tEB.wxXCkey=1
+_(oBB,lCB)
+var oHB=_n('view')
+_rz(z,oHB,'class',21,e,s,gg)
+var xIB=_v()
+_(oHB,xIB)
+if(_oz(z,22,e,s,gg)){xIB.wxVkey=1
+}
+var oJB=_n('slot')
+_(oHB,oJB)
+xIB.wxXCkey=1
+_(oBB,oHB)
+var fKB=_mz(z,'view',['bindtap',23,'class',1,'data-event-opts',2],[],e,s,gg)
+var cLB=_v()
+_(fKB,cLB)
+if(_oz(z,26,e,s,gg)){cLB.wxVkey=1
+var oNB=_mz(z,'uni-icons',['bind:__l',27,'class',1,'color',2,'size',3,'type',4,'vueId',5],[],e,s,gg)
+_(cLB,oNB)
+}
+var hMB=_v()
+_(fKB,hMB)
+if(_oz(z,33,e,s,gg)){hMB.wxVkey=1
+}
+var cOB=_n('slot')
+_rz(z,cOB,'name',34,e,s,gg)
+_(fKB,cOB)
+cLB.wxXCkey=1
+cLB.wxXCkey=3
+hMB.wxXCkey=1
+_(oBB,fKB)
+_(h9,oBB)
+o0.wxXCkey=1
+o0.wxXCkey=3
+_(f7,h9)
+var c8=_v()
+_(f7,c8)
+if(_oz(z,35,e,s,gg)){c8.wxVkey=1
 var oPB=_v()
-_(r,oPB)
-if(_oz(z,0,e,s,gg)){oPB.wxVkey=1
-var lQB=_mz(z,'view',['catchtouchmove',1,'class',1,'data-event-opts',2],[],e,s,gg)
-var aRB=_mz(z,'uni-transition',['bind:__l',4,'bind:click',1,'class',2,'data-event-opts',3,'duration',4,'modeClass',5,'show',6,'styles',7,'vueId',8],[],e,s,gg)
-_(lQB,aRB)
-var tSB=_mz(z,'uni-transition',['bind:__l',13,'bind:click',1,'class',2,'data-event-opts',3,'duration',4,'modeClass',5,'show',6,'styles',7,'vueId',8,'vueSlots',9],[],e,s,gg)
-var eTB=_mz(z,'view',['catchtap',23,'class',1,'data-event-opts',2],[],e,s,gg)
-var bUB=_n('slot')
-_(eTB,bUB)
-_(tSB,eTB)
-_(lQB,tSB)
+_(c8,oPB)
+if(_oz(z,36,e,s,gg)){oPB.wxVkey=1
+var lQB=_mz(z,'uni-status-bar',['bind:__l',37,'class',1,'vueId',2],[],e,s,gg)
 _(oPB,lQB)
 }
 oPB.wxXCkey=1
 oPB.wxXCkey=3
+}
+c8.wxXCkey=1
+c8.wxXCkey=3
+_(r,f7)
 return r
 }
 e_[x[13]]={f:m13,j:[],i:[],ti:[],ic:[]}
 d_[x[14]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
-var xWB=_n('slot')
-_(r,xWB)
+var tSB=_v()
+_(r,tSB)
+if(_oz(z,0,e,s,gg)){tSB.wxVkey=1
+var eTB=_mz(z,'view',['catchtouchmove',1,'class',1,'data-event-opts',2],[],e,s,gg)
+var bUB=_mz(z,'uni-transition',['bind:__l',4,'bind:click',1,'class',2,'data-event-opts',3,'duration',4,'modeClass',5,'show',6,'styles',7,'vueId',8],[],e,s,gg)
+_(eTB,bUB)
+var oVB=_mz(z,'uni-transition',['bind:__l',13,'bind:click',1,'class',2,'data-event-opts',3,'duration',4,'modeClass',5,'show',6,'styles',7,'vueId',8,'vueSlots',9],[],e,s,gg)
+var xWB=_mz(z,'view',['catchtap',23,'class',1,'data-event-opts',2],[],e,s,gg)
+var oXB=_n('slot')
+_(xWB,oXB)
+_(oVB,xWB)
+_(eTB,oVB)
+_(tSB,eTB)
+}
+tSB.wxXCkey=1
+tSB.wxXCkey=3
 return r
 }
 e_[x[14]]={f:m14,j:[],i:[],ti:[],ic:[]}
 d_[x[15]]={}
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
-var fYB=_v()
-_(r,fYB)
-if(_oz(z,0,e,s,gg)){fYB.wxVkey=1
-var cZB=_mz(z,'view',['bindtap',1,'class',1,'data-event-opts',2,'data-ref',3,'style',4],[],e,s,gg)
-var h1B=_n('slot')
-_(cZB,h1B)
-_(fYB,cZB)
-}
-fYB.wxXCkey=1
+var cZB=_n('slot')
+_(r,cZB)
 return r
 }
 e_[x[15]]={f:m15,j:[],i:[],ti:[],ic:[]}
 d_[x[16]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-var c3B=_n('view')
-var o4B=_mz(z,'uni-nav-bar',['bind:__l',0,'bind:clickLeft',1,'bind:clickRight',1,'data-event-opts',2,'leftIcon',3,'rightText',4,'statusBar',5,'vueId',6,'vueSlots',7],[],e,s,gg)
+var o2B=_v()
+_(r,o2B)
+if(_oz(z,0,e,s,gg)){o2B.wxVkey=1
+var c3B=_mz(z,'view',['bindtap',1,'class',1,'data-event-opts',2,'data-ref',3,'style',4],[],e,s,gg)
+var o4B=_n('slot')
 _(c3B,o4B)
-var l5B=_mz(z,'uploud-imags',['bind:__l',9,'bind:uploud',1,'data-event-opts',2,'vueId',3],[],e,s,gg)
-_(c3B,l5B)
-var a6B=_mz(z,'uni-popup',['bind:__l',13,'class',1,'data-ref',2,'vueId',3,'vueSlots',4],[],e,s,gg)
-_(c3B,a6B)
-_(r,c3B)
+_(o2B,c3B)
+}
+o2B.wxXCkey=1
 return r
 }
 e_[x[16]]={f:m16,j:[],i:[],ti:[],ic:[]}
 d_[x[17]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
+var a6B=_n('view')
+var t7B=_mz(z,'uni-nav-bar',['bind:__l',0,'bind:clickLeft',1,'bind:clickRight',1,'data-event-opts',2,'leftIcon',3,'rightText',4,'statusBar',5,'vueId',6,'vueSlots',7],[],e,s,gg)
+_(a6B,t7B)
+var e8B=_mz(z,'uploud-imags',['bind:__l',9,'bind:uploud',1,'data-event-opts',2,'vueId',3],[],e,s,gg)
+_(a6B,e8B)
+var b9B=_mz(z,'uni-popup',['bind:__l',13,'class',1,'data-ref',2,'vueId',3,'vueSlots',4],[],e,s,gg)
+_(a6B,b9B)
+_(r,a6B)
 return r
 }
 e_[x[17]]={f:m17,j:[],i:[],ti:[],ic:[]}
 d_[x[18]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
-var b9B=_n('view')
-var o0B=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
-_(b9B,o0B)
-var xAC=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var oBC=_v()
-_(xAC,oBC)
-var fCC=function(hEC,cDC,oFC,gg){
-var oHC=_mz(z,'scroll-view',['bindscrolltolower',15,'class',1,'data-event-opts',2,'scrollY',3],[],hEC,cDC,gg)
-var lIC=_v()
-_(oHC,lIC)
-if(_oz(z,19,hEC,cDC,gg)){lIC.wxVkey=1
-var aJC=_v()
-_(lIC,aJC)
-var tKC=function(bMC,eLC,oNC,gg){
-var oPC=_mz(z,'index-list',['bind:__l',24,'index',1,'item',2,'vueId',3],[],bMC,eLC,gg)
-_(oNC,oPC)
-return oNC
-}
-aJC.wxXCkey=4
-_2z(z,22,tKC,hEC,cDC,gg,aJC,'item','index1','index1')
-var fQC=_mz(z,'load-more',['bind:__l',28,'loadtext',1,'vueId',2],[],hEC,cDC,gg)
-_(lIC,fQC)
-}
-else{lIC.wxVkey=2
-var cRC=_mz(z,'no-thing',['bind:__l',31,'vueId',1],[],hEC,cDC,gg)
-_(lIC,cRC)
-}
-lIC.wxXCkey=1
-lIC.wxXCkey=3
-lIC.wxXCkey=3
-_(oFC,oHC)
-return oFC
-}
-oBC.wxXCkey=4
-_2z(z,13,fCC,e,s,gg,oBC,'items','index','index')
-_(b9B,xAC)
-_(r,b9B)
 return r
 }
 e_[x[18]]={f:m18,j:[],i:[],ti:[],ic:[]}
 d_[x[19]]={}
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var oTC=_n('view')
-var cUC=_mz(z,'news-nav-bar',['bind:__l',0,'bind:changeTab',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
-_(oTC,cUC)
-var oVC=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var lWC=_mz(z,'scroll-view',['bindscrolltolower',11,'class',1,'data-event-opts',2,'scrollY',3],[],e,s,gg)
-var aXC=_v()
-_(lWC,aXC)
-var tYC=function(b1C,eZC,o2C,gg){
-var o4C=_mz(z,'common-list',['bind:__l',19,'index',1,'item',2,'vueId',3],[],b1C,eZC,gg)
-_(o2C,o4C)
-return o2C
+var oBC=_n('view')
+var fCC=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
+_(oBC,fCC)
+var cDC=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var hEC=_v()
+_(cDC,hEC)
+var oFC=function(oHC,cGC,lIC,gg){
+var tKC=_mz(z,'scroll-view',['bindscrolltolower',15,'class',1,'data-event-opts',2,'scrollY',3],[],oHC,cGC,gg)
+var eLC=_v()
+_(tKC,eLC)
+if(_oz(z,19,oHC,cGC,gg)){eLC.wxVkey=1
+var bMC=_v()
+_(eLC,bMC)
+var oNC=function(oPC,xOC,fQC,gg){
+var hSC=_mz(z,'index-list',['bind:__l',24,'index',1,'item',2,'vueId',3],[],oPC,xOC,gg)
+_(fQC,hSC)
+return fQC
 }
-aXC.wxXCkey=4
-_2z(z,17,tYC,e,s,gg,aXC,'item','index','index')
-var f5C=_mz(z,'load-more',['bind:__l',23,'loadtext',1,'vueId',2],[],e,s,gg)
-_(lWC,f5C)
-_(oVC,lWC)
-var c6C=_mz(z,'scroll-view',['class',26,'scrollY',1],[],e,s,gg)
-var h7C=_mz(z,'topic-nav',['bind:__l',28,'nav',1,'vueId',2],[],e,s,gg)
-_(c6C,h7C)
-var o8C=_v()
-_(c6C,o8C)
-var c9C=function(lAD,o0C,aBD,gg){
-var eDD=_mz(z,'topic-list',['bind:__l',35,'index',1,'item',2,'vueId',3],[],lAD,o0C,gg)
-_(aBD,eDD)
-return aBD
+bMC.wxXCkey=4
+_2z(z,22,oNC,oHC,cGC,gg,bMC,'item','index1','index1')
+var oTC=_mz(z,'load-more',['bind:__l',28,'loadtext',1,'vueId',2],[],oHC,cGC,gg)
+_(eLC,oTC)
 }
-o8C.wxXCkey=4
-_2z(z,33,c9C,e,s,gg,o8C,'item','index','index')
-_(oVC,c6C)
-_(oTC,oVC)
-_(r,oTC)
+else{eLC.wxVkey=2
+var cUC=_mz(z,'no-thing',['bind:__l',31,'vueId',1],[],oHC,cGC,gg)
+_(eLC,cUC)
+}
+eLC.wxXCkey=1
+eLC.wxXCkey=3
+eLC.wxXCkey=3
+_(lIC,tKC)
+return lIC
+}
+hEC.wxXCkey=4
+_2z(z,13,oFC,e,s,gg,hEC,'items','index','index')
+_(oBC,cDC)
+_(r,oBC)
 return r
 }
 e_[x[19]]={f:m19,j:[],i:[],ti:[],ic:[]}
 d_[x[20]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var oFD=_mz(z,'uni-badge',['bind:__l',0,'text',1,'type',1,'vueId',2],[],e,s,gg)
-_(r,oFD)
+var lWC=_n('view')
+var aXC=_mz(z,'news-nav-bar',['bind:__l',0,'bind:changeTab',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
+_(lWC,aXC)
+var tYC=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var eZC=_mz(z,'scroll-view',['bindscrolltolower',11,'class',1,'data-event-opts',2,'scrollY',3],[],e,s,gg)
+var b1C=_v()
+_(eZC,b1C)
+var o2C=function(o4C,x3C,f5C,gg){
+var h7C=_mz(z,'common-list',['bind:__l',19,'index',1,'item',2,'vueId',3],[],o4C,x3C,gg)
+_(f5C,h7C)
+return f5C
+}
+b1C.wxXCkey=4
+_2z(z,17,o2C,e,s,gg,b1C,'item','index','index')
+var o8C=_mz(z,'load-more',['bind:__l',23,'loadtext',1,'vueId',2],[],e,s,gg)
+_(eZC,o8C)
+_(tYC,eZC)
+var c9C=_mz(z,'scroll-view',['class',26,'scrollY',1],[],e,s,gg)
+var o0C=_mz(z,'topic-nav',['bind:__l',28,'nav',1,'vueId',2],[],e,s,gg)
+_(c9C,o0C)
+var lAD=_v()
+_(c9C,lAD)
+var aBD=function(eDD,tCD,bED,gg){
+var xGD=_mz(z,'topic-list',['bind:__l',35,'index',1,'item',2,'vueId',3],[],eDD,tCD,gg)
+_(bED,xGD)
+return bED
+}
+lAD.wxXCkey=4
+_2z(z,33,aBD,e,s,gg,lAD,'item','index','index')
+_(tYC,c9C)
+_(lWC,tYC)
+_(r,lWC)
 return r
 }
 e_[x[20]]={f:m20,j:[],i:[],ti:[],ic:[]}
 d_[x[21]]={}
 var m21=function(e,s,r,gg){
 var z=gz$gwx_22()
+var fID=_v()
+_(r,fID)
+var cJD=function(oLD,hKD,cMD,gg){
+var lOD=_mz(z,'paper-list',['bind:__l',4,'index',1,'item',2,'vueId',3],[],oLD,hKD,gg)
+_(cMD,lOD)
+return cMD
+}
+fID.wxXCkey=4
+_2z(z,2,cJD,e,s,gg,fID,'item','index','index')
 return r
 }
 e_[x[21]]={f:m21,j:[],i:[],ti:[],ic:[]}
 d_[x[22]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-var fID=_n('view')
-var cJD=_mz(z,'topic-info',['bind:__l',0,'item',1,'vueId',1],[],e,s,gg)
-_(fID,cJD)
-var hKD=_mz(z,'swiper-tab-head',['bind:__l',3,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
-_(fID,hKD)
-var oLD=_v()
-_(fID,oLD)
-var cMD=function(lOD,oND,aPD,gg){
-var eRD=_v()
-_(aPD,eRD)
-if(_oz(z,15,lOD,oND,gg)){eRD.wxVkey=1
-var bSD=_v()
-_(eRD,bSD)
-var oTD=function(oVD,xUD,fWD,gg){
-var hYD=_mz(z,'common-list',['bind:__l',20,'index',1,'item',2,'vueId',3],[],oVD,xUD,gg)
-_(fWD,hYD)
-return fWD
-}
-bSD.wxXCkey=4
-_2z(z,18,oTD,lOD,oND,gg,bSD,'list','listindex','listindex')
-var oZD=_mz(z,'load-more',['bind:__l',24,'loadtext',1,'vueId',2],[],lOD,oND,gg)
-_(eRD,oZD)
-}
-eRD.wxXCkey=1
-eRD.wxXCkey=3
-return aPD
-}
-oLD.wxXCkey=4
-_2z(z,13,cMD,e,s,gg,oLD,'item','index','index')
-_(r,fID)
 return r
 }
 e_[x[22]]={f:m22,j:[],i:[],ti:[],ic:[]}
 d_[x[23]]={}
 var m23=function(e,s,r,gg){
 var z=gz$gwx_24()
-var o2D=_n('view')
-var l3D=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
-_(o2D,l3D)
-var a4D=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var t5D=_v()
-_(a4D,t5D)
-var e6D=function(o8D,b7D,x9D,gg){
-var fAE=_mz(z,'scroll-view',['bindscrolltolower',15,'class',1,'data-event-opts',2,'scrollY',3],[],o8D,b7D,gg)
-var cBE=_v()
-_(fAE,cBE)
-if(_oz(z,19,o8D,b7D,gg)){cBE.wxVkey=1
-var hCE=_v()
-_(cBE,hCE)
-var oDE=function(oFE,cEE,lGE,gg){
-var tIE=_mz(z,'topic-list',['bind:__l',24,'index',1,'item',2,'vueId',3],[],oFE,cEE,gg)
-_(lGE,tIE)
-return lGE
+var eRD=_n('view')
+var bSD=_mz(z,'topic-info',['bind:__l',0,'item',1,'vueId',1],[],e,s,gg)
+_(eRD,bSD)
+var oTD=_mz(z,'swiper-tab-head',['bind:__l',3,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
+_(eRD,oTD)
+var xUD=_v()
+_(eRD,xUD)
+var oVD=function(cXD,fWD,hYD,gg){
+var c1D=_v()
+_(hYD,c1D)
+if(_oz(z,15,cXD,fWD,gg)){c1D.wxVkey=1
+var o2D=_v()
+_(c1D,o2D)
+var l3D=function(t5D,a4D,e6D,gg){
+var o8D=_mz(z,'common-list',['bind:__l',20,'index',1,'item',2,'vueId',3],[],t5D,a4D,gg)
+_(e6D,o8D)
+return e6D
 }
-hCE.wxXCkey=4
-_2z(z,22,oDE,o8D,b7D,gg,hCE,'item','index1','index1')
-var eJE=_mz(z,'load-more',['bind:__l',28,'loadtext',1,'vueId',2],[],o8D,b7D,gg)
-_(cBE,eJE)
+o2D.wxXCkey=4
+_2z(z,18,l3D,cXD,fWD,gg,o2D,'list','listindex','listindex')
+var x9D=_mz(z,'load-more',['bind:__l',24,'loadtext',1,'vueId',2],[],cXD,fWD,gg)
+_(c1D,x9D)
 }
-else{cBE.wxVkey=2
-var bKE=_mz(z,'no-thing',['bind:__l',31,'vueId',1],[],o8D,b7D,gg)
-_(cBE,bKE)
+c1D.wxXCkey=1
+c1D.wxXCkey=3
+return hYD
 }
-cBE.wxXCkey=1
-cBE.wxXCkey=3
-cBE.wxXCkey=3
-_(x9D,fAE)
-return x9D
-}
-t5D.wxXCkey=4
-_2z(z,13,e6D,e,s,gg,t5D,'items','index','index')
-_(o2D,a4D)
-_(r,o2D)
+xUD.wxXCkey=4
+_2z(z,13,oVD,e,s,gg,xUD,'item','index','index')
+_(r,eRD)
 return r
 }
 e_[x[23]]={f:m23,j:[],i:[],ti:[],ic:[]}
+d_[x[24]]={}
+var m24=function(e,s,r,gg){
+var z=gz$gwx_25()
+var fAE=_n('view')
+var cBE=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
+_(fAE,cBE)
+var hCE=_mz(z,'swiper',['bindchange',6,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var oDE=_v()
+_(hCE,oDE)
+var cEE=function(lGE,oFE,aHE,gg){
+var eJE=_mz(z,'scroll-view',['bindscrolltolower',15,'class',1,'data-event-opts',2,'scrollY',3],[],lGE,oFE,gg)
+var bKE=_v()
+_(eJE,bKE)
+if(_oz(z,19,lGE,oFE,gg)){bKE.wxVkey=1
+var oLE=_v()
+_(bKE,oLE)
+var xME=function(fOE,oNE,cPE,gg){
+var oRE=_mz(z,'topic-list',['bind:__l',24,'index',1,'item',2,'vueId',3],[],fOE,oNE,gg)
+_(cPE,oRE)
+return cPE
+}
+oLE.wxXCkey=4
+_2z(z,22,xME,lGE,oFE,gg,oLE,'item','index1','index1')
+var cSE=_mz(z,'load-more',['bind:__l',28,'loadtext',1,'vueId',2],[],lGE,oFE,gg)
+_(bKE,cSE)
+}
+else{bKE.wxVkey=2
+var oTE=_mz(z,'no-thing',['bind:__l',31,'vueId',1],[],lGE,oFE,gg)
+_(bKE,oTE)
+}
+bKE.wxXCkey=1
+bKE.wxXCkey=3
+bKE.wxXCkey=3
+_(aHE,eJE)
+return aHE
+}
+oDE.wxXCkey=4
+_2z(z,13,cEE,e,s,gg,oDE,'items','index','index')
+_(fAE,hCE)
+_(r,fAE)
+return r
+}
+e_[x[24]]={f:m24,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1940,6 +1977,9 @@ __wxAppCode__['components/news/topic-list.wxml']=$gwx('./components/news/topic-l
 __wxAppCode__['components/news/topic-nav.json']={"component":true,"usingComponents":{}};
 __wxAppCode__['components/news/topic-nav.wxml']=$gwx('./components/news/topic-nav.wxml');
 
+__wxAppCode__['components/paper/paper-list.json']={"component":true,"usingComponents":{"uni-badge":"/components/uni-badge/uni-badge","unibadgei":"/components/uni-badge/uni-badge"}};
+__wxAppCode__['components/paper/paper-list.wxml']=$gwx('./components/paper/paper-list.wxml');
+
 __wxAppCode__['components/topic/topic-info.json']={"component":true,"usingComponents":{}};
 __wxAppCode__['components/topic/topic-info.wxml']=$gwx('./components/topic/topic-info.wxml');
 
@@ -1973,7 +2013,7 @@ __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 __wxAppCode__['pages/news/news.json']={"titleNView":false,"bounce":"none","usingComponents":{"common-list":"/components/common/common-list","news-nav-bar":"/components/news/news-nav-bar","load-more":"/components/common/load-more","topic-nav":"/components/news/topic-nav","topic-list":"/components/news/topic-list"}};
 __wxAppCode__['pages/news/news.wxml']=$gwx('./pages/news/news.wxml');
 
-__wxAppCode__['pages/paper/paper.json']={"navigationBarTitleText":"小纸条","titleNView":{"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"left","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""},{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""}]},"usingComponents":{"uni-badge":"/components/uni-badge/uni-badge","unibadgei":"/components/uni-badge/uni-badge"}};
+__wxAppCode__['pages/paper/paper.json']={"enablePullDownRefresh":true,"navigationBarTitleText":"小纸条","titleNView":{"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"left","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""},{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""}]},"usingComponents":{"paper-list":"/components/paper/paper-list"}};
 __wxAppCode__['pages/paper/paper.wxml']=$gwx('./pages/paper/paper.wxml');
 
 __wxAppCode__['pages/search/search.json']={"scrollIndicator":"none","titleNView":{"autoBackButton":false,"searchInput":{"align":"left","backgroundColor":"#F7F7F7","borderRadius":"4px","placeholder":"搜索糗事","placeholderColor":"#CCCCCC","disabled":false},"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"16px","text":"取消"}]},"usingComponents":{}};
@@ -2170,11 +2210,11 @@ define('common/runtime.js',function(require, module, exports, window, document, 
     /******/
     /******/
     /******/ // mini-css-extract-plugin CSS loading
-    /******/var cssChunks = { "components/index/index-list": 1, "components/common/load-more": 1, "components/common/no-thing": 1, "components/index/swiper-tab-head": 1, "components/common/common-list": 1, "components/news/news-nav-bar": 1, "components/news/topic-list": 1, "components/news/topic-nav": 1, "components/uni-badge/uni-badge": 1, "components/common/uploud-imags": 1, "components/uni-nav-bar/uni-nav-bar": 1, "components/uni-popup/uni-popup": 1, "components/topic/topic-info": 1, "components/uni-icons/uni-icons": 1, "components/uni-status-bar/uni-status-bar": 1, "components/uni-transition/uni-transition": 1 };
+    /******/var cssChunks = { "components/index/index-list": 1, "components/common/load-more": 1, "components/common/no-thing": 1, "components/index/swiper-tab-head": 1, "components/common/common-list": 1, "components/news/news-nav-bar": 1, "components/news/topic-list": 1, "components/news/topic-nav": 1, "components/paper/paper-list": 1, "components/common/uploud-imags": 1, "components/uni-nav-bar/uni-nav-bar": 1, "components/uni-popup/uni-popup": 1, "components/topic/topic-info": 1, "components/uni-badge/uni-badge": 1, "components/uni-icons/uni-icons": 1, "components/uni-status-bar/uni-status-bar": 1, "components/uni-transition/uni-transition": 1 };
     /******/if (installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
     /******/else if (installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
         /******/promises.push(installedCssChunks[chunkId] = new Promise(function (resolve, reject) {
-          /******/var href = "" + ({ "components/index/index-list": "components/index/index-list", "components/common/load-more": "components/common/load-more", "components/common/no-thing": "components/common/no-thing", "components/index/swiper-tab-head": "components/index/swiper-tab-head", "components/common/common-list": "components/common/common-list", "components/news/news-nav-bar": "components/news/news-nav-bar", "components/news/topic-list": "components/news/topic-list", "components/news/topic-nav": "components/news/topic-nav", "components/uni-badge/uni-badge": "components/uni-badge/uni-badge", "components/common/uploud-imags": "components/common/uploud-imags", "components/uni-nav-bar/uni-nav-bar": "components/uni-nav-bar/uni-nav-bar", "components/uni-popup/uni-popup": "components/uni-popup/uni-popup", "components/topic/topic-info": "components/topic/topic-info", "components/uni-icons/uni-icons": "components/uni-icons/uni-icons", "components/uni-status-bar/uni-status-bar": "components/uni-status-bar/uni-status-bar", "components/uni-transition/uni-transition": "components/uni-transition/uni-transition" }[chunkId] || chunkId) + ".wxss";
+          /******/var href = "" + ({ "components/index/index-list": "components/index/index-list", "components/common/load-more": "components/common/load-more", "components/common/no-thing": "components/common/no-thing", "components/index/swiper-tab-head": "components/index/swiper-tab-head", "components/common/common-list": "components/common/common-list", "components/news/news-nav-bar": "components/news/news-nav-bar", "components/news/topic-list": "components/news/topic-list", "components/news/topic-nav": "components/news/topic-nav", "components/paper/paper-list": "components/paper/paper-list", "components/common/uploud-imags": "components/common/uploud-imags", "components/uni-nav-bar/uni-nav-bar": "components/uni-nav-bar/uni-nav-bar", "components/uni-popup/uni-popup": "components/uni-popup/uni-popup", "components/topic/topic-info": "components/topic/topic-info", "components/uni-badge/uni-badge": "components/uni-badge/uni-badge", "components/uni-icons/uni-icons": "components/uni-icons/uni-icons", "components/uni-status-bar/uni-status-bar": "components/uni-status-bar/uni-status-bar", "components/uni-transition/uni-transition": "components/uni-transition/uni-transition" }[chunkId] || chunkId) + ".wxss";
           /******/var fullhref = __webpack_require__.p + href;
           /******/var existingLinkTags = document.getElementsByTagName("link");
           /******/for (var i = 0; i < existingLinkTags.length; i++) {
@@ -2481,7 +2521,7 @@ eval("module.exports = {\"_from\":\"@dcloudio/uni-stat@alpha\",\"_id\":\"@dcloud
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/index/index\": { \"bounce\": \"none\", \"scrollIndicator\": \"none\", \"titleNView\": { \"searchInput\": { \"align\": \"center\", \"backgroundColor\": \"#F7F7F7\", \"borderRadius\": \"4px\", \"placeholder\": \"搜索糗事\", \"placeholderColor\": \"#CCCCCC\", \"disabled\": true }, \"buttons\": [{ \"color\": \"#FF9619\", \"colorPressed\": \"#BBBBBB\", \"float\": \"left\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }, { \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"right\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }] }, \"usingComponents\": { \"index-list\": \"/components/index/index-list\", \"swiper-tab-head\": \"/components/index/swiper-tab-head\", \"load-more\": \"/components/common/load-more\", \"no-thing\": \"/components/common/no-thing\" }, \"usingAutoImportComponents\": {} }, \"pages/news/news\": { \"titleNView\": false, \"bounce\": \"none\", \"usingComponents\": { \"common-list\": \"/components/common/common-list\", \"news-nav-bar\": \"/components/news/news-nav-bar\", \"load-more\": \"/components/common/load-more\", \"topic-nav\": \"/components/news/topic-nav\", \"topic-list\": \"/components/news/topic-list\" }, \"usingAutoImportComponents\": {} }, \"pages/paper/paper\": { \"navigationBarTitleText\": \"小纸条\", \"titleNView\": { \"buttons\": [{ \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"left\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }, { \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"right\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }] }, \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/home/home\": { \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/search/search\": { \"scrollIndicator\": \"none\", \"titleNView\": { \"autoBackButton\": false, \"searchInput\": { \"align\": \"left\", \"backgroundColor\": \"#F7F7F7\", \"borderRadius\": \"4px\", \"placeholder\": \"搜索糗事\", \"placeholderColor\": \"#CCCCCC\", \"disabled\": false }, \"buttons\": [{ \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"right\", \"fontSize\": \"16px\", \"text\": \"取消\" }] }, \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/add-input/add-input\": { \"titleNView\": false, \"usingComponents\": { \"uni-nav-barv\": \"/components/uni-nav-bar/uni-nav-bar\", \"uploud-imags\": \"/components/common/uploud-imags\", \"uni-popup\": \"/components/uni-popup/uni-popup\" }, \"usingAutoImportComponents\": { \"uni-nav-bar\": \"/components/uni-nav-bar/uni-nav-bar\", \"uni-popup\": \"/components/uni-popup/uni-popup\" } }, \"pages/topicnav/topicnav\": { \"navigationBarTitleText\": \"话题分类\", \"bounce\": \"none\", \"usingComponents\": { \"swiper-tab-head\": \"/components/index/swiper-tab-head\", \"load-more\": \"/components/common/load-more\", \"no-thing\": \"/components/common/no-thing\", \"topic-list\": \"/components/news/topic-list\" }, \"usingAutoImportComponents\": {} }, \"pages/topic-detail/topic-detail\": { \"enablePullDownRefresh\": true, \"scrollIndicator\": \"none\", \"titleNView\": { \"type\": \"transparent\", \"buttons\": [{ \"type\": \"menu\" }] }, \"usingComponents\": { \"topic-info\": \"/components/topic/topic-info\", \"swiper-tab-head\": \"/components/index/swiper-tab-head\", \"common-list\": \"/components/common/common-list\", \"load-more\": \"/components/common/load-more\" }, \"usingAutoImportComponents\": {} } }, \"globalStyle\": { \"navigationBarTextStyle\": \"black\", \"navigationBarTitleText\": \"仿糗事百科\", \"navigationBarBackgroundColor\": \"#FFFFFF\", \"backgroundColor\": \"#FFFFFF\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxxQkFBb0IsRUFBQyxVQUFTLE1BQVYsRUFBaUIsbUJBQWtCLE1BQW5DLEVBQTBDLGNBQWEsRUFBQyxlQUFjLEVBQUMsU0FBUSxRQUFULEVBQWtCLG1CQUFrQixTQUFwQyxFQUE4QyxnQkFBZSxLQUE3RCxFQUFtRSxlQUFjLE1BQWpGLEVBQXdGLG9CQUFtQixTQUEzRyxFQUFxSCxZQUFXLElBQWhJLEVBQWYsRUFBcUosV0FBVSxDQUFDLEVBQUMsU0FBUSxTQUFULEVBQW1CLGdCQUFlLFNBQWxDLEVBQTRDLFNBQVEsTUFBcEQsRUFBMkQsWUFBVyxNQUF0RSxFQUE2RSxXQUFVLHVCQUF2RixFQUErRyxRQUFPLEdBQXRILEVBQUQsRUFBNEgsRUFBQyxTQUFRLFNBQVQsRUFBbUIsZ0JBQWUsU0FBbEMsRUFBNEMsU0FBUSxPQUFwRCxFQUE0RCxZQUFXLE1BQXZFLEVBQThFLFdBQVUsdUJBQXhGLEVBQWdILFFBQU8sR0FBdkgsRUFBNUgsQ0FBL0osRUFBdkQsRUFBZ2QsbUJBQWtCLEVBQUMsY0FBYSw4QkFBZCxFQUE2QyxtQkFBa0IsbUNBQS9ELEVBQW1HLGFBQVksOEJBQS9HLEVBQThJLFlBQVcsNkJBQXpKLEVBQWxlLEVBQTBwQiw2QkFBNEIsRUFBdHJCLEVBQXJCLEVBQStzQixtQkFBa0IsRUFBQyxjQUFhLEtBQWQsRUFBb0IsVUFBUyxNQUE3QixFQUFvQyxtQkFBa0IsRUFBQyxlQUFjLGdDQUFmLEVBQWdELGdCQUFlLCtCQUEvRCxFQUErRixhQUFZLDhCQUEzRyxFQUEwSSxhQUFZLDRCQUF0SixFQUFtTCxjQUFhLDZCQUFoTSxFQUF0RCxFQUFxUiw2QkFBNEIsRUFBalQsRUFBanVCLEVBQXNoQyxxQkFBb0IsRUFBQywwQkFBeUIsS0FBMUIsRUFBZ0MsY0FBYSxFQUFDLFdBQVUsQ0FBQyxFQUFDLFNBQVEsU0FBVCxFQUFtQixnQkFBZSxTQUFsQyxFQUE0QyxTQUFRLE1BQXBELEVBQTJELFlBQVcsTUFBdEUsRUFBNkUsV0FBVSx1QkFBdkYsRUFBK0csUUFBTyxHQUF0SCxFQUFELEVBQTRILEVBQUMsU0FBUSxTQUFULEVBQW1CLGdCQUFlLFNBQWxDLEVBQTRDLFNBQVEsT0FBcEQsRUFBNEQsWUFBVyxNQUF2RSxFQUE4RSxXQUFVLHVCQUF4RixFQUFnSCxRQUFPLEdBQXZILEVBQTVILENBQVgsRUFBN0MsRUFBa1QsbUJBQWtCLEVBQXBVLEVBQXVVLDZCQUE0QixFQUFuVyxFQUExaUMsRUFBaTVDLG1CQUFrQixFQUFDLG1CQUFrQixFQUFuQixFQUFzQiw2QkFBNEIsRUFBbEQsRUFBbjZDLEVBQXk5Qyx1QkFBc0IsRUFBQyxtQkFBa0IsTUFBbkIsRUFBMEIsY0FBYSxFQUFDLGtCQUFpQixLQUFsQixFQUF3QixlQUFjLEVBQUMsU0FBUSxNQUFULEVBQWdCLG1CQUFrQixTQUFsQyxFQUE0QyxnQkFBZSxLQUEzRCxFQUFpRSxlQUFjLE1BQS9FLEVBQXNGLG9CQUFtQixTQUF6RyxFQUFtSCxZQUFXLEtBQTlILEVBQXRDLEVBQTJLLFdBQVUsQ0FBQyxFQUFDLFNBQVEsU0FBVCxFQUFtQixnQkFBZSxTQUFsQyxFQUE0QyxTQUFRLE9BQXBELEVBQTRELFlBQVcsTUFBdkUsRUFBOEUsUUFBTyxJQUFyRixFQUFELENBQXJMLEVBQXZDLEVBQTBULG1CQUFrQixFQUE1VSxFQUErVSw2QkFBNEIsRUFBM1csRUFBLytDLEVBQTgxRCw2QkFBNEIsRUFBQyxjQUFhLEtBQWQsRUFBb0IsbUJBQWtCLEVBQUMsZ0JBQWUscUNBQWhCLEVBQXNELGdCQUFlLGlDQUFyRSxFQUF1RyxhQUFZLGlDQUFuSCxFQUF0QyxFQUE0TCw2QkFBNEIsRUFBQyxlQUFjLHFDQUFmLEVBQXFELGFBQVksaUNBQWpFLEVBQXhOLEVBQTEzRCxFQUF1ckUsMkJBQTBCLEVBQUMsMEJBQXlCLE1BQTFCLEVBQWlDLFVBQVMsTUFBMUMsRUFBaUQsbUJBQWtCLEVBQUMsbUJBQWtCLG1DQUFuQixFQUF1RCxhQUFZLDhCQUFuRSxFQUFrRyxZQUFXLDZCQUE3RyxFQUEySSxjQUFhLDZCQUF4SixFQUFuRSxFQUEwUCw2QkFBNEIsRUFBdFIsRUFBanRFLEVBQTIrRSxtQ0FBa0MsRUFBQyx5QkFBd0IsSUFBekIsRUFBOEIsbUJBQWtCLE1BQWhELEVBQXVELGNBQWEsRUFBQyxRQUFPLGFBQVIsRUFBc0IsV0FBVSxDQUFDLEVBQUMsUUFBTyxNQUFSLEVBQUQsQ0FBaEMsRUFBcEUsRUFBdUgsbUJBQWtCLEVBQUMsY0FBYSw4QkFBZCxFQUE2QyxtQkFBa0IsbUNBQS9ELEVBQW1HLGVBQWMsZ0NBQWpILEVBQWtKLGFBQVksOEJBQTlKLEVBQXpJLEVBQXVVLDZCQUE0QixFQUFuVyxFQUE3Z0YsRUFBVCxFQUE4M0YsZUFBYyxFQUFDLDBCQUF5QixPQUExQixFQUFrQywwQkFBeUIsT0FBM0QsRUFBbUUsZ0NBQStCLFNBQWxHLEVBQTRHLG1CQUFrQixTQUE5SCxFQUE1NEYsRSIsImZpbGUiOiI3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wicGFnZXNcIjp7XCJwYWdlcy9pbmRleC9pbmRleFwiOntcImJvdW5jZVwiOlwibm9uZVwiLFwic2Nyb2xsSW5kaWNhdG9yXCI6XCJub25lXCIsXCJ0aXRsZU5WaWV3XCI6e1wic2VhcmNoSW5wdXRcIjp7XCJhbGlnblwiOlwiY2VudGVyXCIsXCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiNGN0Y3RjdcIixcImJvcmRlclJhZGl1c1wiOlwiNHB4XCIsXCJwbGFjZWhvbGRlclwiOlwi5pCc57Si57OX5LqLXCIsXCJwbGFjZWhvbGRlckNvbG9yXCI6XCIjQ0NDQ0NDXCIsXCJkaXNhYmxlZFwiOnRydWV9LFwiYnV0dG9uc1wiOlt7XCJjb2xvclwiOlwiI0ZGOTYxOVwiLFwiY29sb3JQcmVzc2VkXCI6XCIjQkJCQkJCXCIsXCJmbG9hdFwiOlwibGVmdFwiLFwiZm9udFNpemVcIjpcIjIycHhcIixcImZvbnRTcmNcIjpcIi9zdGF0aWMvZm9udC9pY29uLnR0ZlwiLFwidGV4dFwiOlwi7piJXCJ9LHtcImNvbG9yXCI6XCIjMDAwMDAwXCIsXCJjb2xvclByZXNzZWRcIjpcIiNCQkJCQkJcIixcImZsb2F0XCI6XCJyaWdodFwiLFwiZm9udFNpemVcIjpcIjIycHhcIixcImZvbnRTcmNcIjpcIi9zdGF0aWMvZm9udC9pY29uLnR0ZlwiLFwidGV4dFwiOlwi7pmTXCJ9XX0sXCJ1c2luZ0NvbXBvbmVudHNcIjp7XCJpbmRleC1saXN0XCI6XCIvY29tcG9uZW50cy9pbmRleC9pbmRleC1saXN0XCIsXCJzd2lwZXItdGFiLWhlYWRcIjpcIi9jb21wb25lbnRzL2luZGV4L3N3aXBlci10YWItaGVhZFwiLFwibG9hZC1tb3JlXCI6XCIvY29tcG9uZW50cy9jb21tb24vbG9hZC1tb3JlXCIsXCJuby10aGluZ1wiOlwiL2NvbXBvbmVudHMvY29tbW9uL25vLXRoaW5nXCJ9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOnt9fSxcInBhZ2VzL25ld3MvbmV3c1wiOntcInRpdGxlTlZpZXdcIjpmYWxzZSxcImJvdW5jZVwiOlwibm9uZVwiLFwidXNpbmdDb21wb25lbnRzXCI6e1wiY29tbW9uLWxpc3RcIjpcIi9jb21wb25lbnRzL2NvbW1vbi9jb21tb24tbGlzdFwiLFwibmV3cy1uYXYtYmFyXCI6XCIvY29tcG9uZW50cy9uZXdzL25ld3MtbmF2LWJhclwiLFwibG9hZC1tb3JlXCI6XCIvY29tcG9uZW50cy9jb21tb24vbG9hZC1tb3JlXCIsXCJ0b3BpYy1uYXZcIjpcIi9jb21wb25lbnRzL25ld3MvdG9waWMtbmF2XCIsXCJ0b3BpYy1saXN0XCI6XCIvY29tcG9uZW50cy9uZXdzL3RvcGljLWxpc3RcIn0sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvcGFwZXIvcGFwZXJcIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLlsI/nurjmnaFcIixcInRpdGxlTlZpZXdcIjp7XCJidXR0b25zXCI6W3tcImNvbG9yXCI6XCIjMDAwMDAwXCIsXCJjb2xvclByZXNzZWRcIjpcIiNCQkJCQkJcIixcImZsb2F0XCI6XCJsZWZ0XCIsXCJmb250U2l6ZVwiOlwiMjJweFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJ0ZXh0XCI6XCLuoYVcIn0se1wiY29sb3JcIjpcIiMwMDAwMDBcIixcImNvbG9yUHJlc3NlZFwiOlwiI0JCQkJCQlwiLFwiZmxvYXRcIjpcInJpZ2h0XCIsXCJmb250U2l6ZVwiOlwiMjJweFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJ0ZXh0XCI6XCLumoRcIn1dfSxcInVzaW5nQ29tcG9uZW50c1wiOnt9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOnt9fSxcInBhZ2VzL2hvbWUvaG9tZVwiOntcInVzaW5nQ29tcG9uZW50c1wiOnt9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOnt9fSxcInBhZ2VzL3NlYXJjaC9zZWFyY2hcIjp7XCJzY3JvbGxJbmRpY2F0b3JcIjpcIm5vbmVcIixcInRpdGxlTlZpZXdcIjp7XCJhdXRvQmFja0J1dHRvblwiOmZhbHNlLFwic2VhcmNoSW5wdXRcIjp7XCJhbGlnblwiOlwibGVmdFwiLFwiYmFja2dyb3VuZENvbG9yXCI6XCIjRjdGN0Y3XCIsXCJib3JkZXJSYWRpdXNcIjpcIjRweFwiLFwicGxhY2Vob2xkZXJcIjpcIuaQnOe0ouezl+S6i1wiLFwicGxhY2Vob2xkZXJDb2xvclwiOlwiI0NDQ0NDQ1wiLFwiZGlzYWJsZWRcIjpmYWxzZX0sXCJidXR0b25zXCI6W3tcImNvbG9yXCI6XCIjMDAwMDAwXCIsXCJjb2xvclByZXNzZWRcIjpcIiNCQkJCQkJcIixcImZsb2F0XCI6XCJyaWdodFwiLFwiZm9udFNpemVcIjpcIjE2cHhcIixcInRleHRcIjpcIuWPlua2iFwifV19LFwidXNpbmdDb21wb25lbnRzXCI6e30sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvYWRkLWlucHV0L2FkZC1pbnB1dFwiOntcInRpdGxlTlZpZXdcIjpmYWxzZSxcInVzaW5nQ29tcG9uZW50c1wiOntcInVuaS1uYXYtYmFydlwiOlwiL2NvbXBvbmVudHMvdW5pLW5hdi1iYXIvdW5pLW5hdi1iYXJcIixcInVwbG91ZC1pbWFnc1wiOlwiL2NvbXBvbmVudHMvY29tbW9uL3VwbG91ZC1pbWFnc1wiLFwidW5pLXBvcHVwXCI6XCIvY29tcG9uZW50cy91bmktcG9wdXAvdW5pLXBvcHVwXCJ9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOntcInVuaS1uYXYtYmFyXCI6XCIvY29tcG9uZW50cy91bmktbmF2LWJhci91bmktbmF2LWJhclwiLFwidW5pLXBvcHVwXCI6XCIvY29tcG9uZW50cy91bmktcG9wdXAvdW5pLXBvcHVwXCJ9fSxcInBhZ2VzL3RvcGljbmF2L3RvcGljbmF2XCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi6K+d6aKY5YiG57G7XCIsXCJib3VuY2VcIjpcIm5vbmVcIixcInVzaW5nQ29tcG9uZW50c1wiOntcInN3aXBlci10YWItaGVhZFwiOlwiL2NvbXBvbmVudHMvaW5kZXgvc3dpcGVyLXRhYi1oZWFkXCIsXCJsb2FkLW1vcmVcIjpcIi9jb21wb25lbnRzL2NvbW1vbi9sb2FkLW1vcmVcIixcIm5vLXRoaW5nXCI6XCIvY29tcG9uZW50cy9jb21tb24vbm8tdGhpbmdcIixcInRvcGljLWxpc3RcIjpcIi9jb21wb25lbnRzL25ld3MvdG9waWMtbGlzdFwifSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX0sXCJwYWdlcy90b3BpYy1kZXRhaWwvdG9waWMtZGV0YWlsXCI6e1wiZW5hYmxlUHVsbERvd25SZWZyZXNoXCI6dHJ1ZSxcInNjcm9sbEluZGljYXRvclwiOlwibm9uZVwiLFwidGl0bGVOVmlld1wiOntcInR5cGVcIjpcInRyYW5zcGFyZW50XCIsXCJidXR0b25zXCI6W3tcInR5cGVcIjpcIm1lbnVcIn1dfSxcInVzaW5nQ29tcG9uZW50c1wiOntcInRvcGljLWluZm9cIjpcIi9jb21wb25lbnRzL3RvcGljL3RvcGljLWluZm9cIixcInN3aXBlci10YWItaGVhZFwiOlwiL2NvbXBvbmVudHMvaW5kZXgvc3dpcGVyLXRhYi1oZWFkXCIsXCJjb21tb24tbGlzdFwiOlwiL2NvbXBvbmVudHMvY29tbW9uL2NvbW1vbi1saXN0XCIsXCJsb2FkLW1vcmVcIjpcIi9jb21wb25lbnRzL2NvbW1vbi9sb2FkLW1vcmVcIn0sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319fSxcImdsb2JhbFN0eWxlXCI6e1wibmF2aWdhdGlvbkJhclRleHRTdHlsZVwiOlwiYmxhY2tcIixcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuS7v+ezl+S6i+eZvuenkVwiLFwibmF2aWdhdGlvbkJhckJhY2tncm91bmRDb2xvclwiOlwiI0ZGRkZGRlwiLFwiYmFja2dyb3VuZENvbG9yXCI6XCIjRkZGRkZGXCJ9fSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///7\n");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/index/index\": { \"bounce\": \"none\", \"scrollIndicator\": \"none\", \"titleNView\": { \"searchInput\": { \"align\": \"center\", \"backgroundColor\": \"#F7F7F7\", \"borderRadius\": \"4px\", \"placeholder\": \"搜索糗事\", \"placeholderColor\": \"#CCCCCC\", \"disabled\": true }, \"buttons\": [{ \"color\": \"#FF9619\", \"colorPressed\": \"#BBBBBB\", \"float\": \"left\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }, { \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"right\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }] }, \"usingComponents\": { \"index-list\": \"/components/index/index-list\", \"swiper-tab-head\": \"/components/index/swiper-tab-head\", \"load-more\": \"/components/common/load-more\", \"no-thing\": \"/components/common/no-thing\" }, \"usingAutoImportComponents\": {} }, \"pages/news/news\": { \"titleNView\": false, \"bounce\": \"none\", \"usingComponents\": { \"common-list\": \"/components/common/common-list\", \"news-nav-bar\": \"/components/news/news-nav-bar\", \"load-more\": \"/components/common/load-more\", \"topic-nav\": \"/components/news/topic-nav\", \"topic-list\": \"/components/news/topic-list\" }, \"usingAutoImportComponents\": {} }, \"pages/paper/paper\": { \"enablePullDownRefresh\": true, \"navigationBarTitleText\": \"小纸条\", \"titleNView\": { \"buttons\": [{ \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"left\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }, { \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"right\", \"fontSize\": \"22px\", \"fontSrc\": \"/static/font/icon.ttf\", \"text\": \"\" }] }, \"usingComponents\": { \"paper-list\": \"/components/paper/paper-list\" }, \"usingAutoImportComponents\": {} }, \"pages/home/home\": { \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/search/search\": { \"scrollIndicator\": \"none\", \"titleNView\": { \"autoBackButton\": false, \"searchInput\": { \"align\": \"left\", \"backgroundColor\": \"#F7F7F7\", \"borderRadius\": \"4px\", \"placeholder\": \"搜索糗事\", \"placeholderColor\": \"#CCCCCC\", \"disabled\": false }, \"buttons\": [{ \"color\": \"#000000\", \"colorPressed\": \"#BBBBBB\", \"float\": \"right\", \"fontSize\": \"16px\", \"text\": \"取消\" }] }, \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/add-input/add-input\": { \"titleNView\": false, \"usingComponents\": { \"uni-nav-barv\": \"/components/uni-nav-bar/uni-nav-bar\", \"uploud-imags\": \"/components/common/uploud-imags\", \"uni-popup\": \"/components/uni-popup/uni-popup\" }, \"usingAutoImportComponents\": { \"uni-nav-bar\": \"/components/uni-nav-bar/uni-nav-bar\", \"uni-popup\": \"/components/uni-popup/uni-popup\" } }, \"pages/topicnav/topicnav\": { \"navigationBarTitleText\": \"话题分类\", \"bounce\": \"none\", \"usingComponents\": { \"swiper-tab-head\": \"/components/index/swiper-tab-head\", \"load-more\": \"/components/common/load-more\", \"no-thing\": \"/components/common/no-thing\", \"topic-list\": \"/components/news/topic-list\" }, \"usingAutoImportComponents\": {} }, \"pages/topic-detail/topic-detail\": { \"enablePullDownRefresh\": true, \"scrollIndicator\": \"none\", \"titleNView\": { \"type\": \"transparent\", \"buttons\": [{ \"type\": \"menu\" }] }, \"usingComponents\": { \"topic-info\": \"/components/topic/topic-info\", \"swiper-tab-head\": \"/components/index/swiper-tab-head\", \"common-list\": \"/components/common/common-list\", \"load-more\": \"/components/common/load-more\" }, \"usingAutoImportComponents\": {} } }, \"globalStyle\": { \"navigationBarTextStyle\": \"black\", \"navigationBarTitleText\": \"仿糗事百科\", \"navigationBarBackgroundColor\": \"#FFFFFF\", \"backgroundColor\": \"#FFFFFF\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxxQkFBb0IsRUFBQyxVQUFTLE1BQVYsRUFBaUIsbUJBQWtCLE1BQW5DLEVBQTBDLGNBQWEsRUFBQyxlQUFjLEVBQUMsU0FBUSxRQUFULEVBQWtCLG1CQUFrQixTQUFwQyxFQUE4QyxnQkFBZSxLQUE3RCxFQUFtRSxlQUFjLE1BQWpGLEVBQXdGLG9CQUFtQixTQUEzRyxFQUFxSCxZQUFXLElBQWhJLEVBQWYsRUFBcUosV0FBVSxDQUFDLEVBQUMsU0FBUSxTQUFULEVBQW1CLGdCQUFlLFNBQWxDLEVBQTRDLFNBQVEsTUFBcEQsRUFBMkQsWUFBVyxNQUF0RSxFQUE2RSxXQUFVLHVCQUF2RixFQUErRyxRQUFPLEdBQXRILEVBQUQsRUFBNEgsRUFBQyxTQUFRLFNBQVQsRUFBbUIsZ0JBQWUsU0FBbEMsRUFBNEMsU0FBUSxPQUFwRCxFQUE0RCxZQUFXLE1BQXZFLEVBQThFLFdBQVUsdUJBQXhGLEVBQWdILFFBQU8sR0FBdkgsRUFBNUgsQ0FBL0osRUFBdkQsRUFBZ2QsbUJBQWtCLEVBQUMsY0FBYSw4QkFBZCxFQUE2QyxtQkFBa0IsbUNBQS9ELEVBQW1HLGFBQVksOEJBQS9HLEVBQThJLFlBQVcsNkJBQXpKLEVBQWxlLEVBQTBwQiw2QkFBNEIsRUFBdHJCLEVBQXJCLEVBQStzQixtQkFBa0IsRUFBQyxjQUFhLEtBQWQsRUFBb0IsVUFBUyxNQUE3QixFQUFvQyxtQkFBa0IsRUFBQyxlQUFjLGdDQUFmLEVBQWdELGdCQUFlLCtCQUEvRCxFQUErRixhQUFZLDhCQUEzRyxFQUEwSSxhQUFZLDRCQUF0SixFQUFtTCxjQUFhLDZCQUFoTSxFQUF0RCxFQUFxUiw2QkFBNEIsRUFBalQsRUFBanVCLEVBQXNoQyxxQkFBb0IsRUFBQyx5QkFBd0IsSUFBekIsRUFBOEIsMEJBQXlCLEtBQXZELEVBQTZELGNBQWEsRUFBQyxXQUFVLENBQUMsRUFBQyxTQUFRLFNBQVQsRUFBbUIsZ0JBQWUsU0FBbEMsRUFBNEMsU0FBUSxNQUFwRCxFQUEyRCxZQUFXLE1BQXRFLEVBQTZFLFdBQVUsdUJBQXZGLEVBQStHLFFBQU8sR0FBdEgsRUFBRCxFQUE0SCxFQUFDLFNBQVEsU0FBVCxFQUFtQixnQkFBZSxTQUFsQyxFQUE0QyxTQUFRLE9BQXBELEVBQTRELFlBQVcsTUFBdkUsRUFBOEUsV0FBVSx1QkFBeEYsRUFBZ0gsUUFBTyxHQUF2SCxFQUE1SCxDQUFYLEVBQTFFLEVBQStVLG1CQUFrQixFQUFDLGNBQWEsOEJBQWQsRUFBalcsRUFBK1ksNkJBQTRCLEVBQTNhLEVBQTFpQyxFQUF5OUMsbUJBQWtCLEVBQUMsbUJBQWtCLEVBQW5CLEVBQXNCLDZCQUE0QixFQUFsRCxFQUEzK0MsRUFBaWlELHVCQUFzQixFQUFDLG1CQUFrQixNQUFuQixFQUEwQixjQUFhLEVBQUMsa0JBQWlCLEtBQWxCLEVBQXdCLGVBQWMsRUFBQyxTQUFRLE1BQVQsRUFBZ0IsbUJBQWtCLFNBQWxDLEVBQTRDLGdCQUFlLEtBQTNELEVBQWlFLGVBQWMsTUFBL0UsRUFBc0Ysb0JBQW1CLFNBQXpHLEVBQW1ILFlBQVcsS0FBOUgsRUFBdEMsRUFBMkssV0FBVSxDQUFDLEVBQUMsU0FBUSxTQUFULEVBQW1CLGdCQUFlLFNBQWxDLEVBQTRDLFNBQVEsT0FBcEQsRUFBNEQsWUFBVyxNQUF2RSxFQUE4RSxRQUFPLElBQXJGLEVBQUQsQ0FBckwsRUFBdkMsRUFBMFQsbUJBQWtCLEVBQTVVLEVBQStVLDZCQUE0QixFQUEzVyxFQUF2akQsRUFBczZELDZCQUE0QixFQUFDLGNBQWEsS0FBZCxFQUFvQixtQkFBa0IsRUFBQyxnQkFBZSxxQ0FBaEIsRUFBc0QsZ0JBQWUsaUNBQXJFLEVBQXVHLGFBQVksaUNBQW5ILEVBQXRDLEVBQTRMLDZCQUE0QixFQUFDLGVBQWMscUNBQWYsRUFBcUQsYUFBWSxpQ0FBakUsRUFBeE4sRUFBbDhELEVBQSt2RSwyQkFBMEIsRUFBQywwQkFBeUIsTUFBMUIsRUFBaUMsVUFBUyxNQUExQyxFQUFpRCxtQkFBa0IsRUFBQyxtQkFBa0IsbUNBQW5CLEVBQXVELGFBQVksOEJBQW5FLEVBQWtHLFlBQVcsNkJBQTdHLEVBQTJJLGNBQWEsNkJBQXhKLEVBQW5FLEVBQTBQLDZCQUE0QixFQUF0UixFQUF6eEUsRUFBbWpGLG1DQUFrQyxFQUFDLHlCQUF3QixJQUF6QixFQUE4QixtQkFBa0IsTUFBaEQsRUFBdUQsY0FBYSxFQUFDLFFBQU8sYUFBUixFQUFzQixXQUFVLENBQUMsRUFBQyxRQUFPLE1BQVIsRUFBRCxDQUFoQyxFQUFwRSxFQUF1SCxtQkFBa0IsRUFBQyxjQUFhLDhCQUFkLEVBQTZDLG1CQUFrQixtQ0FBL0QsRUFBbUcsZUFBYyxnQ0FBakgsRUFBa0osYUFBWSw4QkFBOUosRUFBekksRUFBdVUsNkJBQTRCLEVBQW5XLEVBQXJsRixFQUFULEVBQXM4RixlQUFjLEVBQUMsMEJBQXlCLE9BQTFCLEVBQWtDLDBCQUF5QixPQUEzRCxFQUFtRSxnQ0FBK0IsU0FBbEcsRUFBNEcsbUJBQWtCLFNBQTlILEVBQXA5RixFIiwiZmlsZSI6IjcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJwYWdlc1wiOntcInBhZ2VzL2luZGV4L2luZGV4XCI6e1wiYm91bmNlXCI6XCJub25lXCIsXCJzY3JvbGxJbmRpY2F0b3JcIjpcIm5vbmVcIixcInRpdGxlTlZpZXdcIjp7XCJzZWFyY2hJbnB1dFwiOntcImFsaWduXCI6XCJjZW50ZXJcIixcImJhY2tncm91bmRDb2xvclwiOlwiI0Y3RjdGN1wiLFwiYm9yZGVyUmFkaXVzXCI6XCI0cHhcIixcInBsYWNlaG9sZGVyXCI6XCLmkJzntKLns5fkuotcIixcInBsYWNlaG9sZGVyQ29sb3JcIjpcIiNDQ0NDQ0NcIixcImRpc2FibGVkXCI6dHJ1ZX0sXCJidXR0b25zXCI6W3tcImNvbG9yXCI6XCIjRkY5NjE5XCIsXCJjb2xvclByZXNzZWRcIjpcIiNCQkJCQkJcIixcImZsb2F0XCI6XCJsZWZ0XCIsXCJmb250U2l6ZVwiOlwiMjJweFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJ0ZXh0XCI6XCLumIlcIn0se1wiY29sb3JcIjpcIiMwMDAwMDBcIixcImNvbG9yUHJlc3NlZFwiOlwiI0JCQkJCQlwiLFwiZmxvYXRcIjpcInJpZ2h0XCIsXCJmb250U2l6ZVwiOlwiMjJweFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJ0ZXh0XCI6XCLumZNcIn1dfSxcInVzaW5nQ29tcG9uZW50c1wiOntcImluZGV4LWxpc3RcIjpcIi9jb21wb25lbnRzL2luZGV4L2luZGV4LWxpc3RcIixcInN3aXBlci10YWItaGVhZFwiOlwiL2NvbXBvbmVudHMvaW5kZXgvc3dpcGVyLXRhYi1oZWFkXCIsXCJsb2FkLW1vcmVcIjpcIi9jb21wb25lbnRzL2NvbW1vbi9sb2FkLW1vcmVcIixcIm5vLXRoaW5nXCI6XCIvY29tcG9uZW50cy9jb21tb24vbm8tdGhpbmdcIn0sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvbmV3cy9uZXdzXCI6e1widGl0bGVOVmlld1wiOmZhbHNlLFwiYm91bmNlXCI6XCJub25lXCIsXCJ1c2luZ0NvbXBvbmVudHNcIjp7XCJjb21tb24tbGlzdFwiOlwiL2NvbXBvbmVudHMvY29tbW9uL2NvbW1vbi1saXN0XCIsXCJuZXdzLW5hdi1iYXJcIjpcIi9jb21wb25lbnRzL25ld3MvbmV3cy1uYXYtYmFyXCIsXCJsb2FkLW1vcmVcIjpcIi9jb21wb25lbnRzL2NvbW1vbi9sb2FkLW1vcmVcIixcInRvcGljLW5hdlwiOlwiL2NvbXBvbmVudHMvbmV3cy90b3BpYy1uYXZcIixcInRvcGljLWxpc3RcIjpcIi9jb21wb25lbnRzL25ld3MvdG9waWMtbGlzdFwifSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX0sXCJwYWdlcy9wYXBlci9wYXBlclwiOntcImVuYWJsZVB1bGxEb3duUmVmcmVzaFwiOnRydWUsXCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLlsI/nurjmnaFcIixcInRpdGxlTlZpZXdcIjp7XCJidXR0b25zXCI6W3tcImNvbG9yXCI6XCIjMDAwMDAwXCIsXCJjb2xvclByZXNzZWRcIjpcIiNCQkJCQkJcIixcImZsb2F0XCI6XCJsZWZ0XCIsXCJmb250U2l6ZVwiOlwiMjJweFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJ0ZXh0XCI6XCLuoYVcIn0se1wiY29sb3JcIjpcIiMwMDAwMDBcIixcImNvbG9yUHJlc3NlZFwiOlwiI0JCQkJCQlwiLFwiZmxvYXRcIjpcInJpZ2h0XCIsXCJmb250U2l6ZVwiOlwiMjJweFwiLFwiZm9udFNyY1wiOlwiL3N0YXRpYy9mb250L2ljb24udHRmXCIsXCJ0ZXh0XCI6XCLumoRcIn1dfSxcInVzaW5nQ29tcG9uZW50c1wiOntcInBhcGVyLWxpc3RcIjpcIi9jb21wb25lbnRzL3BhcGVyL3BhcGVyLWxpc3RcIn0sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvaG9tZS9ob21lXCI6e1widXNpbmdDb21wb25lbnRzXCI6e30sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvc2VhcmNoL3NlYXJjaFwiOntcInNjcm9sbEluZGljYXRvclwiOlwibm9uZVwiLFwidGl0bGVOVmlld1wiOntcImF1dG9CYWNrQnV0dG9uXCI6ZmFsc2UsXCJzZWFyY2hJbnB1dFwiOntcImFsaWduXCI6XCJsZWZ0XCIsXCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiNGN0Y3RjdcIixcImJvcmRlclJhZGl1c1wiOlwiNHB4XCIsXCJwbGFjZWhvbGRlclwiOlwi5pCc57Si57OX5LqLXCIsXCJwbGFjZWhvbGRlckNvbG9yXCI6XCIjQ0NDQ0NDXCIsXCJkaXNhYmxlZFwiOmZhbHNlfSxcImJ1dHRvbnNcIjpbe1wiY29sb3JcIjpcIiMwMDAwMDBcIixcImNvbG9yUHJlc3NlZFwiOlwiI0JCQkJCQlwiLFwiZmxvYXRcIjpcInJpZ2h0XCIsXCJmb250U2l6ZVwiOlwiMTZweFwiLFwidGV4dFwiOlwi5Y+W5raIXCJ9XX0sXCJ1c2luZ0NvbXBvbmVudHNcIjp7fSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX0sXCJwYWdlcy9hZGQtaW5wdXQvYWRkLWlucHV0XCI6e1widGl0bGVOVmlld1wiOmZhbHNlLFwidXNpbmdDb21wb25lbnRzXCI6e1widW5pLW5hdi1iYXJ2XCI6XCIvY29tcG9uZW50cy91bmktbmF2LWJhci91bmktbmF2LWJhclwiLFwidXBsb3VkLWltYWdzXCI6XCIvY29tcG9uZW50cy9jb21tb24vdXBsb3VkLWltYWdzXCIsXCJ1bmktcG9wdXBcIjpcIi9jb21wb25lbnRzL3VuaS1wb3B1cC91bmktcG9wdXBcIn0sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e1widW5pLW5hdi1iYXJcIjpcIi9jb21wb25lbnRzL3VuaS1uYXYtYmFyL3VuaS1uYXYtYmFyXCIsXCJ1bmktcG9wdXBcIjpcIi9jb21wb25lbnRzL3VuaS1wb3B1cC91bmktcG9wdXBcIn19LFwicGFnZXMvdG9waWNuYXYvdG9waWNuYXZcIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLor53popjliIbnsbtcIixcImJvdW5jZVwiOlwibm9uZVwiLFwidXNpbmdDb21wb25lbnRzXCI6e1wic3dpcGVyLXRhYi1oZWFkXCI6XCIvY29tcG9uZW50cy9pbmRleC9zd2lwZXItdGFiLWhlYWRcIixcImxvYWQtbW9yZVwiOlwiL2NvbXBvbmVudHMvY29tbW9uL2xvYWQtbW9yZVwiLFwibm8tdGhpbmdcIjpcIi9jb21wb25lbnRzL2NvbW1vbi9uby10aGluZ1wiLFwidG9waWMtbGlzdFwiOlwiL2NvbXBvbmVudHMvbmV3cy90b3BpYy1saXN0XCJ9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOnt9fSxcInBhZ2VzL3RvcGljLWRldGFpbC90b3BpYy1kZXRhaWxcIjp7XCJlbmFibGVQdWxsRG93blJlZnJlc2hcIjp0cnVlLFwic2Nyb2xsSW5kaWNhdG9yXCI6XCJub25lXCIsXCJ0aXRsZU5WaWV3XCI6e1widHlwZVwiOlwidHJhbnNwYXJlbnRcIixcImJ1dHRvbnNcIjpbe1widHlwZVwiOlwibWVudVwifV19LFwidXNpbmdDb21wb25lbnRzXCI6e1widG9waWMtaW5mb1wiOlwiL2NvbXBvbmVudHMvdG9waWMvdG9waWMtaW5mb1wiLFwic3dpcGVyLXRhYi1oZWFkXCI6XCIvY29tcG9uZW50cy9pbmRleC9zd2lwZXItdGFiLWhlYWRcIixcImNvbW1vbi1saXN0XCI6XCIvY29tcG9uZW50cy9jb21tb24vY29tbW9uLWxpc3RcIixcImxvYWQtbW9yZVwiOlwiL2NvbXBvbmVudHMvY29tbW9uL2xvYWQtbW9yZVwifSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX19LFwiZ2xvYmFsU3R5bGVcIjp7XCJuYXZpZ2F0aW9uQmFyVGV4dFN0eWxlXCI6XCJibGFja1wiLFwibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi5Lu/57OX5LqL55m+56eRXCIsXCJuYXZpZ2F0aW9uQmFyQmFja2dyb3VuZENvbG9yXCI6XCIjRkZGRkZGXCIsXCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiNGRkZGRkZcIn19Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///7\n");
 
 /***/ }),
 
@@ -3399,6 +3439,105 @@ define('components/news/topic-nav.js',function(require, module, exports, window,
 [['components/news/topic-nav-create-component']]]);
 });
 require('components/news/topic-nav.js');
+__wxRoute = 'components/paper/paper-list';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/paper/paper-list.js';
+
+define('components/paper/paper-list.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["components/paper/paper-list"], {
+
+  /***/209:
+  /*!*****************************************************************************!*\
+              !*** /Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue ***!
+              \*****************************************************************************/
+  /*! no static exports found */
+  /***/function _(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./paper-list.vue?vue&type=template&id=96a3508a&scoped=true& */ 210);\n/* harmony import */ var _paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./paper-list.vue?vue&type=script&lang=js& */ 212);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./paper-list.vue?vue&type=style&index=0&id=96a3508a&scoped=true&lang=css& */ 214);\n/* harmony import */ var _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 15);\n\nvar renderjs\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"96a3508a\",\n  null,\n  false,\n  _paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"components\"],\n  renderjs\n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"Documents/-11/仿糗事百科/components/paper/paper-list.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFtSTtBQUNuSTtBQUM4RDtBQUNMO0FBQ3FDOzs7QUFHOUY7QUFDMk07QUFDM00sZ0JBQWdCLGtOQUFVO0FBQzFCLEVBQUUsZ0ZBQU07QUFDUixFQUFFLGlHQUFNO0FBQ1IsRUFBRSwwR0FBZTtBQUNqQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsRUFBRSxxR0FBVTtBQUNaO0FBQ0E7O0FBRUE7QUFDQSxJQUFJLEtBQVUsRUFBRSxZQWlCZjtBQUNEO0FBQ2UsZ0YiLCJmaWxlIjoiMjA5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMsIHJlY3ljbGFibGVSZW5kZXIsIGNvbXBvbmVudHMgfSBmcm9tIFwiLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD05NmEzNTA4YSZzY29wZWQ9dHJ1ZSZcIlxudmFyIHJlbmRlcmpzXG5pbXBvcnQgc2NyaXB0IGZyb20gXCIuL3BhcGVyLWxpc3QudnVlP3Z1ZSZ0eXBlPXNjcmlwdCZsYW5nPWpzJlwiXG5leHBvcnQgKiBmcm9tIFwiLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyZcIlxuaW1wb3J0IHN0eWxlMCBmcm9tIFwiLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT1zdHlsZSZpbmRleD0wJmlkPTk2YTM1MDhhJnNjb3BlZD10cnVlJmxhbmc9Y3NzJlwiXG5cblxuLyogbm9ybWFsaXplIGNvbXBvbmVudCAqL1xuaW1wb3J0IG5vcm1hbGl6ZXIgZnJvbSBcIiEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3Z1ZS1jbGktcGx1Z2luLXVuaS9wYWNrYWdlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBcIjk2YTM1MDhhXCIsXG4gIG51bGwsXG4gIGZhbHNlLFxuICBjb21wb25lbnRzLFxuICByZW5kZXJqc1xuKVxuXG4vKiBob3QgcmVsb2FkICovXG5pZiAobW9kdWxlLmhvdCkge1xuICB2YXIgYXBpID0gcmVxdWlyZShcIi9Vc2Vycy9ob25nbGlwaW5nL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy92dWUtaG90LXJlbG9hZC1hcGkvZGlzdC9pbmRleC5qc1wiKVxuICBhcGkuaW5zdGFsbChyZXF1aXJlKCd2dWUnKSlcbiAgaWYgKGFwaS5jb21wYXRpYmxlKSB7XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoKVxuICAgIGlmICghYXBpLmlzUmVjb3JkZWQoJzk2YTM1MDhhJykpIHtcbiAgICAgIGFwaS5jcmVhdGVSZWNvcmQoJzk2YTM1MDhhJywgY29tcG9uZW50Lm9wdGlvbnMpXG4gICAgfSBlbHNlIHtcbiAgICAgIGFwaS5yZWxvYWQoJzk2YTM1MDhhJywgY29tcG9uZW50Lm9wdGlvbnMpXG4gICAgfVxuICAgIG1vZHVsZS5ob3QuYWNjZXB0KFwiLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD05NmEzNTA4YSZzY29wZWQ9dHJ1ZSZcIiwgZnVuY3Rpb24gKCkge1xuICAgICAgYXBpLnJlcmVuZGVyKCc5NmEzNTA4YScsIHtcbiAgICAgICAgcmVuZGVyOiByZW5kZXIsXG4gICAgICAgIHN0YXRpY1JlbmRlckZuczogc3RhdGljUmVuZGVyRm5zXG4gICAgICB9KVxuICAgIH0pXG4gIH1cbn1cbmNvbXBvbmVudC5vcHRpb25zLl9fZmlsZSA9IFwiRG9jdW1lbnRzLy0xMS/ku7/ns5fkuovnmb7np5EvY29tcG9uZW50cy9wYXBlci9wYXBlci1saXN0LnZ1ZVwiXG5leHBvcnQgZGVmYXVsdCBjb21wb25lbnQuZXhwb3J0cyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///209\n");
+
+    /***/},
+
+  /***/210:
+  /*!************************************************************************************************************************!*\
+              !*** /Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue?vue&type=template&id=96a3508a&scoped=true& ***!
+              \************************************************************************************************************************/
+  /*! exports provided: render, staticRenderFns, recyclableRender, components */
+  /***/function _(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./paper-list.vue?vue&type=template&id=96a3508a&scoped=true& */ 211);\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"recyclableRender\", function() { return _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"recyclableRender\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"components\", function() { return _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_template_id_96a3508a_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"components\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBIiwiZmlsZSI6IjIxMC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvdGVtcGxhdGVMb2FkZXIuanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3Z1ZS1jbGktcGx1Z2luLXVuaS9wYWNrYWdlcy93ZWJwYWNrLXByZXByb2Nlc3MtbG9hZGVyL2luZGV4LmpzPz9yZWYtLTE2LTAhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby93ZWJwYWNrLXVuaS1tcC1sb2FkZXIvbGliL3RlbXBsYXRlLmpzIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3dlYnBhY2stdW5pLWFwcC1sb2FkZXIvcGFnZS1tZXRhLmpzIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby93ZWJwYWNrLXVuaS1tcC1sb2FkZXIvbGliL3N0eWxlLmpzIS4vcGFwZXItbGlzdC52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9OTZhMzUwOGEmc2NvcGVkPXRydWUmXCIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///210\n");
+
+    /***/},
+
+  /***/211:
+  /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+              !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!/Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue?vue&type=template&id=96a3508a&scoped=true& ***!
+              \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+  /*! exports provided: render, staticRenderFns, recyclableRender, components */
+  /***/function _(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"recyclableRender\", function() { return recyclableRender; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"components\", function() { return components; });\nvar components = {\n  \"uni-badge\": () =>\n    __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ \"components/uni-badge/uni-badge\").then(__webpack_require__.bind(null, /*! @/components/uni-badge/uni-badge.vue */ 190))\n}\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n}\nvar recyclableRender = false\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0EsSUFBSSw4TEFBdUc7QUFDM0c7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6IjIxMS5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBjb21wb25lbnRzID0ge1xuICBcInVuaS1iYWRnZVwiOiAoKSA9PlxuICAgIGltcG9ydCgvKiB3ZWJwYWNrQ2h1bmtOYW1lOiBcImNvbXBvbmVudHMvdW5pLWJhZGdlL3VuaS1iYWRnZVwiICovIFwiQC9jb21wb25lbnRzL3VuaS1iYWRnZS91bmktYmFkZ2UudnVlXCIpXG59XG52YXIgcmVuZGVyID0gZnVuY3Rpb24oKSB7XG4gIHZhciBfdm0gPSB0aGlzXG4gIHZhciBfaCA9IF92bS4kY3JlYXRlRWxlbWVudFxuICB2YXIgX2MgPSBfdm0uX3NlbGYuX2MgfHwgX2hcbn1cbnZhciByZWN5Y2xhYmxlUmVuZGVyID0gZmFsc2VcbnZhciBzdGF0aWNSZW5kZXJGbnMgPSBbXVxucmVuZGVyLl93aXRoU3RyaXBwZWQgPSB0cnVlXG5cbmV4cG9ydCB7IHJlbmRlciwgc3RhdGljUmVuZGVyRm5zLCByZWN5Y2xhYmxlUmVuZGVyLCBjb21wb25lbnRzIH0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///211\n");
+
+    /***/},
+
+  /***/212:
+  /*!******************************************************************************************************!*\
+              !*** /Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue?vue&type=script&lang=js& ***!
+              \******************************************************************************************************/
+  /*! no static exports found */
+  /***/function _(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./paper-list.vue?vue&type=script&lang=js& */ 213);\n/* harmony import */ var _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQSt5QixDQUFnQiw2eUJBQUcsRUFBQyIsImZpbGUiOiIyMTIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgbW9kIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9iYWJlbC1sb2FkZXIvbGliL2luZGV4LmpzIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3dlYnBhY2stcHJlcHJvY2Vzcy1sb2FkZXIvaW5kZXguanM/P3JlZi0tMTItMSEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3dlYnBhY2stdW5pLW1wLWxvYWRlci9saWIvc2NyaXB0LmpzIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby93ZWJwYWNrLXVuaS1tcC1sb2FkZXIvbGliL3N0eWxlLmpzIS4vcGFwZXItbGlzdC52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCI7IGV4cG9ydCBkZWZhdWx0IG1vZDsgZXhwb3J0ICogZnJvbSBcIi0hLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL2JhYmVsLWxvYWRlci9saWIvaW5kZXguanMhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby92dWUtY2xpLXBsdWdpbi11bmkvcGFja2FnZXMvd2VicGFjay1wcmVwcm9jZXNzLWxvYWRlci9pbmRleC5qcz8/cmVmLS0xMi0xIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vd2VicGFjay11bmktbXAtbG9hZGVyL2xpYi9zY3JpcHQuanMhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby92dWUtY2xpLXBsdWdpbi11bmkvcGFja2FnZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3dlYnBhY2stdW5pLW1wLWxvYWRlci9saWIvc3R5bGUuanMhLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyZcIiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///212\n");
+
+    /***/},
+
+  /***/213:
+  /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+              !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!/Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue?vue&type=script&lang=js& ***!
+              \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+  /*! no static exports found */
+  /***/function _(module, exports, __webpack_require__) {
+
+    "use strict";
+    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var unibadgei = function unibadgei() {return __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ \"components/uni-badge/uni-badge\").then(__webpack_require__.bind(null, /*! ../../components/uni-badge/uni-badge.vue */ 190));};var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  components: {\n    unibadgei: unibadgei },\n\n  props: {\n    item: Object,\n    index: Number } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tcG9uZW50cy9wYXBlci9wYXBlci1saXN0LnZ1ZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7OztBQWlCQTtBQUNBO0FBQ0Esd0JBREEsRUFEQTs7QUFJQTtBQUNBLGdCQURBO0FBRUEsaUJBRkEsRUFKQSxFIiwiZmlsZSI6IjIxMy5qcyIsInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cblx0PHZpZXcgY2xhc3M9XCJwYXBvZXItbGlzdCB1LWYtYWNcIj5cblx0XHQ8aW1hZ2UgOnNyYz1cIml0ZW0udXNlcnBpY1wiIG1vZGU9XCJ3aWR0aEZpeFwiIGxhenktbG9hZD48L2ltYWdlPlxuXHRcdDx2aWV3PlxuXHRcdFx0PHZpZXcgY2xhc3M9XCJ1LWYtYWMgdS1mLWpzYlwiPnt7aXRlbS51c2VybmFtZX19IDx2aWV3PjEwOjEyPC92aWV3Pjwvdmlldz5cblx0XHRcdDx2aWV3IGNsYXNzPVwidS1mLWFjIHUtZi1qc2JcIj5cblx0XHRcdHt7aXRlbS5kYXRhfX1cblx0XHRcdDx0ZW1wbGF0ZSB2LWlmPVwiaXRlbS5ub3JlYWRudW0+MFwiPlxuXHRcdFx0XHQ8dW5pLWJhZGdlICA6dGV4dD1cIml0ZW0ubm9yZWFkbnVtXCIgdHlwZT1cImVycm9yXCIgLz5cblx0XHRcdDwvdGVtcGxhdGU+XG5cdFx0XHQ8L3ZpZXc+XG5cdFx0PC92aWV3PlxuXHQ8L3ZpZXc+XG48L3RlbXBsYXRlPlxuXG48c2NyaXB0PlxuXHRpbXBvcnQgdW5pYmFkZ2VpIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL3VuaS1iYWRnZS91bmktYmFkZ2UudnVlXCJcblx0ZXhwb3J0IGRlZmF1bHQge1xuXHRcdGNvbXBvbmVudHM6e1xuXHRcdFx0dW5pYmFkZ2VpXG5cdFx0fSxcblx0XHRwcm9wczp7XG5cdFx0XHRpdGVtOk9iamVjdCxcblx0XHRcdGluZGV4Ok51bWJlclxuXHRcdH1cblx0fVxuPC9zY3JpcHQ+XG5cbjxzdHlsZSBzY29wZWQ+XG5cdC5wYXBvZXItbGlzdHtcblx0XHRib3JkZXItYm90dG9tOiAxdXB4IHNvbGlkICNFRUVFRUU7XG5cdFx0cGFkZGluZzogMCAyMHVweCAxMHVweCAwO1xuXHR9XG5cdC5wYXBvZXItbGlzdD5pbWFnZXtcblx0XHR3aWR0aDogMTAwdXB4O1xuXHRcdGhlaWdodDogMTAwdXB4O1xuXHRcdGJvcmRlci1yYWRpdXM6IDEwMCU7XG5cdFx0bWFyZ2luLXJpZ2h0OiAyMHVweDtcblx0XHRmbGV4LXNocmluazogMDtcblx0fVxuXHQucGFwb2VyLWxpc3Q+dmlld3tcblx0XHRmbGV4OiAxO1xuXHR9XG5cdC5wYXBvZXItbGlzdD52aWV3PnZpZXc6Zmlyc3QtY2hpbGR7XG5cdFx0Zm9udC1zaXplOiAzNXVweDtcblx0fVxuXHQucGFwb2VyLWxpc3Q+dmlldz52aWV3OmZpcnN0LWNoaWxkPnZpZXd7XG5cdFx0Y29sb3I6ICNDQkNCQ0I7XG5cdH1cblx0LnBhcG9lci1saXN0PnZpZXc+dmlldzpsYXN0LWNoaWxke1xuXHRcdGNvbG9yOiAjOTk5OTk5O1xuXHR9XG48L3N0eWxlPlxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///213\n");
+
+    /***/},
+
+  /***/214:
+  /*!**************************************************************************************************************************************!*\
+              !*** /Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue?vue&type=style&index=0&id=96a3508a&scoped=true&lang=css& ***!
+              \**************************************************************************************************************************************/
+  /*! no static exports found */
+  /***/function _(module, __webpack_exports__, __webpack_require__) {
+
+    "use strict";
+    eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--6-oneOf-1-2!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../Desktop/HBuilderX-Alpha.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./paper-list.vue?vue&type=style&index=0&id=96a3508a&scoped=true&lang=css& */ 215);\n/* harmony import */ var _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_Desktop_HBuilderX_Alpha_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_paper_list_vue_vue_type_style_index_0_id_96a3508a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQXVxQyxDQUFnQixpb0NBQUcsRUFBQyIsImZpbGUiOiIyMTQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgbW9kIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9kaXN0L2xvYWRlci5qcz8/cmVmLS02LW9uZU9mLTEtMCEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3Z1ZS1jbGktcGx1Z2luLXVuaS9wYWNrYWdlcy93ZWJwYWNrLXByZXByb2Nlc3MtbG9hZGVyL2luZGV4LmpzPz9yZWYtLTYtb25lT2YtMS0xIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9jc3MtbG9hZGVyL2luZGV4LmpzPz9yZWYtLTYtb25lT2YtMS0yIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvc3R5bGVQb3N0TG9hZGVyLmpzIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9wb3N0Y3NzLWxvYWRlci9zcmMvaW5kZXguanM/P3JlZi0tNi1vbmVPZi0xLTMhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby92dWUtY2xpLXBsdWdpbi11bmkvcGFja2FnZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3dlYnBhY2stdW5pLW1wLWxvYWRlci9saWIvc3R5bGUuanMhLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT1zdHlsZSZpbmRleD0wJmlkPTk2YTM1MDhhJnNjb3BlZD10cnVlJmxhbmc9Y3NzJlwiOyBleHBvcnQgZGVmYXVsdCBtb2Q7IGV4cG9ydCAqIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9kaXN0L2xvYWRlci5qcz8/cmVmLS02LW9uZU9mLTEtMCEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3Z1ZS1jbGktcGx1Z2luLXVuaS9wYWNrYWdlcy93ZWJwYWNrLXByZXByb2Nlc3MtbG9hZGVyL2luZGV4LmpzPz9yZWYtLTYtb25lT2YtMS0xIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9jc3MtbG9hZGVyL2luZGV4LmpzPz9yZWYtLTYtb25lT2YtMS0yIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdnVlLWNsaS1wbHVnaW4tdW5pL3BhY2thZ2VzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvc3R5bGVQb3N0TG9hZGVyLmpzIS4uLy4uLy4uLy4uLy4uL0Rlc2t0b3AvSEJ1aWxkZXJYLUFscGhhLmFwcC9Db250ZW50cy9IQnVpbGRlclgvcGx1Z2lucy91bmlhcHAtY2xpL25vZGVfbW9kdWxlcy9wb3N0Y3NzLWxvYWRlci9zcmMvaW5kZXguanM/P3JlZi0tNi1vbmVPZi0xLTMhLi4vLi4vLi4vLi4vLi4vRGVza3RvcC9IQnVpbGRlclgtQWxwaGEuYXBwL0NvbnRlbnRzL0hCdWlsZGVyWC9wbHVnaW5zL3VuaWFwcC1jbGkvbm9kZV9tb2R1bGVzL0BkY2xvdWRpby92dWUtY2xpLXBsdWdpbi11bmkvcGFja2FnZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuLi8uLi8uLi8uLi8uLi9EZXNrdG9wL0hCdWlsZGVyWC1BbHBoYS5hcHAvQ29udGVudHMvSEJ1aWxkZXJYL3BsdWdpbnMvdW5pYXBwLWNsaS9ub2RlX21vZHVsZXMvQGRjbG91ZGlvL3dlYnBhY2stdW5pLW1wLWxvYWRlci9saWIvc3R5bGUuanMhLi9wYXBlci1saXN0LnZ1ZT92dWUmdHlwZT1zdHlsZSZpbmRleD0wJmlkPTk2YTM1MDhhJnNjb3BlZD10cnVlJmxhbmc9Y3NzJlwiIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///214\n");
+
+    /***/},
+
+  /***/215:
+  /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+              !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!/Users/hongliping/Documents/-11/仿糗事百科/components/paper/paper-list.vue?vue&type=style&index=0&id=96a3508a&scoped=true&lang=css& ***!
+              \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+  /*! no static exports found */
+  /***/function _(module, exports, __webpack_require__) {
+
+    eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6IjIxNS5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///215\n");
+
+    /***/} }]);
+
+
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+'components/paper/paper-list-create-component',
+{
+  'components/paper/paper-list-create-component': function componentsPaperPaperListCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('1')['createComponent'](__webpack_require__(209));
+  } },
+
+[['components/paper/paper-list-create-component']]]);
+});
+require('components/paper/paper-list.js');
 __wxRoute = 'components/topic/topic-info';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/topic/topic-info.js';
 
 define('components/topic/topic-info.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -4357,7 +4496,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Des
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"recyclableRender\", function() { return recyclableRender; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"components\", function() { return components; });\nvar components = {\n  \"uni-badge\": () =>\n    __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ \"components/uni-badge/uni-badge\").then(__webpack_require__.bind(null, /*! @/components/uni-badge/uni-badge.vue */ 190))\n}\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n}\nvar recyclableRender = false\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0EsSUFBSSw4TEFBdUc7QUFDM0c7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6IjMzLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIGNvbXBvbmVudHMgPSB7XG4gIFwidW5pLWJhZGdlXCI6ICgpID0+XG4gICAgaW1wb3J0KC8qIHdlYnBhY2tDaHVua05hbWU6IFwiY29tcG9uZW50cy91bmktYmFkZ2UvdW5pLWJhZGdlXCIgKi8gXCJAL2NvbXBvbmVudHMvdW5pLWJhZGdlL3VuaS1iYWRnZS52dWVcIilcbn1cbnZhciByZW5kZXIgPSBmdW5jdGlvbigpIHtcbiAgdmFyIF92bSA9IHRoaXNcbiAgdmFyIF9oID0gX3ZtLiRjcmVhdGVFbGVtZW50XG4gIHZhciBfYyA9IF92bS5fc2VsZi5fYyB8fCBfaFxufVxudmFyIHJlY3ljbGFibGVSZW5kZXIgPSBmYWxzZVxudmFyIHN0YXRpY1JlbmRlckZucyA9IFtdXG5yZW5kZXIuX3dpdGhTdHJpcHBlZCA9IHRydWVcblxuZXhwb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMsIHJlY3ljbGFibGVSZW5kZXIsIGNvbXBvbmVudHMgfSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///33\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"recyclableRender\", function() { return recyclableRender; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"components\", function() { return components; });\nvar components\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n}\nvar recyclableRender = false\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiMzMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgY29tcG9uZW50c1xudmFyIHJlbmRlciA9IGZ1bmN0aW9uKCkge1xuICB2YXIgX3ZtID0gdGhpc1xuICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG59XG52YXIgcmVjeWNsYWJsZVJlbmRlciA9IGZhbHNlXG52YXIgc3RhdGljUmVuZGVyRm5zID0gW11cbnJlbmRlci5fd2l0aFN0cmlwcGVkID0gdHJ1ZVxuXG5leHBvcnQgeyByZW5kZXIsIHN0YXRpY1JlbmRlckZucywgcmVjeWNsYWJsZVJlbmRlciwgY29tcG9uZW50cyB9Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///33\n");
 
 /***/ }),
 
@@ -4381,7 +4520,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Des
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var unibadgei = function unibadgei() {return __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ \"components/uni-badge/uni-badge\").then(__webpack_require__.bind(null, /*! ../../components/uni-badge/uni-badge.vue */ 190));};var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  components: {\n    unibadgei: unibadgei },\n\n  data: function data() {\n    return {};\n\n\n  } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvcGFwZXIvcGFwZXIudnVlIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFnQkE7QUFDQTtBQUNBLHdCQURBLEVBREE7O0FBSUEsTUFKQSxrQkFJQTtBQUNBOzs7QUFHQSxHQVJBLEUiLCJmaWxlIjoiMzUuanMiLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XG5cdDx2aWV3IGNsYXNzPVwiYm9keVwiPlxuXHRcdDwhLS0g5bCP57q45p2h5YiX6KGoIC0tPlxuXHRcdDx2aWV3IGNsYXNzPVwicGFwb2VyLWxpc3QgdS1mLWFjXCI+XG5cdFx0XHQ8aW1hZ2Ugc3JjPVwiLi4vLi4vc3RhdGljL2RlbW8vdXNlcnBpYy84LmpwZ1wiIG1vZGU9XCJ3aWR0aEZpeFwiIGxhenktbG9hZD48L2ltYWdlPlxuXHRcdFx0PHZpZXc+XG5cdFx0XHRcdDx2aWV3IGNsYXNzPVwidS1mLWFjIHUtZi1qc2JcIj7mmLXnp7AgPHZpZXc+MTA6MTI8L3ZpZXc+PC92aWV3PlxuXHRcdFx0XHQ8dmlldyBjbGFzcz1cInUtZi1hYyB1LWYtanNiXCI+5oiR5piv5L+h5oGvPHVuaS1iYWRnZSAgdGV4dD1cIjFcIiB0eXBlPVwiZXJyb3JcIiAvPjwvdmlldz5cblx0XHRcdDwvdmlldz5cblx0XHQ8L3ZpZXc+XG5cdFx0XG5cdDwvdmlldz5cbjwvdGVtcGxhdGU+XG5cbjxzY3JpcHQ+XG5cdGltcG9ydCB1bmliYWRnZWkgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvdW5pLWJhZGdlL3VuaS1iYWRnZS52dWVcIlxuXHRleHBvcnQgZGVmYXVsdCB7XG5cdFx0Y29tcG9uZW50czp7XG5cdFx0XHR1bmliYWRnZWlcblx0XHR9LFxuXHRcdGRhdGEoKSB7XG5cdFx0XHRyZXR1cm4ge1xuXHRcdFx0XHRcblx0XHRcdH07XG5cdFx0fVxuXHR9XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuXHQuYm9keXtcblx0XHRwYWRkaW5nOiAwIDIwdXB4O1xuXHR9XG5cdC5wYXBvZXItbGlzdHtcblx0XHRib3JkZXItYm90dG9tOiAxdXB4IHNvbGlkICNFRUVFRUU7XG5cdFx0cGFkZGluZzogMCAyMHVweCAxMHVweCAwO1xuXHR9XG5cdC5wYXBvZXItbGlzdD5pbWFnZXtcblx0XHR3aWR0aDogMTAwdXB4O1xuXHRcdGhlaWdodDogMTAwdXB4O1xuXHRcdGJvcmRlci1yYWRpdXM6IDEwMCU7XG5cdFx0bWFyZ2luLXJpZ2h0OiAyMHVweDtcblx0XHRmbGV4LXNocmluazogMDtcblx0fVxuXHQucGFwb2VyLWxpc3Q+dmlld3tcblx0XHRmbGV4OiAxO1xuXHR9XG5cdC5wYXBvZXItbGlzdD52aWV3PnZpZXc6Zmlyc3QtY2hpbGR7XG5cdFx0Zm9udC1zaXplOiAzNXVweDtcblx0fVxuXHQucGFwb2VyLWxpc3Q+dmlldz52aWV3OmZpcnN0LWNoaWxkPnZpZXd7XG5cdFx0Y29sb3I6ICNDQkNCQ0I7XG5cdH1cblx0LnBhcG9lci1saXN0PnZpZXc+dmlldzpsYXN0LWNoaWxke1xuXHRcdGNvbG9yOiAjOTk5OTk5O1xuXHR9XG48L3N0eWxlPlxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///35\n");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var paperList = function paperList() {return __webpack_require__.e(/*! import() | components/paper/paper-list */ \"components/paper/paper-list\").then(__webpack_require__.bind(null, /*! ../../components/paper/paper-list.vue */ 209));};var _default =\n\n\n\n\n\n\n\n\n\n\n\n{\n  components: {\n    paperList: paperList },\n\n  data: function data() {\n    return {\n      list: [\n      {\n        userpic: \"../../static/demo/userpic/8.jpg\",\n        username: \"一只英俊的小马\",\n        time: \"12:34\",\n        data: \"你在草原上奔跑嘛\",\n        noreadnum: \"1\" },\n\n      {\n        userpic: \"../../static/demo/userpic/8.jpg\",\n        username: \"一只英俊的小马\",\n        time: \"12:34\",\n        data: \"你在草原上奔跑嘛\",\n        noreadnum: \"0\" },\n\n      {\n        userpic: \"../../static/demo/userpic/8.jpg\",\n        username: \"一只英俊的小马\",\n        time: \"12:34\",\n        data: \"你在草原上奔跑嘛\",\n        noreadnum: \"0\" },\n\n      {\n        userpic: \"../../static/demo/userpic/8.jpg\",\n        username: \"一只英俊的小马\",\n        time: \"12:34\",\n        data: \"你在草原上奔跑嘛\",\n        noreadnum: \"11\" }] };\n\n\n\n  },\n  // 监听下拉刷新\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getdeta();\n  },\n  methods: {\n    // 获取数据\n    getdeta: function getdeta() {var _this = this;\n      setTimeout(function () {\n        // 服务器获取数据\n        var arr = [\n        {\n          userpic: \"../../static/demo/userpic/8.jpg\",\n          username: \"锦瑟\",\n          time: \"12:34\",\n          data: \"你在草原上奔跑嘛\",\n          noreadnum: \"1\" },\n\n        {\n          userpic: \"../../static/demo/userpic/8.jpg\",\n          username: \"一只英俊的小马\",\n          time: \"12:34\",\n          data: \"你在草原上奔跑嘛\",\n          noreadnum: \"1\" },\n\n        {\n          userpic: \"../../static/demo/userpic/8.jpg\",\n          username: \"一只英俊的小马\",\n          time: \"12:34\",\n          data: \"你在草原上奔跑嘛\",\n          noreadnum: \"1\" }];\n\n\n        // 赋值\n        _this.list = arr;\n        // 关闭下拉刷新\n        uni.stopPullDownRefresh();\n      }, 1000);\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvcGFwZXIvcGFwZXIudnVlIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQVlBO0FBQ0E7QUFDQSx3QkFEQSxFQURBOztBQUlBLE1BSkEsa0JBSUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrREFEQTtBQUVBLDJCQUZBO0FBR0EscUJBSEE7QUFJQSx3QkFKQTtBQUtBLHNCQUxBLEVBREE7O0FBUUE7QUFDQSxrREFEQTtBQUVBLDJCQUZBO0FBR0EscUJBSEE7QUFJQSx3QkFKQTtBQUtBLHNCQUxBLEVBUkE7O0FBZUE7QUFDQSxrREFEQTtBQUVBLDJCQUZBO0FBR0EscUJBSEE7QUFJQSx3QkFKQTtBQUtBLHNCQUxBLEVBZkE7O0FBc0JBO0FBQ0Esa0RBREE7QUFFQSwyQkFGQTtBQUdBLHFCQUhBO0FBSUEsd0JBSkE7QUFLQSx1QkFMQSxFQXRCQSxDQURBOzs7O0FBZ0NBLEdBckNBO0FBc0NBO0FBQ0EsbUJBdkNBLCtCQXVDQTtBQUNBO0FBQ0EsR0F6Q0E7QUEwQ0E7QUFDQTtBQUNBLFdBRkEscUJBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG9EQURBO0FBRUEsd0JBRkE7QUFHQSx1QkFIQTtBQUlBLDBCQUpBO0FBS0Esd0JBTEEsRUFEQTs7QUFRQTtBQUNBLG9EQURBO0FBRUEsNkJBRkE7QUFHQSx1QkFIQTtBQUlBLDBCQUpBO0FBS0Esd0JBTEEsRUFSQTs7QUFlQTtBQUNBLG9EQURBO0FBRUEsNkJBRkE7QUFHQSx1QkFIQTtBQUlBLDBCQUpBO0FBS0Esd0JBTEEsRUFmQTs7O0FBdUJBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsT0E3QkEsRUE2QkEsSUE3QkE7O0FBK0JBLEtBbENBLEVBMUNBLEUiLCJmaWxlIjoiMzUuanMiLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XG5cdDx2aWV3IGNsYXNzPVwiYm9keVwiPlxuXHRcdDwhLS0g5bCP57q45p2h5YiX6KGoIC0tPlxuXHRcdDxibG9jayB2LWZvcj1cIihpdGVtLGluZGV4KSBpbiBsaXN0XCIgOmtleT1cImluZGV4XCI+XG5cdFx0XHQ8cGFwZXItbGlzdCA6aXRlbT1cIml0ZW1cIiA6aW5kZXg9XCJpbmRleFwiPjwvcGFwZXItbGlzdD5cblx0XHQ8L2Jsb2NrPlxuXHQ8L3ZpZXc+XG48L3RlbXBsYXRlPlxuXG48c2NyaXB0PlxuXHRcblx0aW1wb3J0IHBhcGVyTGlzdCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9wYXBlci9wYXBlci1saXN0LnZ1ZVwiXG5cdGV4cG9ydCBkZWZhdWx0IHtcblx0XHRjb21wb25lbnRzOntcblx0XHRcdHBhcGVyTGlzdFxuXHRcdH0sXG5cdFx0ZGF0YSgpIHtcblx0XHRcdHJldHVybiB7XG5cdFx0XHRcdGxpc3Q6W1xuXHRcdFx0XHRcdHtcblx0XHRcdFx0XHRcdHVzZXJwaWM6XCIuLi8uLi9zdGF0aWMvZGVtby91c2VycGljLzguanBnXCIsXG5cdFx0XHRcdFx0XHR1c2VybmFtZTpcIuS4gOWPquiLseS/iueahOWwj+mprFwiLFxuXHRcdFx0XHRcdFx0dGltZTpcIjEyOjM0XCIsXG5cdFx0XHRcdFx0XHRkYXRhOlwi5L2g5Zyo6I2J5Y6f5LiK5aWU6LeR5ZibXCIsXG5cdFx0XHRcdFx0XHRub3JlYWRudW06XCIxXCJcblx0XHRcdFx0XHR9LFxuXHRcdFx0XHRcdHtcblx0XHRcdFx0XHRcdHVzZXJwaWM6XCIuLi8uLi9zdGF0aWMvZGVtby91c2VycGljLzguanBnXCIsXG5cdFx0XHRcdFx0XHR1c2VybmFtZTpcIuS4gOWPquiLseS/iueahOWwj+mprFwiLFxuXHRcdFx0XHRcdFx0dGltZTpcIjEyOjM0XCIsXG5cdFx0XHRcdFx0XHRkYXRhOlwi5L2g5Zyo6I2J5Y6f5LiK5aWU6LeR5ZibXCIsXG5cdFx0XHRcdFx0XHRub3JlYWRudW06XCIwXCJcblx0XHRcdFx0XHR9LFxuXHRcdFx0XHRcdHtcblx0XHRcdFx0XHRcdHVzZXJwaWM6XCIuLi8uLi9zdGF0aWMvZGVtby91c2VycGljLzguanBnXCIsXG5cdFx0XHRcdFx0XHR1c2VybmFtZTpcIuS4gOWPquiLseS/iueahOWwj+mprFwiLFxuXHRcdFx0XHRcdFx0dGltZTpcIjEyOjM0XCIsXG5cdFx0XHRcdFx0XHRkYXRhOlwi5L2g5Zyo6I2J5Y6f5LiK5aWU6LeR5ZibXCIsXG5cdFx0XHRcdFx0XHRub3JlYWRudW06XCIwXCJcblx0XHRcdFx0XHR9LFxuXHRcdFx0XHRcdHtcblx0XHRcdFx0XHRcdHVzZXJwaWM6XCIuLi8uLi9zdGF0aWMvZGVtby91c2VycGljLzguanBnXCIsXG5cdFx0XHRcdFx0XHR1c2VybmFtZTpcIuS4gOWPquiLseS/iueahOWwj+mprFwiLFxuXHRcdFx0XHRcdFx0dGltZTpcIjEyOjM0XCIsXG5cdFx0XHRcdFx0XHRkYXRhOlwi5L2g5Zyo6I2J5Y6f5LiK5aWU6LeR5ZibXCIsXG5cdFx0XHRcdFx0XHRub3JlYWRudW06XCIxMVwiXG5cdFx0XHRcdFx0fVxuXHRcdFx0XHRdXG5cdFx0XHR9O1xuXHRcdH0sXG5cdFx0Ly8g55uR5ZCs5LiL5ouJ5Yi35pawXG5cdFx0b25QdWxsRG93blJlZnJlc2goKSB7XG5cdFx0XHR0aGlzLmdldGRldGEoKVxuXHRcdH0sXG5cdFx0bWV0aG9kczp7XG5cdFx0XHQvLyDojrflj5bmlbDmja5cblx0XHRcdGdldGRldGEoKXtcblx0XHRcdFx0c2V0VGltZW91dCgoKSA9PiB7XG5cdFx0XHRcdFx0Ly8g5pyN5Yqh5Zmo6I635Y+W5pWw5o2uXG5cdFx0XHRcdFx0bGV0IGFyciA9IFtcblx0XHRcdFx0XHRcdHtcblx0XHRcdFx0XHRcdFx0dXNlcnBpYzpcIi4uLy4uL3N0YXRpYy9kZW1vL3VzZXJwaWMvOC5qcGdcIixcblx0XHRcdFx0XHRcdFx0dXNlcm5hbWU6XCLplKbnkZ9cIixcblx0XHRcdFx0XHRcdFx0dGltZTpcIjEyOjM0XCIsXG5cdFx0XHRcdFx0XHRcdGRhdGE6XCLkvaDlnKjojYnljp/kuIrlpZTot5HlmJtcIixcblx0XHRcdFx0XHRcdFx0bm9yZWFkbnVtOlwiMVwiXG5cdFx0XHRcdFx0XHR9LFxuXHRcdFx0XHRcdFx0e1xuXHRcdFx0XHRcdFx0XHR1c2VycGljOlwiLi4vLi4vc3RhdGljL2RlbW8vdXNlcnBpYy84LmpwZ1wiLFxuXHRcdFx0XHRcdFx0XHR1c2VybmFtZTpcIuS4gOWPquiLseS/iueahOWwj+mprFwiLFxuXHRcdFx0XHRcdFx0XHR0aW1lOlwiMTI6MzRcIixcblx0XHRcdFx0XHRcdFx0ZGF0YTpcIuS9oOWcqOiNieWOn+S4iuWllOi3keWYm1wiLFxuXHRcdFx0XHRcdFx0XHRub3JlYWRudW06XCIxXCJcblx0XHRcdFx0XHRcdH0sXG5cdFx0XHRcdFx0XHR7XG5cdFx0XHRcdFx0XHRcdHVzZXJwaWM6XCIuLi8uLi9zdGF0aWMvZGVtby91c2VycGljLzguanBnXCIsXG5cdFx0XHRcdFx0XHRcdHVzZXJuYW1lOlwi5LiA5Y+q6Iux5L+K55qE5bCP6amsXCIsXG5cdFx0XHRcdFx0XHRcdHRpbWU6XCIxMjozNFwiLFxuXHRcdFx0XHRcdFx0XHRkYXRhOlwi5L2g5Zyo6I2J5Y6f5LiK5aWU6LeR5ZibXCIsXG5cdFx0XHRcdFx0XHRcdG5vcmVhZG51bTpcIjFcIlxuXHRcdFx0XHRcdFx0fSxcblx0XHRcdFx0XHRdXG5cdFx0XHRcdFx0Ly8g6LWL5YC8XG5cdFx0XHRcdFx0dGhpcy5saXN0ID0gYXJyXG5cdFx0XHRcdFx0Ly8g5YWz6Zet5LiL5ouJ5Yi35pawXG5cdFx0XHRcdFx0dW5pLnN0b3BQdWxsRG93blJlZnJlc2goKVxuXHRcdFx0XHR9LCAxMDAwKTtcblx0XHRcdFx0XG5cdFx0XHR9XG5cdFx0fVxuXHR9XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuXHQuYm9keXtcblx0XHRwYWRkaW5nOiAwIDIwdXB4O1xuXHR9XG5cdFxuPC9zdHlsZT5cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///35\n");
 
 /***/ })
 

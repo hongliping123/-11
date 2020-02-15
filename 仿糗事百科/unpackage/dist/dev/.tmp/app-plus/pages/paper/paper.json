@@ -1,4 +1,5 @@
 {
+  "enablePullDownRefresh": true,
   "navigationBarTitleText": "小纸条",
   "titleNView": {
     "buttons": [
@@ -21,7 +22,6 @@
     ]
   },
   "usingComponents": {
-    "uni-badge": "/components/uni-badge/uni-badge",
-    "unibadgei": "/components/uni-badge/uni-badge"
+    "paper-list": "/components/paper/paper-list"
   }
 }

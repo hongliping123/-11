@@ -1,1 +1,1 @@
-<view class="body"><view class="papoer-list u-f-ac"><image src="../../static/demo/userpic/8.jpg" mode="widthFix" lazy-load></image><view><view class="u-f-ac u-f-jsb">昵称<view>10:12</view></view><view class="u-f-ac u-f-jsb">我是信息<uni-badge vue-id="1" text="1" type="error" bind:__l="__l"></uni-badge></view></view></view></view>
+<view class="body"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><paper-list vue-id="{{'1-'+index}}" item="{{item}}" index="{{index}}" bind:__l="__l"></paper-list></block></block></view>
