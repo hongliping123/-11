@@ -1,5 +1,5 @@
 <template>
-	<view class="papoer-list u-f-ac">
+	<view class="papoer-list u-f-ac animated fadeInLeft fast">
 		<image :src="item.userpic" mode="widthFix" lazy-load></image>
 		<view>
 			<view class="u-f-ac u-f-jsb">{{item.username}} <view>10:12</view></view>

@@ -1,0 +1,30 @@
+
+.papor-left-popup.data-v-1bb0facd{
+	position: fixed;
+	right: 0;
+	top: 10rpx;
+	background-color: #FFFFFF;
+	z-index: 2000;
+	width: 55%;
+	box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+}
+.papor-left-popup>view.data-v-1bb0facd{
+	padding: 20rpx;
+	font-size: 35rpx;
+}
+.papor-left-popup>view>view.data-v-1bb0facd{
+	margin-right: 10rpx;
+	font-weight: bold;
+}
+.papor-left-popup-h.data-v-1bb0facd{
+	color: #EEEEEE;
+}
+.papor-left-popup-mask.data-v-1bb0facd{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1999;
+}
+

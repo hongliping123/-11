@@ -22,6 +22,8 @@
     ]
   },
   "usingComponents": {
-    "paper-list": "/components/paper/paper-list"
+    "paper-list": "/components/paper/paper-list",
+    "load-more": "/components/common/load-more",
+    "papor-left-popup": "/components/paper/papor-left-popup"
   }
 }
