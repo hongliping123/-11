@@ -20,5 +20,8 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "unibadgei": "/components/uni-badge/uni-badge"
+  }
 }
