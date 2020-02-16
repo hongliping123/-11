@@ -7,7 +7,8 @@
     "pages/search/search",
     "pages/add-input/add-input",
     "pages/topicnav/topicnav",
-    "pages/topic-detail/topic-detail"
+    "pages/topic-detail/topic-detail",
+    "pages/user-list/user-list"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -54,6 +55,6 @@
     "autoclose": false
   },
   "appname": "仿糗事百科",
-  "compilerVersion": "2.5.9",
+  "compilerVersion": "2.5.11",
   "usingComponents": {}
 }

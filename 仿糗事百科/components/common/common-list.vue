@@ -10,11 +10,7 @@
 				<view class="u-f-ac u-f-jsb">
 					<view class="u-f-ac">
 						{{item.username}}
-						<view class="tag-ses1 icon iconfont " 
-						:class="[item.sex == 0? ['icon-nan','tag-ses'] : ['icon-nv','tag-ses1']]"
-						>
-							{{item.age}}
-						</view>
+						<tag-sex-age :sex="item.sex" :age="item.age"></tag-sex-age>
 					</view>
 					<view 
 					v-show="!isguanzhu" 
@@ -64,7 +60,11 @@
 </template>
 
 <script>
+	import tagSexAge from './tag-sex-age.vue';
 	export default{
+		components:{
+			tagSexAge
+		},
 		props:{
 			item:Object,
 			index:Number

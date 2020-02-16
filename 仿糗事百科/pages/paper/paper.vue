@@ -109,7 +109,10 @@
 		onNavigationBarButtonTap(e) {
 			switch (e.index){
 				case 0:
-				console.log("点击了左边按钮")
+				uni.navigateTo({
+					url: '../user-list/user-list',
+					
+				});
 					break;
 				case 1:
 				this.showpopup()

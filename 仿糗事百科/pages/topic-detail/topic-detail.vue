@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<!-- 话题接受 -->
+		<!-- 话题介绍 -->
 		<topic-info :item="topicInfo"></topic-info>
 		<!-- tabbar切换 -->
 		<swiper-tab-head

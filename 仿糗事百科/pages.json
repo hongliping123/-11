@@ -152,6 +152,39 @@
 				}
 			}
         }
+        ,{
+            "path" : "pages/user-list/user-list",
+            "style" : {
+            	"app-plus":{
+					"animationType":"slide-in-left", //入场动画
+            		 "scrollIndicator":"none",//隐藏滚动条
+            		 "titleNView":{
+            			 // 隐藏返回按钮
+            			 "autoBackButton":false,
+            			 // 搜索框配置
+            			 "searchInput":{
+            				 "align":"left",
+            				 "backgroundColor":"#F7F7F7",
+            				 "borderRadius":"4px",
+            				 "placeholder":"搜索糗事",
+            				 "placeholderColor":"#CCCCCC",
+            				 "disabled":false
+            			 },
+            			 //配置按钮
+            			 "buttons":[
+            				 // 右边
+            				 {
+            					 "color":"#000000",								 
+            					 "colorPressed":"#BBBBBB",
+            					 "float":"right",
+            					 "fontSize":"16px",
+            					 "text":"取消"
+            				 }
+            			 ]
+            		 }
+            	}
+            }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
