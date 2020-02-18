@@ -1835,6 +1835,12 @@ function gz$gwx_30(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_30)return __WXML_GLOBAL__.ops_cached.$gwx_30
 __WXML_GLOBAL__.ops_cached.$gwx_30=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'user-chat-list u-f user-chat-me'])
+Z([3,'user-chat-list-body'])
+Z([3,'widthFix'])
+Z([3,'../../static/demo/1.jpg'])
+Z(z[2])
+Z([3,'../../static/demo/userpic/17.jpg'])
 Z([3,'__l'])
 Z([3,'__e'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'^submit']],[[4],[[5],[[4],[[5],[1,'submit']]]]]]]]])
@@ -2946,8 +2952,18 @@ d_[x[29]]={}
 var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
 var hQL=_n('view')
-var oRL=_mz(z,'user-chat-buttom',['bind:__l',0,'bind:submit',1,'data-event-opts',1,'vueId',2],[],e,s,gg)
+var oRL=_n('view')
+_rz(z,oRL,'class',0,e,s,gg)
+var cSL=_n('view')
+_rz(z,cSL,'class',1,e,s,gg)
+var oTL=_mz(z,'image',['lazyLoad',-1,'mode',2,'src',1],[],e,s,gg)
+_(cSL,oTL)
+_(oRL,cSL)
+var lUL=_mz(z,'image',['lazyLoad',-1,'mode',4,'src',1],[],e,s,gg)
+_(oRL,lUL)
 _(hQL,oRL)
+var aVL=_mz(z,'user-chat-buttom',['bind:__l',6,'bind:submit',1,'data-event-opts',2,'vueId',3],[],e,s,gg)
+_(hQL,aVL)
 _(r,hQL)
 return r
 }
@@ -2955,49 +2971,49 @@ e_[x[29]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[30]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var oTL=_n('view')
-_rz(z,oTL,'class',0,e,s,gg)
-var lUL=_mz(z,'swiper-tab-head',['bind:__l',1,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
-_(oTL,lUL)
-var aVL=_n('view')
-_rz(z,aVL,'class',9,e,s,gg)
-var tWL=_mz(z,'swiper',['bindchange',10,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var eXL=_v()
-_(tWL,eXL)
-var bYL=function(x1L,oZL,o2L,gg){
-var c4L=_n('swiper-item')
-var h5L=_mz(z,'scroll-view',['bindscrolltolower',19,'class',1,'data-event-opts',2,'scrollY',3],[],x1L,oZL,gg)
-var o6L=_v()
-_(h5L,o6L)
-if(_oz(z,23,x1L,oZL,gg)){o6L.wxVkey=1
-var c7L=_v()
-_(o6L,c7L)
-var o8L=function(a0L,l9L,tAM,gg){
-var bCM=_mz(z,'user-list',['bind:__l',28,'index',1,'item',2,'vueId',3],[],a0L,l9L,gg)
-_(tAM,bCM)
-return tAM
+var eXL=_n('view')
+_rz(z,eXL,'class',0,e,s,gg)
+var bYL=_mz(z,'swiper-tab-head',['bind:__l',1,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
+_(eXL,bYL)
+var oZL=_n('view')
+_rz(z,oZL,'class',9,e,s,gg)
+var x1L=_mz(z,'swiper',['bindchange',10,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var o2L=_v()
+_(x1L,o2L)
+var f3L=function(h5L,c4L,o6L,gg){
+var o8L=_n('swiper-item')
+var l9L=_mz(z,'scroll-view',['bindscrolltolower',19,'class',1,'data-event-opts',2,'scrollY',3],[],h5L,c4L,gg)
+var a0L=_v()
+_(l9L,a0L)
+if(_oz(z,23,h5L,c4L,gg)){a0L.wxVkey=1
+var tAM=_v()
+_(a0L,tAM)
+var eBM=function(oDM,bCM,xEM,gg){
+var fGM=_mz(z,'user-list',['bind:__l',28,'index',1,'item',2,'vueId',3],[],oDM,bCM,gg)
+_(xEM,fGM)
+return xEM
 }
-c7L.wxXCkey=4
-_2z(z,26,o8L,x1L,oZL,gg,c7L,'item','index1','index1')
-var oDM=_mz(z,'load-more',['bind:__l',32,'loadtext',1,'vueId',2],[],x1L,oZL,gg)
-_(o6L,oDM)
+tAM.wxXCkey=4
+_2z(z,26,eBM,h5L,c4L,gg,tAM,'item','index1','index1')
+var cHM=_mz(z,'load-more',['bind:__l',32,'loadtext',1,'vueId',2],[],h5L,c4L,gg)
+_(a0L,cHM)
 }
-else{o6L.wxVkey=2
-var xEM=_mz(z,'no-thing',['bind:__l',35,'vueId',1],[],x1L,oZL,gg)
-_(o6L,xEM)
+else{a0L.wxVkey=2
+var hIM=_mz(z,'no-thing',['bind:__l',35,'vueId',1],[],h5L,c4L,gg)
+_(a0L,hIM)
 }
-o6L.wxXCkey=1
-o6L.wxXCkey=3
-o6L.wxXCkey=3
-_(c4L,h5L)
-_(o2L,c4L)
-return o2L
+a0L.wxXCkey=1
+a0L.wxXCkey=3
+a0L.wxXCkey=3
+_(o8L,l9L)
+_(o6L,o8L)
+return o6L
 }
-eXL.wxXCkey=4
-_2z(z,17,bYL,e,s,gg,eXL,'items','index','index')
-_(aVL,tWL)
-_(oTL,aVL)
-_(r,oTL)
+o2L.wxXCkey=4
+_2z(z,17,f3L,e,s,gg,o2L,'items','index','index')
+_(oZL,x1L)
+_(eXL,oZL)
+_(r,eXL)
 return r
 }
 e_[x[30]]={f:m30,j:[],i:[],ti:[],ic:[]}
@@ -3212,7 +3228,7 @@ __wxAppCode__['pages/topic-detail/topic-detail.wxml']=$gwx('./pages/topic-detail
 __wxAppCode__['pages/topicnav/topicnav.wxss']=setCssToHead([".",[1],"topic-view{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/topicnav/topicnav.wxss"});    
 __wxAppCode__['pages/topicnav/topicnav.wxml']=$gwx('./pages/topicnav/topicnav.wxml');
 
-__wxAppCode__['pages/user-chat/user-chat.wxss']=setCssToHead([".",[1],"user-chat-bottom{ position: fixed; left: 0; bottom: 0; right: 0; height: ",[0,120],"; padding: 0 ",[0,20],"; background-color: #FFFFFF; border-top: ",[0,1]," solid #EEEEEE; }\n.",[1],"user-chat-bottom\x3ewx-input{ -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; margin-right: ",[0,20],"; padding: ",[0,10]," ",[0,20],"; border-radius: ",[0,10],"; background-color: #F7F7F7; }\n.",[1],"user-chat-bottom\x3ewx-view{ width: ",[0,80],"; font-size: ",[0,45],"; }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"});    
+__wxAppCode__['pages/user-chat/user-chat.wxss']=setCssToHead([".",[1],"user-chat-list{ }\n.",[1],"user-chat-list\x3ewx-image{ width: ",[0,100],"; height: ",[0,100],"; border-radius: 100%; -webkit-flex-shrink: 0; flex-shrink: 0; }\n.",[1],"user-chat-list-body{ position: relative; background-color: #F4F4F4; padding: ",[0,25],"; margin-left: ",[0,20],"; border-radius: ",[0,20],"; margin-right: ",[0,100],"; }\n.",[1],"user-chat-list-body::after{ content: \x27\x27; width: 0; height: 0; border: ",[0,15]," solid #F4F4F4; border-color: transparent #F4F4F4 transparent transparent; position: absolute; left: ",[0,-30],"; right: 0; top: ",[0,30],"; }\n.",[1],"user-chat-me{ -webkit-box-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body{ margin-left: ",[0,100],"; margin-right: ",[0,20],"; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body::after{ left: auto; right: ",[0,-30],"; border-color: transparent transparent transparent #F4F4F4; }\n.",[1],"user-chat-list-body\x3ewx-image{ max-width: ",[0,150],"; max-height: ",[0,200],"; }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"});    
 __wxAppCode__['pages/user-chat/user-chat.wxml']=$gwx('./pages/user-chat/user-chat.wxml');
 
 __wxAppCode__['pages/user-list/user-list.wxss']=setCssToHead([],undefined,{path:"./pages/user-list/user-list.wxss"});    
