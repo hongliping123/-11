@@ -1,59 +1,108 @@
 <template>
 	<view>
-		<!-- 聊天列表 -->
-		<block v-for="(item,index) in list" :key="index">
-			<user-chat-list :item="item" :index="index"></user-chat-list>
-		</block>
+		
+		<scroll-view id="scrollview" scroll-y :scroll-top="scrollTop" 
+		:scroll-with-animation="true"
+		:style="{height:style.contentH+'px'}">
+			<!-- 聊天列表 -->
+			<block v-for="(item,index) in list" :key="index">
+				<user-chat-list :item="item" :index="index" class="user-chat-time"></user-chat-list>
+			</block>
+		</scroll-view>
 		
 		<!-- 输入框 -->
-		<user-chat-buttom @submit="submit"></user-chat-buttom>
+		<user-chat-bottom @submit="submit"></user-chat-bottom>
 	</view>
 </template>
 
 <script>
-	import userChatButtom from '../../components/user-chat/user-chat-buttom.vue'
-	import time from "../../common/time.js"
-	import userChatList from "../../components/user-chat/user-chat-list.vue"
+	import userChatBottom from "../../components/user-chat/user-chat-buttom.vue";
+	import time from "../../common/time.js";
+	import userChatList from "../../components/user-chat/user-chat-list.vue";
 	export default {
-		components: {
-			userChatButtom,
+		components:{
+			userChatBottom,
 			userChatList
 		},
 		data() {
 			return {
+				scrollTop:0,
+				style:{
+					contentH:0,
+					itemH:0
+				},
 				list:[]
-			}
+			};
 		},
 		onLoad() {
-			this.getdata()
+			this.getdata();
+			this.initdata();
 		},
-		methods: {
+		mounted() {
+			this.pageToBottom();
+		},
+		methods:{
+			// 初始化参数
+			initdata(){
+				try {
+					const res = uni.getSystemInfoSync();
+					this.style.contentH=res.windowHeight - uni.upx2px(120);
+				} catch (e) { }
+			},
+			pageToBottom(){
+				let q=uni.createSelectorQuery().in(this);
+				q.select('#scrollview').boundingClientRect();
+				q.selectAll('.user-chat-time').boundingClientRect();
+				
+				q.exec((res)=>{
+					// console.log(JSON.stringify(res[1]))
+					res[1].forEach((ret)=>{
+						this.style.itemH += ret.height;
+					});
+					
+					if(this.style.itemH > this.style.contentH){
+						this.scrollTop=this.style.itemH;
+					}
+					
+				})
+			},
 			// 获取聊天数据
 			getdata(){
-				let arr = [
+				// 从服务器获取到的数据
+				let arr=[
 					{
 						isme:false,
-						userpic:"../../static/demo/userpic/17.jpg",
+						userpic:"../../static/demo/userpic/11.jpg",
 						type:"text",
-						data:"哈哈哈哈",
-						time:"1582021561"
+						data:"哈哈哈",
+						time:"1555146412"
 					},
 					{
 						isme:true,
-						userpic:"../../static/demo/userpic/16.jpg",
+						userpic:"../../static/demo/userpic/10.jpg",
 						type:"img",
-						data:"../../static/demo/1.jpg",
-						time:"1582021261"
-					}
-				]
+						data:"../../static/demo/3.jpg",
+						time:"1555146414",
+					},
+				];
 				for (let i = 0; i < arr.length; i++) {
-					arr[i].gstiem = time.gettime.getChatTime(arr[i].time,i>0?arr[i-1].time:0)
+					arr[i].gstime=time.gettime.getChatTime(arr[i].time,i>0?arr[i-1].time:0);
 				}
-				this.list = arr
+				this.list=arr;
 			},
 			submit(data){
-				// 发送逻辑
-				console.log(data)
+				// 构建数据
+				let now=new Date().getTime();
+				let obj={
+					isme:true,
+					userpic:"../../static/demo/userpic/10.jpg",
+					type:"text",
+					data:data,
+					time:now,
+					gstime:time.gettime.getChatTime(now,this.list[this.list.length-1].time)
+				};
+				this.list.push(obj);
+				this.pageToBottom();
 			}
 		}
 	}

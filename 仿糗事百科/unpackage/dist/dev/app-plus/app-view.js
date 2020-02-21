@@ -1780,7 +1780,21 @@ function gz$gwx_28(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_28)return __WXML_GLOBAL__.ops_cached.$gwx_28
 __WXML_GLOBAL__.ops_cached.$gwx_28=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'搜索页'])
+Z([[2,'>'],[[6],[[7],[3,'list']],[3,'length']],[1,0]])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'list']])
+Z(z[1])
+Z([3,'__l'])
+Z([[7],[3,'index']])
+Z([[7],[3,'item']])
+Z([[2,'+'],[1,'1-'],[[7],[3,'index']]])
+Z(z[5])
+Z([[7],[3,'loadtext']])
+Z([3,'2'])
+Z([[2,'&&'],[[7],[3,'issearch']],[[2,'<'],[[6],[[7],[3,'list']],[3,'length']],[1,1]]])
+Z(z[5])
+Z([3,'3'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
 function gz$gwx_29(){
@@ -1862,15 +1876,20 @@ function gz$gwx_31(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_31)return __WXML_GLOBAL__.ops_cached.$gwx_31
 __WXML_GLOBAL__.ops_cached.$gwx_31=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'scrollview'])
+Z([[7],[3,'scrollTop']])
+Z([1,true])
+Z([[2,'+'],[[2,'+'],[1,'height:'],[[2,'+'],[[6],[[7],[3,'style']],[3,'contentH']],[1,'px']]],[1,';']])
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'list']])
-Z(z[0])
+Z(z[4])
 Z([3,'__l'])
+Z([3,'user-chat-time'])
 Z([[7],[3,'index']])
 Z([[7],[3,'item']])
 Z([[2,'+'],[1,'1-'],[[7],[3,'index']]])
-Z(z[4])
+Z(z[8])
 Z([3,'__e'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'^submit']],[[4],[[5],[[4],[[5],[1,'submit']]]]]]]]])
 Z([3,'2'])
@@ -2937,8 +2956,34 @@ d_[x[27]]={}
 var m27=function(e,s,r,gg){
 var z=gz$gwx_28()
 var oVK=_n('view')
-var fWK=_oz(z,0,e,s,gg)
+var fWK=_v()
 _(oVK,fWK)
+if(_oz(z,0,e,s,gg)){fWK.wxVkey=1
+var cXK=_v()
+_(fWK,cXK)
+var hYK=function(c1K,oZK,o2K,gg){
+var a4K=_mz(z,'index-list',['bind:__l',5,'index',1,'item',2,'vueId',3],[],c1K,oZK,gg)
+_(o2K,a4K)
+return o2K
+}
+cXK.wxXCkey=4
+_2z(z,3,hYK,e,s,gg,cXK,'item','index','index')
+var t5K=_mz(z,'load-more',['bind:__l',9,'loadtext',1,'vueId',2],[],e,s,gg)
+_(fWK,t5K)
+}
+else{fWK.wxVkey=2
+var e6K=_v()
+_(fWK,e6K)
+if(_oz(z,12,e,s,gg)){e6K.wxVkey=1
+var b7K=_mz(z,'no-thing',['bind:__l',13,'vueId',1],[],e,s,gg)
+_(e6K,b7K)
+}
+e6K.wxXCkey=1
+e6K.wxXCkey=3
+}
+fWK.wxXCkey=1
+fWK.wxXCkey=3
+fWK.wxXCkey=3
 _(r,oVK)
 return r
 }
@@ -2946,158 +2991,160 @@ e_[x[27]]={f:m27,j:[],i:[],ti:[],ic:[]}
 d_[x[28]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var hYK=_n('view')
-var oZK=_mz(z,'topic-info',['bind:__l',0,'item',1,'vueId',1],[],e,s,gg)
-_(hYK,oZK)
-var c1K=_mz(z,'swiper-tab-head',['bind:__l',3,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
-_(hYK,c1K)
-var o2K=_n('view')
-_rz(z,o2K,'class',11,e,s,gg)
-var l3K=_v()
-_(o2K,l3K)
-var a4K=function(e6K,t5K,b7K,gg){
-var x9K=_v()
-_(b7K,x9K)
-if(_oz(z,16,e6K,t5K,gg)){x9K.wxVkey=1
-var o0K=_v()
+var x9K=_n('view')
+var o0K=_mz(z,'topic-info',['bind:__l',0,'item',1,'vueId',1],[],e,s,gg)
 _(x9K,o0K)
-var fAL=function(hCL,cBL,oDL,gg){
-var oFL=_mz(z,'common-list',['bind:__l',21,'index',1,'item',2,'vueId',3],[],hCL,cBL,gg)
-_(oDL,oFL)
-return oDL
+var fAL=_mz(z,'swiper-tab-head',['bind:__l',3,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
+_(x9K,fAL)
+var cBL=_n('view')
+_rz(z,cBL,'class',11,e,s,gg)
+var hCL=_v()
+_(cBL,hCL)
+var oDL=function(oFL,cEL,lGL,gg){
+var tIL=_v()
+_(lGL,tIL)
+if(_oz(z,16,oFL,cEL,gg)){tIL.wxVkey=1
+var eJL=_v()
+_(tIL,eJL)
+var bKL=function(xML,oLL,oNL,gg){
+var cPL=_mz(z,'common-list',['bind:__l',21,'index',1,'item',2,'vueId',3],[],xML,oLL,gg)
+_(oNL,cPL)
+return oNL
 }
-o0K.wxXCkey=4
-_2z(z,19,fAL,e6K,t5K,gg,o0K,'list','listindex','listindex')
-var lGL=_mz(z,'load-more',['bind:__l',25,'loadtext',1,'vueId',2],[],e6K,t5K,gg)
-_(x9K,lGL)
+eJL.wxXCkey=4
+_2z(z,19,bKL,oFL,cEL,gg,eJL,'list','listindex','listindex')
+var hQL=_mz(z,'load-more',['bind:__l',25,'loadtext',1,'vueId',2],[],oFL,cEL,gg)
+_(tIL,hQL)
 }
-x9K.wxXCkey=1
-x9K.wxXCkey=3
-return b7K
+tIL.wxXCkey=1
+tIL.wxXCkey=3
+return lGL
 }
-l3K.wxXCkey=4
-_2z(z,14,a4K,e,s,gg,l3K,'item','index','index')
-_(hYK,o2K)
-_(r,hYK)
+hCL.wxXCkey=4
+_2z(z,14,oDL,e,s,gg,hCL,'item','index','index')
+_(x9K,cBL)
+_(r,x9K)
 return r
 }
 e_[x[28]]={f:m28,j:[],i:[],ti:[],ic:[]}
 d_[x[29]]={}
 var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
-var tIL=_n('view')
-var eJL=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
-_(tIL,eJL)
-var bKL=_n('view')
-_rz(z,bKL,'class',6,e,s,gg)
-var oLL=_mz(z,'swiper',['bindchange',7,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var xML=_v()
-_(oLL,xML)
-var oNL=function(cPL,fOL,hQL,gg){
-var cSL=_n('swiper-item')
-var oTL=_mz(z,'scroll-view',['bindscrolltolower',16,'class',1,'data-event-opts',2,'scrollY',3],[],cPL,fOL,gg)
-var lUL=_v()
-_(oTL,lUL)
-if(_oz(z,20,cPL,fOL,gg)){lUL.wxVkey=1
-var aVL=_v()
-_(lUL,aVL)
-var tWL=function(bYL,eXL,oZL,gg){
-var o2L=_n('view')
-_rz(z,o2L,'class',25,bYL,eXL,gg)
-var f3L=_mz(z,'topic-list',['bind:__l',26,'index',1,'item',2,'vueId',3],[],bYL,eXL,gg)
-_(o2L,f3L)
-_(oZL,o2L)
-return oZL
-}
-aVL.wxXCkey=4
-_2z(z,23,tWL,cPL,fOL,gg,aVL,'item','index1','index1')
-var c4L=_mz(z,'load-more',['bind:__l',30,'loadtext',1,'vueId',2],[],cPL,fOL,gg)
-_(lUL,c4L)
-}
-else{lUL.wxVkey=2
-var h5L=_mz(z,'no-thing',['bind:__l',33,'vueId',1],[],cPL,fOL,gg)
-_(lUL,h5L)
-}
-lUL.wxXCkey=1
-lUL.wxXCkey=3
-lUL.wxXCkey=3
+var cSL=_n('view')
+var oTL=_mz(z,'swiper-tab-head',['bind:__l',0,'bind:tobtap',1,'data-event-opts',1,'tabBars',2,'tabIndex',3,'vueId',4],[],e,s,gg)
 _(cSL,oTL)
-_(hQL,cSL)
-return hQL
+var lUL=_n('view')
+_rz(z,lUL,'class',6,e,s,gg)
+var aVL=_mz(z,'swiper',['bindchange',7,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var tWL=_v()
+_(aVL,tWL)
+var eXL=function(oZL,bYL,x1L,gg){
+var f3L=_n('swiper-item')
+var c4L=_mz(z,'scroll-view',['bindscrolltolower',16,'class',1,'data-event-opts',2,'scrollY',3],[],oZL,bYL,gg)
+var h5L=_v()
+_(c4L,h5L)
+if(_oz(z,20,oZL,bYL,gg)){h5L.wxVkey=1
+var o6L=_v()
+_(h5L,o6L)
+var c7L=function(l9L,o8L,a0L,gg){
+var eBM=_n('view')
+_rz(z,eBM,'class',25,l9L,o8L,gg)
+var bCM=_mz(z,'topic-list',['bind:__l',26,'index',1,'item',2,'vueId',3],[],l9L,o8L,gg)
+_(eBM,bCM)
+_(a0L,eBM)
+return a0L
 }
-xML.wxXCkey=4
-_2z(z,14,oNL,e,s,gg,xML,'items','index','index')
-_(bKL,oLL)
-_(tIL,bKL)
-_(r,tIL)
+o6L.wxXCkey=4
+_2z(z,23,c7L,oZL,bYL,gg,o6L,'item','index1','index1')
+var oDM=_mz(z,'load-more',['bind:__l',30,'loadtext',1,'vueId',2],[],oZL,bYL,gg)
+_(h5L,oDM)
+}
+else{h5L.wxVkey=2
+var xEM=_mz(z,'no-thing',['bind:__l',33,'vueId',1],[],oZL,bYL,gg)
+_(h5L,xEM)
+}
+h5L.wxXCkey=1
+h5L.wxXCkey=3
+h5L.wxXCkey=3
+_(f3L,c4L)
+_(x1L,f3L)
+return x1L
+}
+tWL.wxXCkey=4
+_2z(z,14,eXL,e,s,gg,tWL,'items','index','index')
+_(lUL,aVL)
+_(cSL,lUL)
+_(r,cSL)
 return r
 }
 e_[x[29]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[30]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var c7L=_n('view')
-var o8L=_v()
-_(c7L,o8L)
-var l9L=function(tAM,a0L,eBM,gg){
-var oDM=_mz(z,'user-chat-list',['bind:__l',4,'index',1,'item',2,'vueId',3],[],tAM,a0L,gg)
-_(eBM,oDM)
-return eBM
+var fGM=_n('view')
+var cHM=_mz(z,'scroll-view',['scrollY',-1,'id',0,'scrollTop',1,'scrollWithAnimation',1,'style',2],[],e,s,gg)
+var hIM=_v()
+_(cHM,hIM)
+var oJM=function(oLM,cKM,lMM,gg){
+var tOM=_mz(z,'user-chat-list',['bind:__l',8,'class',1,'index',2,'item',3,'vueId',4],[],oLM,cKM,gg)
+_(lMM,tOM)
+return lMM
 }
-o8L.wxXCkey=4
-_2z(z,2,l9L,e,s,gg,o8L,'item','index','index')
-var xEM=_mz(z,'user-chat-buttom',['bind:__l',8,'bind:submit',1,'data-event-opts',2,'vueId',3],[],e,s,gg)
-_(c7L,xEM)
-_(r,c7L)
+hIM.wxXCkey=4
+_2z(z,6,oJM,e,s,gg,hIM,'item','index','index')
+_(fGM,cHM)
+var ePM=_mz(z,'user-chat-bottom',['bind:__l',13,'bind:submit',1,'data-event-opts',2,'vueId',3],[],e,s,gg)
+_(fGM,ePM)
+_(r,fGM)
 return r
 }
 e_[x[30]]={f:m30,j:[],i:[],ti:[],ic:[]}
 d_[x[31]]={}
 var m31=function(e,s,r,gg){
 var z=gz$gwx_32()
-var fGM=_n('view')
-_rz(z,fGM,'class',0,e,s,gg)
-var cHM=_mz(z,'swiper-tab-head',['bind:__l',1,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
-_(fGM,cHM)
-var hIM=_n('view')
-_rz(z,hIM,'class',9,e,s,gg)
-var oJM=_mz(z,'swiper',['bindchange',10,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var cKM=_v()
-_(oJM,cKM)
-var oLM=function(aNM,lMM,tOM,gg){
-var bQM=_n('swiper-item')
-var oRM=_mz(z,'scroll-view',['bindscrolltolower',19,'class',1,'data-event-opts',2,'scrollY',3],[],aNM,lMM,gg)
-var xSM=_v()
+var oRM=_n('view')
+_rz(z,oRM,'class',0,e,s,gg)
+var xSM=_mz(z,'swiper-tab-head',['bind:__l',1,'bind:tobtap',1,'data-event-opts',2,'scrollStyle',3,'scrollWidth',4,'tabBars',5,'tabIndex',6,'vueId',7],[],e,s,gg)
 _(oRM,xSM)
-if(_oz(z,23,aNM,lMM,gg)){xSM.wxVkey=1
-var oTM=_v()
-_(xSM,oTM)
-var fUM=function(hWM,cVM,oXM,gg){
-var oZM=_mz(z,'user-list',['bind:__l',28,'index',1,'item',2,'vueId',3],[],hWM,cVM,gg)
-_(oXM,oZM)
-return oXM
+var oTM=_n('view')
+_rz(z,oTM,'class',9,e,s,gg)
+var fUM=_mz(z,'swiper',['bindchange',10,'class',1,'current',2,'data-event-opts',3,'style',4],[],e,s,gg)
+var cVM=_v()
+_(fUM,cVM)
+var hWM=function(cYM,oXM,oZM,gg){
+var a2M=_n('swiper-item')
+var t3M=_mz(z,'scroll-view',['bindscrolltolower',19,'class',1,'data-event-opts',2,'scrollY',3],[],cYM,oXM,gg)
+var e4M=_v()
+_(t3M,e4M)
+if(_oz(z,23,cYM,oXM,gg)){e4M.wxVkey=1
+var b5M=_v()
+_(e4M,b5M)
+var o6M=function(o8M,x7M,f9M,gg){
+var hAN=_mz(z,'user-list',['bind:__l',28,'index',1,'item',2,'vueId',3],[],o8M,x7M,gg)
+_(f9M,hAN)
+return f9M
 }
-oTM.wxXCkey=4
-_2z(z,26,fUM,aNM,lMM,gg,oTM,'item','index1','index1')
-var l1M=_mz(z,'load-more',['bind:__l',32,'loadtext',1,'vueId',2],[],aNM,lMM,gg)
-_(xSM,l1M)
+b5M.wxXCkey=4
+_2z(z,26,o6M,cYM,oXM,gg,b5M,'item','index1','index1')
+var oBN=_mz(z,'load-more',['bind:__l',32,'loadtext',1,'vueId',2],[],cYM,oXM,gg)
+_(e4M,oBN)
 }
-else{xSM.wxVkey=2
-var a2M=_mz(z,'no-thing',['bind:__l',35,'vueId',1],[],aNM,lMM,gg)
-_(xSM,a2M)
+else{e4M.wxVkey=2
+var cCN=_mz(z,'no-thing',['bind:__l',35,'vueId',1],[],cYM,oXM,gg)
+_(e4M,cCN)
 }
-xSM.wxXCkey=1
-xSM.wxXCkey=3
-xSM.wxXCkey=3
-_(bQM,oRM)
-_(tOM,bQM)
-return tOM
+e4M.wxXCkey=1
+e4M.wxXCkey=3
+e4M.wxXCkey=3
+_(a2M,t3M)
+_(oZM,a2M)
+return oZM
 }
-cKM.wxXCkey=4
-_2z(z,17,oLM,e,s,gg,cKM,'items','index','index')
-_(hIM,oJM)
-_(fGM,hIM)
-_(r,fGM)
+cVM.wxXCkey=4
+_2z(z,17,hWM,e,s,gg,cVM,'items','index','index')
+_(oTM,fUM)
+_(oRM,oTM)
+_(r,oRM)
 return r
 }
 e_[x[31]]={f:m31,j:[],i:[],ti:[],ic:[]}
@@ -3285,7 +3332,7 @@ __wxAppCode__['components/uni-transition/uni-transition.wxml']=$gwx('./component
 __wxAppCode__['components/user-chat/user-chat-buttom.wxss']=setCssToHead([".",[1],"user-chat-bottom.",[1],"data-v-1dad301c{ position: fixed; left: 0; bottom: 0; right: 0; height: ",[0,120],"; padding: 0 ",[0,20],"; background-color: #FFFFFF; border-top: ",[0,1]," solid #EEEEEE; }\n.",[1],"user-chat-bottom\x3ewx-input.",[1],"data-v-1dad301c{ -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; margin-right: ",[0,20],"; padding: ",[0,10]," ",[0,20],"; border-radius: ",[0,10],"; background-color: #F7F7F7; }\n.",[1],"user-chat-bottom\x3ewx-view.",[1],"data-v-1dad301c{ width: ",[0,80],"; font-size: ",[0,45],"; }\n",],undefined,{path:"./components/user-chat/user-chat-buttom.wxss"});    
 __wxAppCode__['components/user-chat/user-chat-buttom.wxml']=$gwx('./components/user-chat/user-chat-buttom.wxml');
 
-__wxAppCode__['components/user-chat/user-chat-list.wxss']=setCssToHead([".",[1],"user-chat-list.",[1],"data-v-7743091f{ padding: ",[0,20]," 0; }\n.",[1],"user-chat-list\x3ewx-image.",[1],"data-v-7743091f{ width: ",[0,100],"; height: ",[0,100],"; border-radius: 100%; -webkit-flex-shrink: 0; flex-shrink: 0; }\n.",[1],"user-chat-list-body.",[1],"data-v-7743091f{ position: relative; background: #F4F4F4; padding: ",[0,25],"; margin-left: ",[0,20],"; border-radius: ",[0,20],"; margin-right: ",[0,100],"; }\n.",[1],"user-chat-list-body.",[1],"data-v-7743091f:after{ position: absolute; left: ",[0,-30],"; right: 0; top: ",[0,30],"; content: \x27\x27; width: 0; height: 0; border: ",[0,16]," solid #F4F4F4; border-color: transparent #F4F4F4 transparent transparent; }\n.",[1],"user-chat-me.",[1],"data-v-7743091f{ -webkit-box-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body.",[1],"data-v-7743091f{ margin-right: ",[0,20],"; margin-left: ",[0,100],"; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body.",[1],"data-v-7743091f:after{ left: auto; right: ",[0,-30],"; border-color: transparent transparent transparent #F4F4F4; }\n.",[1],"user-chat-list-body\x3ewx-image.",[1],"data-v-7743091f{ max-width: ",[0,150],"; max-height: ",[0,200],"; }\n.",[1],"user-chat-time.",[1],"data-v-7743091f{ padding: ",[0,50]," 0; color: #a2a2a2; font-size: ",[0,24],"; }\n",],undefined,{path:"./components/user-chat/user-chat-list.wxss"});    
+__wxAppCode__['components/user-chat/user-chat-list.wxss']=setCssToHead([".",[1],"user-chat-list.",[1],"data-v-7743091f{ padding: ",[0,20]," 0; }\n.",[1],"user-chat-list\x3ewx-image.",[1],"data-v-7743091f{ width: ",[0,100],"; height: ",[0,100],"; border-radius: 100%; -webkit-flex-shrink: 0; flex-shrink: 0; }\n.",[1],"user-chat-list-body.",[1],"data-v-7743091f{ position: relative; background: #F4F4F4; padding: ",[0,25],"; margin-left: ",[0,20],"; border-radius: ",[0,20],"; margin-right: ",[0,100],"; }\n.",[1],"user-chat-list-body.",[1],"data-v-7743091f:after{ position: absolute; left: ",[0,-30],"; right: 0; top: ",[0,30],"; content: \x27\x27; width: 0; height: 0; border: ",[0,16]," solid #F4F4F4; border-color: transparent #F4F4F4 transparent transparent; }\n.",[1],"user-chat-me.",[1],"data-v-7743091f{ -webkit-box-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body.",[1],"data-v-7743091f{ margin-right: ",[0,20],"; margin-left: ",[0,100],"; margin-bottom: ",[0,40],"; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body.",[1],"data-v-7743091f:after{ left: auto; right: ",[0,-30],"; border-color: transparent transparent transparent #F4F4F4; }\n.",[1],"user-chat-list-body\x3ewx-image.",[1],"data-v-7743091f{ max-width: ",[0,150],"; max-height: ",[0,200],"; }\n.",[1],"user-chat-time.",[1],"data-v-7743091f{ padding: ",[0,50]," 0; color: #a2a2a2; font-size: ",[0,24],"; }\n",],undefined,{path:"./components/user-chat/user-chat-list.wxss"});    
 __wxAppCode__['components/user-chat/user-chat-list.wxml']=$gwx('./components/user-chat/user-chat-list.wxml');
 
 __wxAppCode__['components/user-list/user-list.wxss']=setCssToHead([".",[1],"user-list.",[1],"data-v-67e73f30{ margin: 0 ",[0,20],"; padding: ",[0,20]," 0; border-bottom: ",[0,1]," solid #EEEEEE; }\n.",[1],"user-list\x3ewx-image.",[1],"data-v-67e73f30{ width: ",[0,100],"; height: ",[0,100],"; border-radius: 100%; margin-right: ",[0,20],"; -webkit-flex-shrink: 0; flex-shrink: 0; }\n.",[1],"user-list\x3ewx-view.",[1],"data-v-67e73f30:first-of-type{ -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; }\n.",[1],"user-list\x3ewx-view:first-of-type\x3ewx-view.",[1],"data-v-67e73f30:first-child{ font-size: ",[0,35],"; }\n.",[1],"user-list\x3ewx-view.",[1],"data-v-67e73f30:last-of-type{ width: ",[0,80],"; color:#CCCCCC; }\n.",[1],"user-text.",[1],"data-v-67e73f30{ color: #333333 !important; font-weight: bold !important; }\n.",[1],"icon-zengjia1.",[1],"data-v-67e73f30{ color: #f8791b; }\n",],undefined,{path:"./components/user-list/user-list.wxss"});    
@@ -3315,7 +3362,7 @@ __wxAppCode__['pages/topic-detail/topic-detail.wxml']=$gwx('./pages/topic-detail
 __wxAppCode__['pages/topicnav/topicnav.wxss']=setCssToHead([".",[1],"topic-view{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/topicnav/topicnav.wxss"});    
 __wxAppCode__['pages/topicnav/topicnav.wxml']=$gwx('./pages/topicnav/topicnav.wxml');
 
-__wxAppCode__['pages/user-chat/user-chat.wxss']=setCssToHead([".",[1],"user-chat-list{ padding: ",[0,20]," 0; }\n.",[1],"user-chat-list\x3ewx-image{ width: ",[0,100],"; height: ",[0,100],"; border-radius: 100%; -webkit-flex-shrink: 0; flex-shrink: 0; }\n.",[1],"user-chat-list-body{ position: relative; background: #F4F4F4; padding: ",[0,25],"; margin-left: ",[0,20],"; border-radius: ",[0,20],"; margin-right: ",[0,100],"; }\n.",[1],"user-chat-list-body:after{ position: absolute; left: ",[0,-30],"; right: 0; top: ",[0,30],"; content: \x27\x27; width: 0; height: 0; border: ",[0,16]," solid #F4F4F4; border-color: transparent #F4F4F4 transparent transparent; }\n.",[1],"user-chat-me{ -webkit-box-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body{ margin-right: ",[0,20],"; margin-left: ",[0,100],"; }\n.",[1],"user-chat-me .",[1],"user-chat-list-body:after{ left: auto; right: ",[0,-30],"; border-color: transparent transparent transparent #F4F4F4; }\n.",[1],"user-chat-list-body\x3ewx-image{ max-width: ",[0,150],"; max-height: ",[0,200],"; }\n.",[1],"user-chat-time{ padding: ",[0,50]," 0; color: #a2a2a2; font-size: ",[0,24],"; }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"});    
+__wxAppCode__['pages/user-chat/user-chat.wxss']=undefined;    
 __wxAppCode__['pages/user-chat/user-chat.wxml']=$gwx('./pages/user-chat/user-chat.wxml');
 
 __wxAppCode__['pages/user-list/user-list.wxss']=setCssToHead([],undefined,{path:"./pages/user-list/user-list.wxss"});    

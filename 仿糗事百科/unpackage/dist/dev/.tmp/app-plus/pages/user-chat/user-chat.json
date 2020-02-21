@@ -13,7 +13,7 @@
     ]
   },
   "usingComponents": {
-    "user-chat-buttom": "/components/user-chat/user-chat-buttom",
+    "user-chat-bottom": "/components/user-chat/user-chat-buttom",
     "user-chat-list": "/components/user-chat/user-chat-list"
   }
 }

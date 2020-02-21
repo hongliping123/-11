@@ -36,6 +36,7 @@
 .user-chat-me .user-chat-list-body.data-v-7743091f{
 	margin-right: 20rpx;
 	margin-left: 100rpx;
+	margin-bottom: 40rpx;
 }
 .user-chat-me .user-chat-list-body.data-v-7743091f:after{
 	left: auto;
