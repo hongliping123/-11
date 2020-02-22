@@ -27,7 +27,8 @@
 			return {
 				issearch:false,
 				loadtext:"上拉加载更多",
-				list:[]
+				list:[],
+				searchtext:""
 			}
 		},
 		// 监听原生标题导航按钮事件
@@ -40,19 +41,25 @@
 		},
 		// 监听原生导航栏搜索框内容输入事件
 		onNavigationBarSearchInputChanged(e){
-			console.log(e.text)
+			this.searchtext = e.text
 		},
 		// 监听用户按下手机软键盘搜索事件
 		onNavigationBarSearchInputConfirmed(e){
-			this.getdada(e.text)
+			if(e.text){this.getdada()}
+			
 		},
 		// 监听页面触底事件
 		onReachBottom() {
 			this.loadmore()
 		},
+		// 监听下拉刷新
+		onPullDownRefresh() {
+			this.getdada()
+			uni.stopPullDownRefresh();
+		},
 		methods: {
 			// 搜索事件
-			getdada(val){
+			getdada(){
 				// 请求服务器
 				uni.showLoading();
 				setTimeout(() => {

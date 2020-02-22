@@ -1,11 +1,14 @@
 
+.u-margin.data-v-7743091f{
+	margin: 0 20rpx;
+}
 .user-chat-list.data-v-7743091f{
 	padding: 20rpx 0;
 }
 .user-chat-list>image.data-v-7743091f{
 	width: 100rpx;
 	height: 100rpx;
-	border-radius: 100%;
+	border-radius: 10rpx;
 	-webkit-flex-shrink: 0;
 	        flex-shrink: 0;
 }

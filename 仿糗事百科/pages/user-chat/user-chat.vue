@@ -75,14 +75,14 @@
 						userpic:"../../static/demo/userpic/11.jpg",
 						type:"text",
 						data:"哈哈哈",
-						time:"1555146412"
+						time:"1582350418"
 					},
 					{
 						isme:true,
 						userpic:"../../static/demo/userpic/10.jpg",
 						type:"img",
 						data:"../../static/demo/3.jpg",
-						time:"1555146414",
+						time:"1582350918",
 					},
 				];
 				for (let i = 0; i < arr.length; i++) {
