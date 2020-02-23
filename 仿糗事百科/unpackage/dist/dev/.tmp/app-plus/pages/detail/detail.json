@@ -9,6 +9,8 @@
     ]
   },
   "usingComponents": {
-    "detail-info": "/components/detail/detail-info"
+    "detail-info": "/components/detail/detail-info",
+    "comment-list": "/components/detail/comment-list",
+    "user-chat-bottom": "/components/user-chat/user-chat-buttom"
   }
 }
