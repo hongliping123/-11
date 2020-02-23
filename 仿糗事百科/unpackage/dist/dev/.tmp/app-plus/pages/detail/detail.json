@@ -11,6 +11,7 @@
   "usingComponents": {
     "detail-info": "/components/detail/detail-info",
     "comment-list": "/components/detail/comment-list",
-    "user-chat-bottom": "/components/user-chat/user-chat-buttom"
+    "user-chat-bottom": "/components/user-chat/user-chat-buttom",
+    "moer-share": "/components/common/moer-share"
   }
 }

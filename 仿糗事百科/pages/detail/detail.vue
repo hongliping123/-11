@@ -13,6 +13,9 @@
 		
 		<!-- 输入框 -->
 		<user-chat-bottom @submit="submit"></user-chat-bottom>
+		
+		<!-- 分享 -->
+		<moer-share :show="shareshow" @togle="togle()"></moer-share>
 	</view>
 </template>
 
@@ -21,14 +24,17 @@
 	import time from "../../common/time.js";
 	import commentList from "../../components/detail/comment-list.vue";
 	import userChatBottom from "../../components/user-chat/user-chat-buttom.vue";
+	import moerShare from '../../components/common/moer-share.vue';
 	export default {
 		components:{
 			detailInfo,
 			commentList,
-			userChatBottom
+			userChatBottom,
+			moerShare
 		},
 		data() {
 			return {
+				shareshow:false,
 				comment:{
 					count:20,
 					list:[]
@@ -58,10 +64,13 @@
 		// 监听导航右边按钮
 		onNavigationBarButtonTap(e) {
 			if(e.index == 0){
-				console.log('分享')
+				this.togle()
 			}
 		},
 		methods: {
+			togle(){
+				this.shareshow = !this.shareshow
+			},
 			// 评论
 			submit(data){
 				let obj = {
@@ -129,6 +138,8 @@
 </script>
 
 <style>
+	
+	/* 评论 */
 	.u-comment{
 		padding: 0 20upx;
 	}
@@ -136,5 +147,17 @@
 		padding: 20upx;
 		font-size: 30upx;
 		font-weight: bold;
+	}
+	.moer-share-wx{
+		background-color: #2ad19b;
+	}
+	.moer-share-pyp{
+		background-color: #514d4c;
+	}
+	.moer-share-wb{
+		background-color: #ee5e5e;
+	}
+	.moer-share-QQ{
+		background-color: #4a7cba;
 	}
 </style>
