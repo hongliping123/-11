@@ -83,7 +83,19 @@
         }
         ,{
             "path" : "pages/home/home",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"我的",
+				"app-plus":{
+					"scrollIndicator":"none", // 隐藏滚动条
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
         }
         ,{
             "path" : "pages/search/search",
