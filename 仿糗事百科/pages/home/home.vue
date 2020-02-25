@@ -1,15 +1,27 @@
 <template>
 	<view>
-		<!-- 未登入 -->
-		<view class="u-f-ajc">登入糗百,体验更多功能</view>
-		<!-- 第三方登入 -->
-		<view class="other-login u-f-ac">
-			<view class="u-f-ajc u-f1"><view class="icon iconfont icon-weixin u-f-ajc"></view></view>
-			<view class="u-f-ajc u-f1"><view class="icon iconfont icon-xinlangweibo u-f-ajc"></view></view>
-			<view class="u-f-ajc u-f1"><view class="icon iconfont icon-QQ u-f-ajc"></view></view>
+		<template v-if="!islogin">
+			<!-- 未登入 -->
+			<view class="u-f-ajc">登入糗百,体验更多功能</view>
+			<!-- 第三方登入 -->
+			<view class="other-login u-f-ac">
+				<view class="u-f-ajc u-f1"><view class="icon iconfont icon-weixin u-f-ajc"></view></view>
+				<view class="u-f-ajc u-f1"><view class="icon iconfont icon-xinlangweibo u-f-ajc"></view></view>
+				<view class="u-f-ajc u-f1"><view class="icon iconfont icon-QQ u-f-ajc"></view></view>
+			</view>
+			<!-- 账号密码登入 -->
+			<view class="u-f-ajc">账号密码登入<view class="icon iconfont icon-jinru"></view></view>
+		</template>
+		
+		<!-- 登入 -->
+		<view class="home-info u-f-ac">
+			<image src="../../static/demo/userpic/14.jpg" mode="widthFix" lazy-load></image>
+			<view class="u-f1">
+				<view>昵称</view>
+				<view>总访客 0 今日 0</view>
+			</view>
+			<view class="icon iconfont icon-jinru"></view>
 		</view>
-		<!-- 账号密码登入 -->
-		<view class="u-f-ajc">账号密码登入<view class="icon iconfont icon-jinru"></view></view>
 		<!-- 数据 -->
 		<view class="home-data u-f-ac">
 			<view class="u-f1 u-f-ajc u-f-column"><view>0</view>糗事</view>
@@ -38,7 +50,7 @@
 	export default {
 		data() {
 			return {
-				
+				islogin:true
 			};
 		},
 		onNavigationBarButtonTap(e) {
@@ -106,5 +118,27 @@
 	border-radius: 20upx;
 	width: 100%;
 	height: 150upx;
+}
+
+.home-info{
+	padding: 20upx 40upx;
+}
+.home-info>image{
+	flex-shrink: 0;
+	width: 100upx;
+	height: 100upx;
+	border-radius: 100%;
+	margin-right: 15upx;
+}
+.home-info>view:first-of-type>view:first-child{
+	font-size: 32upx;
+}
+.home-info>view:first-of-type>view:last-child{
+	color: #BBBBBB;
+}
+.home-info>view:last-of-type{
+	/* width: 100%; */
+	height: 100%;
+	/* border: 1upx solid; */
 }
 </style>
