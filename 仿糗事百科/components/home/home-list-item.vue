@@ -1,7 +1,14 @@
 <template>
-	<view class="home-list-item u-f-ac u-f-jsb" hover-class="home-list-hover">
+	<view 
+	class="home-list-item u-f-ac u-f-jsb" 
+	hover-class="home-list-hover"
+	@tap="clickevent">
 		<view class="u-f-ac">
-			<view class="icon iconfont" :class="['icon-'+item.icon]"></view>
+			<view 
+			v-if="item.icon"
+			class="icon iconfont" 
+			:class="['icon-'+item.icon]"
+			></view>
 			{{item.name}}
 		</view>
 		<view class="icon iconfont icon-jinru"></view>
@@ -13,6 +20,15 @@
 		props:{
 			item:Object,
 			index:Number
+		},
+		methods:{
+			clickevent(){
+				switch (this.item.clicktype){
+					case "navigateTo":
+					if(this.item.url){uni.navigateTo({url: this.item.url});}
+					break;
+				}
+			},
 		}
 	}
 </script>

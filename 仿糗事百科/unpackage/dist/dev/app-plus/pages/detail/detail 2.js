@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"u-comment{ padding: 0 ",[0,20],"; }\n.",[1],"u-comment-title{ padding: ",[0,20],"; font-size: ",[0,30],"; font-weight: bold; }\n.",[1],"moer-share-wx{ background-color: #2ad19b; }\n.",[1],"moer-share-pyp{ background-color: #514d4c; }\n.",[1],"moer-share-wb{ background-color: #ee5e5e; }\n.",[1],"moer-share-QQ{ background-color: #4a7cba; }\n",],undefined,{path:"./pages/detail/detail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/detail/detail.wxml') } }));
