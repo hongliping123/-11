@@ -11,15 +11,15 @@
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
 			<view>昵称</view>
 			<view class="u-f-ajc">
-				<view>昵称</view>
+				<input type="text" v-model="username" />
 				<view class="icon iconfont icon-bianji1"></view>
 			</view>
 		</view>
 		
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
 			<view>性别</view>
-			<view class="u-f-ajc">
-				<view>男</view>
+			<view class="u-f-ajc" @tap="changeOne('sex')">
+				<view>{{sex}}</view>
 				<view class="icon iconfont icon-bianji1"></view>
 			</view>
 		</view>
@@ -34,16 +34,16 @@
 		
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
 			<view>情感</view>
-			<view class="u-f-ajc">
-				<view>未婚</view>
+			<view class="u-f-ajc"  @tap="changeOne('qg')">
+				<view>{{qg}}</view>
 				<view class="icon iconfont icon-bianji1"></view>
 			</view>
 		</view>
 		
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
 			<view>职业</view>
-			<view class="u-f-ajc">
-				<view>IT</view>
+			<view class="u-f-ajc"  @tap="changeOne('job')">
+				<view>{{job}}</view>
 				<view class="icon iconfont icon-bianji1"></view>
 			</view>
 		</view>
@@ -61,10 +61,17 @@
 </template>
 
 <script>
+	let sex = [ '不限' , '男' , '女' ]
+	let qg = [ '未婚' , '已婚' , '离异' , '丧偶' , '私密']
+	let job = [ 'IT' , '老师' ,  '农民' ]
 	export default {
 		data() {
 			return {
-				userpic:"../../static/demo/userpic/1.jpg"
+				userpic:"../../static/demo/userpic/1.jpg",
+				username:"一只英俊的小马",
+				sex:"不限",
+				qg:"未婚",
+				job:"IT"
 			}
 		},
 		methods: {
@@ -74,17 +81,46 @@
 				    count: 1, //默认9
 				    sizeType: ['compressed'], //可以指定是原图还是压缩图，默认二者都有
 				    success: (res) => {
-						console.log(res.tempFilePaths)
-						// this.userpic = res.tempFilePaths
 						this.userpic = res.tempFilePaths
 				    }
+				});
+			},
+			// 单列选择
+			changeOne(val){
+				let arr = []
+				switch(val){
+					case "sex":
+						arr = sex;
+						break;
+					case "qg":
+						arr = qg
+						break;
+					case "job":
+						arr = job
+						break;
+				}
+				uni.showActionSheet({
+					itemList: arr,
+					success: res => {
+						switch(val){
+							case "sex":
+								this.sex = arr[res.tapIndex]
+								break;
+							case "qg":
+								this.qg = arr[res.tapIndex]
+								break;
+							case "job":
+								this.job = arr[res.tapIndex]
+								break;
+						}
+					}
 				});
 			},
 			submit(){}
 		}
 	}
 </script>
-
+ 
 <style>
 @import "../../common/form.css";
 .user-set-userinfo-list{
@@ -104,5 +140,8 @@
 .user-set-userinfo-list>view:last-child>view:last-of-type{
 	margin-left: 20upx;
 	color: #9b9b9b;
+}
+.user-set-userinfo-list>view:last-child>input{
+	text-align: right;
 }
 </style>

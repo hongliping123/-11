@@ -38,4 +38,7 @@
 	margin-left: 20rpx;
 	color: #9b9b9b;
 }
+.user-set-userinfo-list>view:last-child>input{
+	text-align: right;
+}
 
