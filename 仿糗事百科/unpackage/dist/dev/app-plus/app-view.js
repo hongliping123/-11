@@ -2176,9 +2176,35 @@ __WXML_GLOBAL__.ops_cached.$gwx_41=[];
 Z([3,'body'])
 Z([3,'__e'])
 Z([3,'uni-input common-input'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'email']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'输入邮箱'])
+Z([3,'text'])
+Z([[7],[3,'email']])
+Z(z[1])
+Z(z[2])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'password']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'输入密码'])
+Z(z[5])
+Z([[7],[3,'password']])
+Z(z[1])
+Z([[4],[[5],[[5],[1,'user-set-but']],[[2,'?:'],[[7],[3,'disabled']],[1,'user-set-but-disable'],[1,'']]]])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'submit']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[7],[3,'disabled']])
+Z([[7],[3,'loading']])
+Z([3,'primary'])
+Z([3,'完成'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
+}
+function gz$gwx_42(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
+__WXML_GLOBAL__.ops_cached.$gwx_42=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'body'])
+Z([3,'__e'])
+Z([3,'uni-input common-input'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'oldpassword']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
 Z([3,'输入旧密码'])
-Z([3,'password'])
+Z([3,'text'])
 Z([[7],[3,'oldpassword']])
 Z(z[1])
 Z(z[2])
@@ -2199,11 +2225,11 @@ Z([[7],[3,'disabled']])
 Z([[7],[3,'loading']])
 Z([3,'primary'])
 Z([3,'完成'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
+})(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
 }
-function gz$gwx_42(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
-__WXML_GLOBAL__.ops_cached.$gwx_42=[];
+function gz$gwx_43(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
+__WXML_GLOBAL__.ops_cached.$gwx_43=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'body'])
 Z([3,'index'])
@@ -2217,13 +2243,13 @@ Z([[2,'+'],[1,'1-'],[[7],[3,'index']]])
 Z([3,'user-set-but'])
 Z([3,'primary'])
 Z([3,'退出登入'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
+})(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/common/common-list.wxml','./components/common/load-more.wxml','./components/common/moer-share.wxml','./components/common/no-thing.wxml','./components/common/tag-sex-age.wxml','./components/common/uploud-imags.wxml','./components/detail/comment-list.wxml','./components/detail/detail-info.wxml','./components/home/home-data.wxml','./components/home/home-info.wxml','./components/home/home-list-item.wxml','./components/home/other-login.wxml','./components/index/index-list.wxml','./components/index/swiper-tab-head.wxml','./components/news/news-nav-bar.wxml','./components/news/topic-list.wxml','./components/news/topic-nav.wxml','./components/paper/paper-list.wxml','./components/paper/papor-left-popup.wxml','./components/topic/topic-info.wxml','./components/uni-badge/uni-badge.wxml','./components/uni-icons/uni-icons.wxml','./components/uni-nav-bar/uni-nav-bar.wxml','./components/uni-popup/uni-popup.wxml','./components/uni-status-bar/uni-status-bar.wxml','./components/uni-transition/uni-transition.wxml','./components/user-chat/user-chat-buttom.wxml','./components/user-chat/user-chat-list.wxml','./components/user-list/user-list.wxml','./pages/add-input/add-input.wxml','./pages/detail/detail.wxml','./pages/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/paper/paper.wxml','./pages/search/search.wxml','./pages/topic-detail/topic-detail.wxml','./pages/topicnav/topicnav.wxml','./pages/user-chat/user-chat.wxml','./pages/user-list/user-list.wxml','./pages/user-set-repassword/user-set-repassword.wxml','./pages/user-set/user-set.wxml'];d_[x[0]]={}
+var x=['./components/common/common-list.wxml','./components/common/load-more.wxml','./components/common/moer-share.wxml','./components/common/no-thing.wxml','./components/common/tag-sex-age.wxml','./components/common/uploud-imags.wxml','./components/detail/comment-list.wxml','./components/detail/detail-info.wxml','./components/home/home-data.wxml','./components/home/home-info.wxml','./components/home/home-list-item.wxml','./components/home/other-login.wxml','./components/index/index-list.wxml','./components/index/swiper-tab-head.wxml','./components/news/news-nav-bar.wxml','./components/news/topic-list.wxml','./components/news/topic-nav.wxml','./components/paper/paper-list.wxml','./components/paper/papor-left-popup.wxml','./components/topic/topic-info.wxml','./components/uni-badge/uni-badge.wxml','./components/uni-icons/uni-icons.wxml','./components/uni-nav-bar/uni-nav-bar.wxml','./components/uni-popup/uni-popup.wxml','./components/uni-status-bar/uni-status-bar.wxml','./components/uni-transition/uni-transition.wxml','./components/user-chat/user-chat-buttom.wxml','./components/user-chat/user-chat-list.wxml','./components/user-list/user-list.wxml','./pages/add-input/add-input.wxml','./pages/detail/detail.wxml','./pages/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/paper/paper.wxml','./pages/search/search.wxml','./pages/topic-detail/topic-detail.wxml','./pages/topicnav/topicnav.wxml','./pages/user-chat/user-chat.wxml','./pages/user-list/user-list.wxml','./pages/user-set-email/user-set-email.wxml','./pages/user-set-repassword/user-set-repassword.wxml','./pages/user-set/user-set.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
@@ -3811,14 +3837,12 @@ var xGR=_n('view')
 _rz(z,xGR,'class',0,e,s,gg)
 var oHR=_mz(z,'input',['bindinput',1,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
 _(xGR,oHR)
-var fIR=_mz(z,'input',['bindinput',7,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+var fIR=_mz(z,'input',['password',-1,'bindinput',7,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
 _(xGR,fIR)
-var cJR=_mz(z,'input',['bindinput',13,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+var cJR=_mz(z,'button',['bindtap',13,'class',1,'data-event-opts',2,'disabled',3,'loading',4,'type',5],[],e,s,gg)
+var hKR=_oz(z,19,e,s,gg)
+_(cJR,hKR)
 _(xGR,cJR)
-var hKR=_mz(z,'button',['bindtap',19,'class',1,'data-event-opts',2,'disabled',3,'loading',4,'type',5],[],e,s,gg)
-var oLR=_oz(z,25,e,s,gg)
-_(hKR,oLR)
-_(xGR,hKR)
 _(r,xGR)
 return r
 }
@@ -3826,25 +3850,44 @@ e_[x[40]]={f:m40,j:[],i:[],ti:[],ic:[]}
 d_[x[41]]={}
 var m41=function(e,s,r,gg){
 var z=gz$gwx_42()
-var oNR=_n('view')
-_rz(z,oNR,'class',0,e,s,gg)
-var lOR=_v()
-_(oNR,lOR)
-var aPR=function(eRR,tQR,bSR,gg){
-var xUR=_mz(z,'home-list-item',['bind:__l',5,'index',1,'item',2,'vueId',3],[],eRR,tQR,gg)
-_(bSR,xUR)
-return bSR
-}
-lOR.wxXCkey=4
-_2z(z,3,aPR,e,s,gg,lOR,'item','index','index')
-var oVR=_mz(z,'button',['class',9,'type',1],[],e,s,gg)
-var fWR=_oz(z,11,e,s,gg)
-_(oVR,fWR)
-_(oNR,oVR)
-_(r,oNR)
+var cMR=_n('view')
+_rz(z,cMR,'class',0,e,s,gg)
+var oNR=_mz(z,'input',['password',-1,'bindinput',1,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(cMR,oNR)
+var lOR=_mz(z,'input',['password',-1,'bindinput',7,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(cMR,lOR)
+var aPR=_mz(z,'input',['password',-1,'bindinput',13,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(cMR,aPR)
+var tQR=_mz(z,'button',['bindtap',19,'class',1,'data-event-opts',2,'disabled',3,'loading',4,'type',5],[],e,s,gg)
+var eRR=_oz(z,25,e,s,gg)
+_(tQR,eRR)
+_(cMR,tQR)
+_(r,cMR)
 return r
 }
 e_[x[41]]={f:m41,j:[],i:[],ti:[],ic:[]}
+d_[x[42]]={}
+var m42=function(e,s,r,gg){
+var z=gz$gwx_43()
+var oTR=_n('view')
+_rz(z,oTR,'class',0,e,s,gg)
+var xUR=_v()
+_(oTR,xUR)
+var oVR=function(cXR,fWR,hYR,gg){
+var c1R=_mz(z,'home-list-item',['bind:__l',5,'index',1,'item',2,'vueId',3],[],cXR,fWR,gg)
+_(hYR,c1R)
+return hYR
+}
+xUR.wxXCkey=4
+_2z(z,3,oVR,e,s,gg,xUR,'item','index','index')
+var o2R=_mz(z,'button',['class',9,'type',1],[],e,s,gg)
+var l3R=_oz(z,11,e,s,gg)
+_(o2R,l3R)
+_(oTR,o2R)
+_(r,oTR)
+return r
+}
+e_[x[42]]={f:m42,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -4088,6 +4131,9 @@ __wxAppCode__['pages/user-chat/user-chat.wxml']=$gwx('./pages/user-chat/user-cha
 
 __wxAppCode__['pages/user-list/user-list.wxss']=setCssToHead([],undefined,{path:"./pages/user-list/user-list.wxss"});    
 __wxAppCode__['pages/user-list/user-list.wxml']=$gwx('./pages/user-list/user-list.wxml');
+
+__wxAppCode__['pages/user-set-email/user-set-email.wxss']=setCssToHead([".",[1],"user-set-but{ width: 100%; margin: ",[0,20]," 0; background-color: #FFE933 !important; border: 0 !important; color: #333333 !important; }\n.",[1],"user-set-but-disable{ background-color: #F4F4F4 !important; border: ",[0,1]," solid #EEEEEE !important; color: #909090 !important; }\n.",[1],"common-input{ font-size: ",[0,32],"; border-bottom: ",[0,1]," solid #f4f4f4; }\n.",[1],"body{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/user-set-email/user-set-email.wxss"});    
+__wxAppCode__['pages/user-set-email/user-set-email.wxml']=$gwx('./pages/user-set-email/user-set-email.wxml');
 
 __wxAppCode__['pages/user-set-repassword/user-set-repassword.wxss']=setCssToHead([".",[1],"user-set-but{ width: 100%; margin: ",[0,20]," 0; background-color: #FFE933 !important; border: 0 !important; color: #333333 !important; }\n.",[1],"user-set-but-disable{ background-color: #F4F4F4 !important; border: ",[0,1]," solid #EEEEEE !important; color: #909090 !important; }\n.",[1],"common-input{ font-size: ",[0,32],"; border-bottom: ",[0,1]," solid #f4f4f4; }\n.",[1],"body{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/user-set-repassword/user-set-repassword.wxss"});    
 __wxAppCode__['pages/user-set-repassword/user-set-repassword.wxml']=$gwx('./pages/user-set-repassword/user-set-repassword.wxml');

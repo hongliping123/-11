@@ -1,2 +1,0 @@
-setCssToHead([".",[1],"body{ padding: 0 ",[0,20],"; }\n.",[1],"user-set-but{ width: 100%; margin: ",[0,20]," 0; background-color: #FFE933 !important; border: 0 !important; color: #333333 !important; }\n",],undefined,{path:"./pages/user-set/user-set.wxss"})();
-document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-set/user-set.wxml') } }));

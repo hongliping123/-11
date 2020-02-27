@@ -1,17 +1,12 @@
 <template>
 	<view class="body">
-		<input type="text" v-model="oldpassword"
+		<input type="text" v-model="email"
 		class="uni-input common-input" 
-		password
-		placeholder="输入旧密码"/>
-		<input type="text" v-model="newpassword"
+		placeholder="输入邮箱"/>
+		<input type="text" v-model="password"
 		class="uni-input common-input"
 		password
-		placeholder="输入新密码"/>
-		<input type="text" v-model="renpassword"
-		class="uni-input common-input" 
-		password
-		placeholder="确认新密码"/>
+		placeholder="输入密码"/>
 		<button 
 		class="user-set-but" 
 		:class="{'user-set-but-disable':disabled}"
@@ -26,28 +21,24 @@
 	export default {
 		data() {
 			return {
-				oldpassword:"",
-				newpassword:"",
-				renpassword:"",
+				email:"",
+				password:"",
 				disabled:true,
 				loading:false
 			}
 		},
 		watch:{
-			oldpassword(val){
+			email(val){
 				this.change()
 			},
-			newpassword(val){
+			password(val){
 				this.change()
 			},
-			renpassword(val){
-				this.change()
-			}
 		},
 		methods: {
 			// 监听输入框
 			change(){
-				if( this.oldpassword && this.newpassword && this.renpassword ){
+				if( this.email && this.password ){
 					this.disabled = false
 					return
 				}
@@ -55,34 +46,21 @@
 			},
 			// 验证层
 			check(){
-				if( !this.oldpassword || this.oldpassword == ""){
+				if( !this.email || this.email == ""){
 					uni.showToast({
-						title: '旧密码不能为空',
+						title: '邮箱不能为空',
 						icon: "none"
 					});
 					return false
 				}
-				if( !this.newpassword || this.newpassword == ""){
+				if( !this.password || this.password == ""){
 					uni.showToast({
-						title: '新密码不能为空',
+						title: '密码不能为空',
 						icon: "none"
 					});
 					return false
 				}
-				if( !this.renpassword || this.renpassword == ""){
-					uni.showToast({
-						title: '确认密码不能为空',
-						icon: "none"
-					});
-					return false
-				}
-				if( this.renpassword !== this.newpassword ){
-					uni.showToast({
-						title: '确认密码和新密码不一致',
-						icon: "none"
-					});
-					return false
-				}
+				
 				return true
 			},
 			// 提交
@@ -106,5 +84,4 @@
 
 <style>
 @import "../../common/form.css";
-
 </style>

@@ -23,8 +23,8 @@
 					},
 					{
 						name:"绑定邮箱",
-						clicktype:"",
-						url:""
+						clicktype:"navigateTo",
+						url:"../../pages/user-set-email/user-set-email"
 					},
 					{
 						name:"资料编辑",
