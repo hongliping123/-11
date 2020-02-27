@@ -252,7 +252,19 @@
         ,{
             "path" : "pages/user-set-email/user-set-email",
             "style" : {
-				"navigationBarTitleText":"修改邮箱"
+				"navigationBarTitleText":"修改邮箱",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-userinfo/user-set-userinfo",
+            "style" : {
+				"navigationBarTitleText":"修改资料",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
 			}
         }
     ],

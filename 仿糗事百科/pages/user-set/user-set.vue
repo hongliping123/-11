@@ -28,8 +28,8 @@
 					},
 					{
 						name:"资料编辑",
-						clicktype:"",
-						url:""
+						clicktype:"navigateTo",
+						url:"../../pages/user-set-userinfo/user-set-userinfo"
 					},
 					{
 						name:"小纸条",
@@ -62,6 +62,4 @@
 
 <style>
 @import "../../common/form.css";
-
-
 </style>
