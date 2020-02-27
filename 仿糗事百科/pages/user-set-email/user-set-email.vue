@@ -2,7 +2,7 @@
 	<view class="body">
 		<input type="text" v-model="email"
 		class="uni-input common-input" 
-		placeholder="输入邮箱"/>
+		placeholder="请输入你要绑定的邮箱"/>
 		<input type="text" v-model="password"
 		class="uni-input common-input"
 		password
@@ -53,6 +53,17 @@
 					});
 					return false
 				}
+				
+				// 验证邮箱
+				let ePattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+				if(!ePattern.test(this.email)){
+					uni.showToast({
+						title: '请输入正确邮箱',
+						icon: "none"
+					});
+					return false
+				}
+				
 				if( !this.password || this.password == ""){
 					uni.showToast({
 						title: '密码不能为空',
