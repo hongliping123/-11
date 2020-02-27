@@ -26,10 +26,12 @@
 		
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
 			<view>生日</view>
-			<view class="u-f-ajc">
-				<view>1995-09-06</view>
-				<view class="icon iconfont icon-bianji1"></view>
-			</view>
+			<picker mode="date" :value="birthday" :start="startDate" :end="endDate" @change="bindDateChange">
+				<view class="u-f-ajc">
+					<view>{{birthday}}</view>
+					<view class="icon iconfont icon-bianji1"></view>
+				</view>
+			</picker>
 		</view>
 		
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
@@ -71,10 +73,23 @@
 				username:"一只英俊的小马",
 				sex:"不限",
 				qg:"未婚",
-				job:"IT"
+				job:"IT",
+				birthday:"1995-09-06"
 			}
 		},
+		computed: {
+		        startDate() {
+		            return this.getDate('start');
+		        },
+		        endDate() {
+		            return this.getDate('end');
+		        }
+		},
 		methods: {
+			// 修改生日
+			 bindDateChange(e) {
+				this.birthday = e.target.value
+			},
 			// 修改头像
 			changeimg(){
 				uni.chooseImage({
@@ -115,6 +130,21 @@
 						}
 					}
 				});
+			},
+			getDate(type) {
+				const date = new Date();
+				let year = date.getFullYear();
+				let month = date.getMonth() + 1;
+				let day = date.getDate();
+	
+				if (type === 'start') {
+					year = year - 60;
+				} else if (type === 'end') {
+					year = year + 2;
+				}
+				month = month > 9 ? month : '0' + month;;
+				day = day > 9 ? day : '0' + day;
+				return `${year}-${month}-${day}`;
 			},
 			submit(){}
 		}
