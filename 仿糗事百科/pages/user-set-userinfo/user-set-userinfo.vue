@@ -2,8 +2,8 @@
 	<view class="body">
 		<view class="user-set-userinfo-list u-f-ac u-f-jsb">
 			<view>头像</view>
-			<view class="u-f-ajc">
-				<image src="../../static/demo/userpic/1.jpg" mode="widthFix" lazy-load></image>
+			<view class="u-f-ajc" @tap="changeimg">
+				<image :src="userpic" mode="aspectFill" lazy-load></image>
 				<view class="icon iconfont icon-bianji1"></view>
 			</view>
 		</view>
@@ -64,11 +64,21 @@
 	export default {
 		data() {
 			return {
-				
+				userpic:"../../static/demo/userpic/1.jpg"
 			}
 		},
 		methods: {
-			
+			// 修改头像
+			changeimg(){
+				uni.chooseImage({
+				    count: 1, //默认9
+				    sizeType: ['compressed'], //可以指定是原图还是压缩图，默认二者都有
+				    success: function (res) {
+						this.userpic = res.tempFilePaths
+				    }
+				});
+			},
+			submit(){}
 		}
 	}
 </script>

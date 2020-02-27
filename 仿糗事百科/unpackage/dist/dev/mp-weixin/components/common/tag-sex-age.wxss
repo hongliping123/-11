@@ -1,0 +1,20 @@
+
+.tag-ses1.data-v-180a591a{
+	color: #FFFFFF;
+	padding: 2rpx 10rpx;
+	margin-left: 10rpx;
+	border-radius: 20rpx;
+	font-size: 23rpx;
+	line-height: 26rpx;
+	background-color: pink;
+}
+.tag-ses.data-v-180a591a{
+	background-color: #007AFF;
+	color: #FFFFFF;
+	padding: 2rpx 10rpx;
+	margin-left: 10rpx;
+	border-radius: 20rpx;
+	font-size: 23rpx;
+	line-height: 26rpx;
+}
+

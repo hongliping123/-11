@@ -4786,4 +4786,15 @@ to {
 .margin_auto{
 	margin: auto;
 }
+.u-f1{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.u-f-column{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
 

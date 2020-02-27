@@ -1,0 +1,28 @@
+
+.papoer-list.data-v-96a3508a{
+	border-bottom: 1rpx solid #EEEEEE;
+	padding: 0 20rpx 10rpx 0;
+}
+.papoer-list>image.data-v-96a3508a{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	margin-right: 20rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.papoer-list>view.data-v-96a3508a{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.papoer-list>view>view.data-v-96a3508a:first-child{
+	font-size: 35rpx;
+}
+.papoer-list>view>view:first-child>view.data-v-96a3508a{
+	color: #CBCBCB;
+}
+.papoer-list>view>view.data-v-96a3508a:last-child{
+	color: #999999;
+}
+

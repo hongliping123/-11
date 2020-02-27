@@ -1,0 +1,15 @@
+
+.home-list{
+	padding: 20rpx;
+}
+.home-adv{
+	padding: 20rpx;
+}
+.home-adv>image{
+	border-radius: 20rpx;
+	width: 100%;
+	height: 150rpx;
+}
+
+
+
