@@ -1,0 +1,23 @@
+/* 公共按钮样式 */
+.user-set-but{
+	width: 100%;
+	margin: 20rpx 0;
+	background-color: #FFE933 !important;
+	border: 0 !important;
+	color: #333333 !important;
+}
+.user-set-but-disable{
+	background-color: #F4F4F4 !important;
+	border: 1rpx solid #EEEEEE !important;
+	color: #909090 !important;
+}
+/* input输入框下边框样式 */
+.common-input{
+	font-size: 32rpx;
+	border-bottom: 1rpx solid #f4f4f4;
+}
+/* 公共内边距样式 */
+.body{
+	padding: 0 20rpx;
+}
+

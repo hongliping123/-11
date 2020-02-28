@@ -43,8 +43,8 @@
 					},
 					{
 						name:"意见反馈",
-						clicktype:"",
-						url:""
+						clicktype:"navigateTo",
+						url:"../../pages/user-set-help/user-set-help"
 					},
 					{
 						name:"关于糗百",
