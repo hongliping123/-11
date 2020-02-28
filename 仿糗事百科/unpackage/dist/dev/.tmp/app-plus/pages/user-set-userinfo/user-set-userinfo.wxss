@@ -22,23 +22,23 @@
 }
 .user-set-userinfo-list{
 	padding: 20rpx;
-	 border-bottom: 1rpx solid #F4F4F4;
+	border-bottom: 1rpx solid #F4F4F4;
 }
 .user-set-userinfo-list>view:first-child{
 	font-size: 32rpx;
 	font-weight: bold;
-	color: #9b9b9b;
+	color: #9B9B9B;
 }
 .user-set-userinfo-list>view:last-child>image{
 	width: 80rpx;
 	height: 80rpx;
 	border-radius: 100%;
 }
-.user-set-userinfo-list>view:last-child>view:last-of-type{
-	margin-left: 20rpx;
-	color: #9b9b9b;
-}
 .user-set-userinfo-list>view:last-child>input{
 	text-align: right;
+}
+.user-set-userinfo-list>view:last-child>view:last-of-type{
+	margin-left: 20rpx;
+	color: #9B9B9B;
 }
 
