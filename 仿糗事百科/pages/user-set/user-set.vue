@@ -48,8 +48,8 @@
 					},
 					{
 						name:"关于糗百",
-						clicktype:"",
-						url:""
+						clicktype:"navigateTo",
+						url:"../../pages/user-set-about/user-set-about"
 					}
 				]
 			}
