@@ -16,7 +16,8 @@
     "pages/user-set-email/user-set-email",
     "pages/user-set-userinfo/user-set-userinfo",
     "pages/user-set-help/user-set-help",
-    "pages/user-set-about/user-set-about"
+    "pages/user-set-about/user-set-about",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarTextStyle": "black",
